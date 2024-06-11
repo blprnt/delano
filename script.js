@@ -138,8 +138,21 @@ function loadImageQ(_q) {
   vh.class("imageWrapper");
   vh.parent(currentPageElement);
   //vh.style("background-image", "url(" + _q.url + ")");
-  vh.style("width", _q.width + "px");
-  vh.style("height", _q.height + "px");
+  if (_q.width) {
+    vh.style("width", _q.width + "px");
+    vh.style("height", _q.height + "px");
+  }
+   if (_q.pos) {
+    let sf = (windowHeight / qPage.backDims.height) * illiFactor;
+    vh.position(_q.pos.x * sf, _q.pos.y * sf);
+   }
+   if (_q.animate) {
+    vh.style("opacity", 0);
+    if (_q.animate.indexOf("fade") != -1) {
+      gsap.to(vh.elt, {opacity:1});
+    }
+   }
+  
 }
 
 function imageDrift(_q) {
@@ -263,9 +276,7 @@ function addCaption(_params) {
 
   //calculate scalefactor
   
-  //console.log(windowHeight + ":" + qPage.backDims.height);
   let sf = (windowHeight / qPage.backDims.height) * illiFactor;
-  //console.log(sf);
 
   e.position(_params.pos.x * sf, _params.pos.y * sf);
   e.style("width", _params.width + "px");

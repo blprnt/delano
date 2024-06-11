@@ -59,7 +59,7 @@
       "pageNum": 2,
       "backDims": {
         "width": 1920,
-        "height": 1440
+        "height": 1200
       },
       "queues": [
         {
@@ -108,6 +108,56 @@
           }
         },
         {
+          "time":10.5,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%201.png",
+          "pos": {
+            "x":351,
+            "y":596
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":11,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%202.png",
+          "pos": {
+            "x":449,
+            "y":590
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":11.5,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%203.png",
+          "pos": {
+            "x":596,
+            "y":622
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":12,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%204.png",
+          "pos": {
+            "x":711,
+            "y":575
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":12.5,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%205.png",
+          "pos": {
+            "x":835,
+            "y":587
+          },
+          "animate":"fade,turn"
+        },
+        {
           "time": 13.0,
           "type": "caption",
           "caption": {
@@ -135,9 +185,9 @@
           "time": 0.5,
           "type": "caption",
           "caption": {
-            "text_en": "In the two years before jack  arrived in puerto rico has photographed people from all walks of life... ",
+            "text_en": "In the two years before jack arrived in puerto rico has photographed people from all walks of life... ",
             "text_es": "Durante los dos años previos a su llegada a puerto rico, Jack ha fotografiado a personas de toda condición... ",
-            "pos": { "x": 16, "y": 24 },
+            "pos": { "x": 26, "y": 15 },
             "width": 295
           }
         },
@@ -147,9 +197,29 @@
           "caption": {
             "text_en": "Bootleg coal miners in pennsylvania...",
             "text_es": "Los mineros del carbón en Pensilvania...",
-            "pos": { "x": 75, "y": 441 },
+            "pos": { "x": 75, "y": 641 },
             "width": 210
           }
+        },
+        {
+          "time":3.5,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%201.png",
+          "pos": {
+            "x":100,
+            "y":565
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":3.7,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%202.png",
+          "pos": {
+            "x":235,
+            "y":590
+          },
+          "animate":"fade,turn"
         },
         {
           "time": 5,
@@ -157,9 +227,29 @@
           "caption": {
             "text_en": "children working on tobacco plantations in connecticut...",
             "text_es": "niños trabajando en plantaciones de tabaco en Connecticut...",
-            "pos": { "x": 652, "y": -128 },
+            "pos": { "x": 652, "y": 27 },
             "width": 192
           }
+        },
+        {
+          "time":5.5,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%203.png",
+          "pos": {
+            "x":431,
+            "y":600
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":5.7,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%204.png",
+          "pos": {
+            "x":589,
+            "y":640
+          },
+          "animate":"fade,turn"
         },
         {
           "time": 7,
@@ -167,9 +257,39 @@
           "caption": {
             "text_en": "ship builders on break in Maine.",
             "text_es": "constructores de barcos durante su descanso en Maine.",
-            "pos": { "x": 749, "y": 212 },
+            "pos": { "x": 748, "y": 451 },
             "width": 148
           }
+        },
+        {
+          "time":7.5,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%205.png",
+          "pos": {
+            "x":682,
+            "y":617
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":7.7,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%206.png",
+          "pos": {
+            "x":785,
+            "y":594
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":7.9,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%207.png",
+          "pos": {
+            "x":853,
+            "y":577
+          },
+          "animate":"fade,turn"
         }
       ]
     },
@@ -197,6 +317,56 @@
           }
         },
         {
+          "time":6.5,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%201.png",
+          "pos": {
+            "x":318,
+            "y":624
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":7.7,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%202.png",
+          "pos": {
+            "x":265,
+            "y":512
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":8.9,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%203.png",
+          "pos": {
+            "x":454,
+            "y":604
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":10.1,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%204.png",
+          "pos": {
+            "x":599,
+            "y":526
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":11.3,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%205.png",
+          "pos": {
+            "x":499,
+            "y":551
+          },
+          "animate":"fade,turn"
+        },
+        {
           "time": 12.0,
           "type": "caption",
           "caption": {
@@ -206,7 +376,112 @@
             "transform": "rotate(8deg)",
             "width": 270
           }
+        },
+        {
+          "time":12.5,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%206.png",
+          "pos": {
+            "x":399,
+            "y":492
+          },
+          "animate":"fade,turn"
         }
+      ]
+    },
+    {
+      "pageNumber": 5,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Mock9-10.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "IN DECEMBER, 1941, Jack had been heading to the U.S. Virgin islands on assignment...",
+            "text_sp": "IN DECEMBER, 1941, Jack had been heading to the U.S. Virgin islands on assignment...",
+            "pos": { "x": 3, "y": 3 },
+            "width": 304
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2,
+          "caption": {
+            "text_en": "at the exact moment pre-war america ceased to exist.",
+            "text_sp": "at the exact moment pre-war america ceased to exist.",
+            "pos": { "x": 211, "y": 411 },
+            "width": 234
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3,
+          "caption": {
+            "text_en": "a few days became a week.",
+            "text_sp": "a few days became a week.",
+            "pos": { "x": 7, "y": 682 },
+            "width": 284
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4,
+          "caption": {
+            "text_en": "JACK had no way to leave puerto rico. his wife IRENE was IN NYC.",
+            "text_sp": "JACK had no way to leave puerto rico. his wife IRENE was IN NYC.",
+            "pos": { "x": 527, "y": 76 },
+            "width": 200
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 5,
+          "caption": {
+            "text_en": "irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
+            "text_sp": "irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
+            "pos": { "x": 525, "y": 423 },
+            "width": 236
+          }
+        },
+        {
+          "type": "caption",
+          "time": 6,
+          "caption": {
+            "text_en": "from then on they were a team.",
+            "text_sp": "from then on they were a team.",
+            "pos": { "x": 502, "y": 501 },
+            "width": 145
+          }
+        },
+        {
+          "type": "caption",
+          "time": 7,
+          "caption": {
+            "text_en": "over the next THREE MONTHS the delanos will visit every part of the small caribbean island nation",
+            "text_sp": "over the next THREE MONTHS the delanos will visit every part of the small caribbean island nation",
+            "pos": { "x": 536, "y": 571 },
+            "width": 263
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8,
+          "caption": {
+            "text_en": "jack will shoot more than 2,000 photographs.",
+            "text_sp": "jack will shoot more than 2,000 photographs." ,
+            "pos": { "x": 705, "y": 651 },
+            "width": 225
+          }
+        }
+
       ]
     },
     {
@@ -881,6 +1156,418 @@
             "text_sp": "stories",
             "pos": { "x": 1777.21, "y": 661.5 },
             "width": 91.78
+          }
+        }
+      ]
+    },
+    {
+      "pageNumber": 7,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Mock15-16.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "we sent all of our negatives by mail to WASHINGTON to be developed.",
+            "text_sp": "we sent all of our negatives by mail to WASHINGTON to be developed.",
+            "pos": { "x": 140, "y": 3 },
+            "width": 203
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2,
+          "caption": {
+            "text_en": "roy stryker would have prints made of the ones he liked most and send them back.",
+            "text_sp": "roy stryker would have prints made of the ones he liked most and send them back.",
+            "pos": { "x": 198, "y": 151 },
+            "width": 243
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3,
+          "caption": {
+            "text_en": "we spent our evenings filling in caption books with details about each frame we shot.",
+            "text_sp": "we spent our evenings filling in caption books with details about each frame we shot.",
+            "pos": { "x": 97, "y": 257 },
+            "width": 223
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4,
+          "caption": {
+            "text_en": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
+            "text_sp": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
+            "pos": { "x": 210, "y": 460 },
+            "width": 220
+          }
+        },
+        {
+          "type": "caption",
+          "time": 5,
+          "caption": {
+            "text_en": "if you spent just five minutes describing each photo Jack delano took in puerto rico, it’d take you 65 days.",
+            "text_sp": "if you spent just five minutes describing each photo Jack delano took in puerto rico, it’d take you 65 days.",
+            "pos": { "x": 513, "y": 10 },
+            "width": 418
+          }
+        },
+        {
+          "type": "caption",
+          "time": 6,
+          "caption": {
+            "text_en": "if you spent JUST ONE minute with every photograph in the library’s photo collection, you’d be there for more than twenty-SIX years.",
+            "text_sp": "if you spent JUST ONE minute with every photograph in the library’s photo collection, you’d be there for more than twenty-SIX years.",
+            "pos": { "x": 575, "y": 646 },
+            "width": 411
+          }
+        }
+
+      ]
+    },
+    {
+      "pageNumber": 8,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Mock17-18.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "this is helena zinkham, chief of the library of congress prints and photographs division.",
+            "text_sp": "this is helena zinkham, chief of the library of congress prints and photographs division.",
+            "pos": { "x": 19, "y": 22 },
+            "width": 278
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2,
+          "caption": {
+            "text_en": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependant on how much information is attached to that photograph.",
+            "text_sp": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependant on how much information is attached to that photograph.",
+            "pos": { "x": 471, "y": 21 },
+            "width": 310
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3,
+          "caption": {
+            "text_en": "every little piece of data makes an object more findable.",
+            "text_sp": "every little piece of data makes an object more findable.",
+            "pos": { "x": 792, "y": 91 },
+            "width": 179
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4,
+          "caption": {
+            "text_en": "our catalogers do their best to add as many details to the records as they can.",
+            "text_sp": "our catalogers do their best to add as many details to the records as they can.",
+            "pos": { "x": 744, "y": 396 },
+            "width": 227
+          }
+        },
+         {
+          "type": "caption",
+          "time": 5,
+          "caption": {
+            "text_en": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
+            "text_sp": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
+            "pos": { "x": 486, "y": 461 },
+            "width": 261
+          }
+        },
+        {
+          "type": "caption",
+          "time": 6,
+          "caption": {
+            "text_en": "What if computers could help HELENA’S TEAM to fill some of the gaps in the catalog data? this could make photos like jack’s more findable for anyone looking for images of puerto rico in the 1940s.",
+            "text_sp": "What if computers could help HELENA’S TEAM to fill some of the gaps in the catalog data? this could make photos like jack’s more findable for anyone looking for images of puerto rico in the 1940s. ",
+            "pos": { "x": 546, "y": 630 },
+            "width": 414
+          }
+        }
+      ]
+    },
+    {
+      "pageNumber": 9,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Back19-20.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "time":1.0,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%203.png",
+          "pos": {
+            "x":173,
+            "y":-10
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "Let's give it a try with this image.",
+            "text_sp": "Let's give it a try with this image.",
+            "pos": { "x": 37, "y": 91 },
+            "transform": "rotate(-7.6deg)",
+            "width": 145
+          }
+        },
+        {
+          "time":2.0,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%201.png",
+          "pos": {
+            "x":118,
+            "y":231
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
+            "text_sp": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
+            "pos": { "x": 26, "y": 171 },
+            "width": 338
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3.5,
+          "caption": {
+            "text_en": "The vision transformer does two things.",
+            "text_sp": "The vision transformer does two things.",
+            "pos": { "x": 47, "y": 237 },
+            "transform": "rotate(3deg)",
+            "width": 325
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4.5,
+          "caption": {
+            "text_en": "it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
+            "text_sp": "it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
+            "pos": { "x": 119, "y": 432 },
+            "transform": "rotate(-2deg)",
+            "width": 356
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4.9,
+          "caption": {
+            "text_en": "It uses what it has learned from the labelled images it was trained on to generate a new caption.",
+            "text_sp": "It uses what it has learned from the labelled images it was trained on to generate a new caption.",
+            "pos": { "x": 65, "y": 503 },
+            "transform": "rotate(6deg)",
+            "width": 239
+          }
+        },
+        {
+          "type": "caption",
+          "time": 5.9,
+          "caption": {
+            "text_en": "sometimes the image descriptions we getfrom jack’s images of puerto rico are accurate... if a little bit unimaginative.",
+            "text_sp": "sometimes the image descriptions we getfrom jack’s images of puerto rico are accurate... if a little bit unimaginative.",
+            "pos": { "x": 506, "y": 668 },
+            "transform": "rotate(6deg)",
+            "width": 326
+          }
+        },
+        {
+          "time":6.5,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%204.png",
+          "pos": {
+            "x":511,
+            "y":518
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":7.5,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%202.png",
+          "pos": {
+            "x":699,
+            "y":256
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 8,
+          "caption": {
+            "text_en": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
+            "text_sp": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
+            "pos": { "x": 653, "y": 408 },
+            "transform": "rotate(3deg)",
+            "width": 268
+          }
+        },
+        {
+          "time":8.5,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%205.png",
+          "pos": {
+            "x":509,
+            "y":8
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 9,
+          "caption": {
+            "text_en": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
+            "text_sp": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
+            "pos": { "x": 635, "y": 197 },
+            "transform": "rotate(-2deg)",
+            "width": 261
+          }
+        },
+        {
+          "type": "caption",
+          "time": 10,
+          "caption": {
+            "text_en": "THESE MACHINE-GENERATED CAPTIONS COME NOWHERE NEAR THE library’s exacting STANDARDS.",
+            "text_sp": "THESE MACHINE-GENERATED CAPTIONS COME NOWHERE NEAR THE library’s exacting STANDARDS.",
+            "pos": { "x": 690, "y": 46 },
+            "transform": "rotate(2deg)",
+            "width": 261
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11,
+          "caption": {
+            "text_en": "they’re OFTEN worse than having no caption at all.",
+            "text_sp": "they’re OFTEN worse than having no caption at all.",
+            "pos": { "x": 770, "y": 12 },
+            "width": 198
+          }
+        }
+
+      ]
+    },
+    {
+      "pageNumber": 10,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Mock21-22.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "these kinds of machine learning models are OFTEN trained on a 2012 dataset called ImageNet.",
+            "text_sp": "these kinds of machine learning models are OFTEN trained on a 2012 dataset called ImageNet.",
+            "pos": { "x": 54, "y": 88 },
+            "width": 223
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "imagenet contains 14,197,122 images, scraped from the internet.",
+            "text_sp": "imagenet contains 14,197,122 images, scraped from the internet.",
+            "pos": { "x": 103, "y": 180 },
+            "width": 285
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3.5,
+          "caption": {
+            "text_en": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
+            "text_sp": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
+            "pos": { "x": 32, "y": 533 },
+            "width": 271
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4.5,
+          "caption": {
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
+            "text_sp": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
+            "pos": { "x": 45, "y": 647 },
+            "width": 329
+          }
+        },
+        {
+          "type": "caption",
+          "time": 5.5,
+          "caption": {
+            "text_en": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
+            "text_sp": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
+            "pos": { "x": 674, "y": 44 },
+            "width": 271
+          }
+        },
+        {
+          "type": "caption",
+          "time": 6.5,
+          "caption": {
+            "text_en": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
+            "text_sp": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
+            "pos": { "x": 655, "y": 135 },
+            "width": 297
+          }
+        },
+        {
+          "type": "caption",
+          "time": 7.5,
+          "caption": {
+            "text_en": "it is a model that knows a lot about cats...",
+            "text_sp": "it is a model that knows a lot about cats...",
+            "pos": { "x": 532, "y": 647 },
+            "width": 297
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "and very little about puerto rico in the 1940s.",
+            "text_sp": "and very little about puerto rico in the 1940s.",
+            "pos": { "x": 739, "y": 702 },
+            "width": 225
           }
         }
       ]
