@@ -1,0 +1,889 @@
+{
+  "version": "0.1",
+  "queues": [
+    {
+      "pageNum": 1,
+      "backDims": {
+        "width": 1920,
+        "height": 1080
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "https://cdn.glitch.me/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Scene_1_4-3.mp4?v=1714408858376"
+        },
+        {
+          "time": 1.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "It’s January 6th in Guanica, Puerto Rico.",
+            "text_es": "Es el seis de enero en Guánica, Puerto Rico.",
+            "pos": { "x": 16, "y": 24 },
+            "width": 295
+          }
+        },
+        {
+          "time": 3.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Three King’s Eve.",
+            "text_es": "La noche de Reyes.",
+            "pos": { "x": 228, "y": 127 },
+            "width": 130
+          }
+        },
+        {
+          "time": 8.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "tomorrow there will be parades and festivals, but tonight there is food and drink and music.\n inside this tiny farmers home the playing has been going for hours. the air smells of ripe fruit, warm bodies and tobacco. ",
+            "text_es": "Mañana habrá desfiles y festivales, pero esta noche hay comida, bebida y música. En el interior de esta pequeña casa de campesinos la música suena desde hace horas. El aire huele a fruta madura, cuerpos calientes y tabaco. ",
+            "pos": { "x": 486, "y": 57 },
+            "width": 418
+          }
+        },
+        {
+          "time": 14.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "This is <strong>Jack Delano</strong>",
+            "text_es": "Este es Jack Delano",
+            "pos": { "x": 799, "y": 215 },
+            "width": 148
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "backDims": {
+        "width": 1920,
+        "height": 1440
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Dalano_Ballroom.mp4?v=1714576062937"
+        },
+        {
+          "time": 3.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Here’s jack again that same night, at a very different party, with a very different group of puerto ricans.",
+            "text_es": "Aquí está Jack nuevamente, esa misma noche, en una fiesta muy diferente, con un grupo muy diferente de puertorriqueños.",
+            "pos": { "x": 39, "y": 47 },
+            "width": 345
+          }
+        },
+        {
+          "time": 5.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "The suits are tailored, the shoes are shined.",
+            "text_es": "Los trajes están hechos a medida, los zapatos relucientes.",
+            "pos": { "x": 93, "y": 146 },
+            "width": 200
+          }
+        },
+        {
+          "time": 6.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "The parents are smoking american cigarettes.",
+            "text_es": "Los padres fuman cigarrillos americanos.",
+            "pos": { "x": 278, "y": 185 },
+            "width": 221
+          }
+        },
+        {
+          "time": 10.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Jack didn’t expect to be in puerto rico. but he’s determined to make the best out of it by doing what he knows:",
+            "text_es": "Jack no esperaba estar en Puerto Rico, pero está decidido a aprovecharlo al máximo, haciendo lo que sabe:",
+            "pos": { "x": 516, "y": 533 },
+            "width": 359
+          }
+        },
+        {
+          "time": 13.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "telling the stories of peoples’ lives through his lens.",
+            "text_es": "contar la vida de la gente a través de su cámara.",
+            "pos": { "x": 505, "y": 695 },
+            "width": 443
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 3,
+      "backDims": {
+        "width": 1920,
+        "height": 1080
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Tobacco%20(1).mp4?v=1714579703119"
+        },
+        {
+          "time": 0.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "In the two years before jack  arrived in puerto rico has photographed people from all walks of life... ",
+            "text_es": "Durante los dos años previos a su llegada a puerto rico, Jack ha fotografiado a personas de toda condición... ",
+            "pos": { "x": 16, "y": 24 },
+            "width": 295
+          }
+        },
+        {
+          "time": 3.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Bootleg coal miners in pennsylvania...",
+            "text_es": "Los mineros del carbón en Pensilvania...",
+            "pos": { "x": 75, "y": 441 },
+            "width": 210
+          }
+        },
+        {
+          "time": 5,
+          "type": "caption",
+          "caption": {
+            "text_en": "children working on tobacco plantations in connecticut...",
+            "text_es": "niños trabajando en plantaciones de tabaco en Connecticut...",
+            "pos": { "x": 652, "y": -128 },
+            "width": 192
+          }
+        },
+        {
+          "time": 7,
+          "type": "caption",
+          "caption": {
+            "text_en": "ship builders on break in Maine.",
+            "text_es": "constructores de barcos durante su descanso en Maine.",
+            "pos": { "x": 749, "y": 212 },
+            "width": 148
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 4,
+      "backDims": {
+        "width": 1920,
+        "height": 1080
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "https://cdn.glitch.me/0b4cb25c-9c9e-4557-837e-1a280c87accf/RAILYARD.mov?v=1716665811209"
+        },
+        {
+          "time": 4.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "over the winter of 1941, jack took a cross-country journey, photographing rail yards and workers.",
+            "text_es": "Durante el invierno de 1941, Jack emprendió un viaje a través del país, fotografiando estaciones de ferrocarril y trabajadores. ",
+            "pos": { "x": 247, "y": 569 },
+            "transform": "rotate(-8deg)",
+            "width": 296
+          }
+        },
+        {
+          "time": 12.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "THIS WAS THE START OF A YEARs-long project THAT WOULD RESULT IN SOME OF THE most iconic and  important images OF THE ERA.",
+            "text_es": "Este fue el comienzo de un proyecto, el cual duró varios años, que daría como resultado algunas de las imágenes más icónicas e importantes de la época.",
+            "pos": { "x": 653, "y": 358 },
+            "transform": "rotate(8deg)",
+            "width": 270
+          }
+        }
+      ]
+    },
+    {
+      "pageNumber": 6,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/11-14back.png?v=1718024184489",
+          "width": 3840,
+          "height": 1080
+        },
+        {
+          "time": 0.2,
+          "type": "videoLoadTrans",
+          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Walking_ALPHA_6.6.24-vp9-chrome.webm?v=1718035914392",
+          "url2": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Walking_ALPHA_6.6.24-hevc-safari.mp4?v=1718035920534",
+          "offset": {
+            "x":2920,
+            "y":0
+          }
+        },
+        { "time": 0.2, "type": "imageDrift" },
+        { "time": 0.2, "type": "capDrift" },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "These photographs tell the story of a time",
+            "text_sp": "These photographs tell the story of a time",
+            "pos": { "x": 34.38, "y": 191.84 },
+            "width": 192.05
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2,
+          "caption": {
+            "text_en": "The story of a place",
+            "text_sp": "The story of a place",
+            "pos": { "x": 96.83, "y": 256.32 },
+            "width": 168.16
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3,
+          "caption": {
+            "text_en": "The story of a nation.",
+            "text_sp": "The story of a nation.",
+            "pos": { "x": 186.46, "y": 303.81 },
+            "width": 175
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4,
+          "caption": {
+            "text_en": "The story of a people.",
+            "text_sp": "The story of a people.",
+            "pos": { "x": 233.53, "y": 460.84 },
+            "width": 222.86
+          }
+        },
+        {
+          "type": "caption",
+          "time": 5,
+          "caption": {
+            "text_en": "In this one there is a whole life left to be lived",
+            "text_sp": "In this one there is a whole life left to be lived",
+            "pos": { "x": 514.34, "y": 269.31 },
+            "width": 202.28
+          }
+        },
+        {
+          "type": "caption",
+          "time": 6.5,
+          "caption": {
+            "text_en": "In this one there is an answer",
+            "text_sp": "In this one there is an answer",
+            "pos": { "x": 558.25, "y": 399.29 },
+            "width": 137.81
+          }
+        },
+        {
+          "type": "caption",
+          "time": 7.5,
+          "caption": {
+            "text_en": "In this photograph there is a dream",
+            "text_sp": "In this photograph there is a dream",
+            "pos": { "x": 634.24, "y": 55.86 },
+            "width": 284.83
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "There are",
+            "text_sp": "There are",
+            "pos": { "x": 709.51, "y": 654.06 },
+            "width": 100.38
+          }
+        },
+        {
+          "type": "caption",
+          "time": 9.5,
+          "caption": {
+            "text_en": "In this one there's a tragedy",
+            "text_sp": "In this one there's a tragedy",
+            "pos": { "x": 754.1, "y": 204.09 },
+            "width": 155.96
+          }
+        },
+        {
+          "type": "caption",
+          "time": 10.5,
+          "caption": {
+            "text_en": "In this image there is a question",
+            "text_sp": "In this image there is a question",
+            "pos": { "x": 769.12, "y": 367.77 },
+            "width": 166.21
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 833.33, "y": 642.03 },
+            "width": 37.68
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11.5,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 886.56, "y": 603.89 },
+            "width": 57.61
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 959.55, "y": 552.84 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 12,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 968.75, "y": 477.65 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 12.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1016.47, "y": 205.95 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 13,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1030.14, "y": 449.84 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 13.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1047.16, "y": 140.05 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 14,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1059.66, "y": 413.91 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 14.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1075.57, "y": 266.18 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 15,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1093.75, "y": 173 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 15.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1101.7, "y": 358.23 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 16,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1105.98, "y": 302.11 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 16.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1150.57, "y": 234.36 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 17,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1152.01, "y": 488.2 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 17.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1156.25, "y": 156.82 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 18,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1177.28, "y": 472.85 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 18.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1182.38, "y": 393.45 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 19,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1184.66, "y": 318.45 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 19.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1191.47, "y": 209.36 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 20,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1199.43, "y": 278.68 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 20.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1242.61, "y": 446.59 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 21,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1247.16, "y": 357.95 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 21.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1248.29, "y": 182.09 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 22,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1268.64, "y": 240.23 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 22.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1270.77, "y": 529.13 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 23,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1275.57, "y": 479.55 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 23.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1292.19, "y": 321.82 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 24,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1292.61, "y": 151.41 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 24.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1308.52, "y": 416.77 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 25,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1342.05, "y": 303.53 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 25.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1347.16, "y": 224.14 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 26,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1353.72, "y": 496.17 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 26.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1354.04, "y": 364.38 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 27,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1368.75, "y": 538.64 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 27.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1411.93, "y": 188.64 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 28,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1416.6, "y": 295.88 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 28.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1435.54, "y": 359.81 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 29,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1438.07, "y": 445.73 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 29.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1440.34, "y": 310.23 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 30,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1468.48, "y": 481.65 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 30.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1473.29, "y": 247.45 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 31,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1513.07, "y": 413.91 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 31.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1518.49, "y": 326.86 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type":"videoPlay",
+          "time":31.6
+        },
+        {
+          "type": "caption",
+          "time": 32,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1533.52, "y": 369.32 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 32.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1540.62, "y": 499.86 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 33,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1561.93, "y": 458.23 },
+            "width": 54,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 33.5,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1567.01, "y": 544.6 },
+            "width": 36,
+            "extra": "small"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 36,
+          "caption": {
+            "text_en": "so",
+            "text_sp": "so",
+            "pos": { "x": 1625.59, "y": 591.21 },
+            "width": 52.23
+          }
+        },
+        {
+          "type": "caption",
+          "time": 37.5,
+          "caption": {
+            "text_en": "many",
+            "text_sp": "many",
+            "pos": { "x": 1683.53, "y": 621.67 },
+            "width": 70.81
+          }
+        },
+        {
+          "type": "caption",
+          "time": 39,
+          "caption": {
+            "text_en": "stories",
+            "text_sp": "stories",
+            "pos": { "x": 1777.21, "y": 661.5 },
+            "width": 91.78
+          }
+        }
+      ]
+    }
+  ]
+}
