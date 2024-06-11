@@ -390,7 +390,7 @@
       ]
     },
     {
-      "pageNumber": 5,
+      "pageNum": 5,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -485,7 +485,7 @@
       ]
     },
     {
-      "pageNumber": 6,
+      "pageNum": 6,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -1161,7 +1161,7 @@
       ]
     },
     {
-      "pageNumber": 7,
+      "pageNum": 7,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -1235,7 +1235,7 @@
       ]
     },
     {
-      "pageNumber": 8,
+      "pageNum": 8,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -1256,6 +1256,16 @@
           }
         },
         {
+          "type": "imageLoad",
+          "time": 1.7,
+          "url": "images/17-18/Asset%201.png",
+          "pos":{
+            "x":217,
+            "y":98
+          },
+          "animate":"fade,turn"
+        },
+        {
           "type": "caption",
           "time": 2,
           "caption": {
@@ -1264,6 +1274,16 @@
             "pos": { "x": 471, "y": 21 },
             "width": 310
           }
+        },
+        {
+          "type": "imageLoad",
+          "time": 2.9,
+          "url": "images/17-18/Asset%202.png",
+          "pos":{
+            "x":738,
+            "y":209
+          },
+          "animate":"fade,turn"
         },
         {
           "type": "caption",
@@ -1308,7 +1328,7 @@
       ]
     },
     {
-      "pageNumber": 9,
+      "pageNum": 9,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -1480,7 +1500,7 @@
       ]
     },
     {
-      "pageNumber": 10,
+      "pageNum": 10,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -1573,7 +1593,7 @@
       ]
     },
     {
-      "pageNumber": 11,
+      "pageNum": 11,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
@@ -1716,7 +1736,7 @@
       ]
     },
     {
-      "pageNumber": 12,
+      "pageNum": 12,
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {

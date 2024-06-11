@@ -31,20 +31,20 @@ function preload() {
 }
 
 function setup() {
-  parseSpread(xml);
+  //parseSpread(xml);
   wrapper = select(".comic");
   let i = 10;
-  console.log(qSheet);
 
   qSheet.queues = qSheet.queues.slice(bump);
-  qSheet.queues.forEach((q) => {
-    let d = createDiv();
-    d.class("frame scrollStep");
-    d.elt.q = q;
-    d.html(i - 1);
-    select(".content").child(d);
 
-    i++;
+  qSheet.queues.forEach((q) => {
+    //let d = createDiv();
+    let d = document.querySelector("#frame" + q.pageNum);
+    console.log("#frame" + q.pageNum)
+    console.log(d);
+    //d.class("frame scrollStep");
+    d.q = q;
+    //select(".content").child(d);
   });
 
   init();
@@ -73,6 +73,10 @@ function resetTimer() {
 
 function doTimer() {
   let now = new Date();
+
+  let frames = document.querySelectorAll(".frame");
+  
+
   let elapsed = (now.getTime() - startTime.getTime()) / 1000;
   if (currentQ < qPage.queues.length) {
     if (elapsed > parseFloat(qPage.queues[currentQ].time)) {
@@ -359,10 +363,25 @@ function handleStepEnter(response) {
     }
   }
 
+  if (response.index == 22) {
+    if (timing) {
+      timing = false;
+      gsap.to(document.querySelector(".shade"), {
+        opacity: 0,
+        duration: 1,
+      });
+    }
+  }
+
   if (response.element.classList.contains("frame")) {
     timing = true;
+    response.element.timing = true;
     //console.log(response.element.q);
-    toPage(response.element.q);
+    if (!response.element.played) {
+      toPage(response.element.q);
+      response.element.played = true;
+    }
+    
   }
 }
 
@@ -385,6 +404,10 @@ function handleStepExit(response) {
       });
       //toPage(qSheet.queues[0]);
     }
+  }
+
+  if (response.element.classList.contains("frame")) {
+    response.element.timing = false;
   }
 }
 
@@ -497,7 +520,6 @@ function parseSpread(_x) {
   j.queues = [];
   let i = 0;
   captions.forEach((c) => {
-    console.log(i + ":" + captions.length);
     let cj = {};
     if (c.getString("class") == "st0") {
       cj.type = "caption";
