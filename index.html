@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>A Search For the Heart</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xcb2vhl.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- The website JavaScript file -->
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="shade">
+      
+    </div>
+    <div class="comicwrapper">
+      <div class="comic"></div>
+    </div>
+    <div class="content">
+      <!-- This is the start of content for our page -->
+      <h1 class="title">A Search &nbsp for the Heart</h1>
+      <h2>Digital collections, machine learning and legacies of care</h2>
+      <!--h3>
+        Library of Congress Labs
+      </h3-->
+      <p class="intro">
+        In 2018, The Library of Congress released its first agency-wide digital
+        strategy. At the center of the document was a promise: to throw open the
+        “treasure chest”. The Library’s digital holdings add up to nearly 200
+        petabytes. Photographs, films, source, code, recipes, architectural
+        drawings, websites, newspapers, and digital recordings made from wax
+        cylinders.
+      </p>
+      <p>
+        With the new digital strategy, the Library would grow these digital
+        holdings exponentially, ramping up digitization work and bolstering
+        born-digital collections. The plan would also see many more of materials
+        made available online, by putting them in the cloud for anyone to
+        download.
+      </p>
+      <div class="scrollStep"></div>
+      <p>
+        As an institution, the LOC had long served people who visited in person,
+        unrolling maps and spreading out books on the tables of its twenty
+        reading rooms and research centers. Now it wanted to serve a slice of
+        the public, people who needed API keys instead of Reader ID cards and
+        server space more than desk space.
+      </p>
+      <div
+        class="caption scrollStep"
+        id="mcclellanCaption"
+        style="width: 200px"
+      >
+        Researchers like Courtney McClellan.
+      </div>
+
+      <div
+        class="mock"
+        style="width: 300px; height: 350px; margin-left: 250px"
+      ></div>
+      <p>
+        McClellan built Speculative Annotation, a dynamic website which allows
+        students and teachers to annotate items from the Library’s collection,
+        including rare books, maps, photographs and political posters. Through
+        their annotations, students enter into conversation with historical
+        materials, and find opportunity to both explore and to question what is
+        contained in data about primary sources.
+      </p>
+      <div
+        class="caption scrollStep"
+        id="yooCaption"
+        style="width: 200px; left: 300px; transform: rotate(3deg)"
+      >
+        Artists like Jeffrey Yoo Warren.
+      </div>
+      <div
+        class="mock"
+        style="width: 300px; height: 350px; margin-left: 50px"
+      ></div>
+      <p>
+        Yoo Warren, an artist and educator from Rhode Island, used archival
+        photos and records from the LOC collection to make “hidden portals”,
+        immersive 3D reconstructions of Chinese American and Korean American
+        communities. Sited in the geographic locations where these communities
+        once existed, the portals offer a high-tech reminder of how many
+        histories have been hidden in plain sight.
+      </p>
+      <div
+        class="caption scrollStep"
+        id="mullenCaption"
+        style="width: 200px; left: 300px; transform: rotate(3deg)"
+      >
+        Scholars like Lincoln Mullen.
+      </div>
+       <div
+        class="mock"
+        style="width: 300px; height: 350px; margin-left: 50px"
+      ></div>
+      <p>
+        A historian of American Religion, Mullen uses computational methods to
+        analyze text and music. For his project America’s Public Bible, Mullen
+        wrote code to process millions of newspaper pages from the LOC’s
+        collection, looking for bible quotes. The project uncovers trends and
+        patterns in these citations, on a scale that would be invisible to
+        scholars using non-computational approaches.
+      </p>
+      <p>
+        A year after the release of the Digital Strategy, the Library invited
+        Mullen and two other researchers - Lauren Tilton and Andromeda Yelton -
+        to take part in a case study project called Computing Cultural History
+        in the Cloud (CCHC). The goal was to figure out just exactly how the
+        Library’s treasure chest would be thrown open: how the library could
+        serve computational research requests while being realistic about its
+        institutional capabilities, and mindful of potential risks and harms.
+      </p>
+      <p>
+        The CCHC project started off centered on mostly technical concerns:
+      </p>
+       <div
+        class="caption pile3 scrollStep"
+        style="width: 370px; left: 100px; top:-50px; transform: rotate(3deg)"
+      >
+        What data formats were most useful to researchers?
+      </div>
+      <div
+        class="caption pile3"
+        style="width: 370px; left: 10px; top:-20px; transform: rotate(-3deg)"
+      >
+         Could the library offer computing resources to help with data analysis?
+      </div>
+      <div
+        class="caption pile3"
+        style="width: 370px; left: 60px; transform: rotate(2deg); margin-bottom:100px"
+      >
+         What staffing changes would be needed to support these new kinds of requests? 
+      </div>
+      
+
+      <p>
+        Yelton, Tilton and Mullen got to work. They pulled data and coded
+        frameworks, designed interfaces and sharpened research questions.
+        Watching their work closely, the CCHC staff gleaned valuable insights.
+      </p>
+      <p>
+        They learned, for example, that digital researchers were likely to come
+        to the Library with their own frameworks, workflows, and software
+        stacks. The researchers wanted the modes of access to the data to be
+        robust and well documented, but they weren’t overly concerned with the
+        format the data came to them in. There was no one-size-fits-all answer
+        to their technical needs, no file format or delivery method that would
+        work for each of them, let alone for tens of thousands of potential new
+        Library users.
+      </p>
+      <div
+        class="caption pile scrollStep"
+        style="width: 270px; left: 100px; top: -40px; transform: rotate(3deg)"
+      >
+        For Chefs looking for historic African American recipes.
+      </div>
+      <div
+        class="caption pile"
+        style="width: 250px; top: -80px; left: 50px; transform: rotate(1deg)"
+      >
+        For DJs using algorithmic analyses to find samples.
+      </div>
+      <div
+        class="caption pile"
+        style="width: 320px; top: -100px; left: 30px; transform: rotate(-2deg)"
+      >
+        For High School students investigating the histories of their
+        neighborhoods.
+      </div>
+      <div
+        class="caption pile"
+        style="width: 300px; top: -120px; left: 100px; transform: rotate(3deg)"
+      >
+        For Baseball fans interested in how scouting reports predicted major
+        league playing careers.
+      </div>
+      <div
+        class="caption pile"
+        style="width: 270px; top: -90px; left: 200px; transform: rotate(-2deg)"
+      >
+        For data artists looking to explore and visualize wide swaths of history
+        and culture.
+      </div>
+      <p>That last one is me.</p>
+      <p>
+        When I came to Washington for my first day as Innovator in Residence in
+        2017, I was prepared with a stack of ideas of how I’d use the Library’s
+        data. I was enamored by the scale of it all: hundreds of thousands
+        photographs, three centuries of catalogue records, two city blocks of
+        flat file cabinets filled with maps. Like the CCHC researchers I came
+        with my own tools, sharpened and ready.
+      </p>
+      <p>
+        Over the eighteen months I spent there, I’d learned one very important
+        thing. I learned it over and over, in different ways. It’s something
+        that you’ll learn too if you spend enough time in the treasure chest.
+        You’ll learn it from from rare codexes, from web archives, from FORTRAN
+        code on floppy disks. Even more so, you’ll learn it from librarians and
+        archivists and historians. You’ll find it right at the heart of the
+        CCHC’s report and in the meaningful data packages the Library is
+        releasing:
+      </p>
+      <p>
+        That the Library’s data shouldn’t be - that it can’t be - separated from
+        its context.
+      </p>
+      <p>
+        
+      </p>
+      <div class="caption scrollStep pile2" style="width: 290px; left: 40px; top:-0px;">
+        That meaning comes from place
+      </div>
+      <div class="caption pile2" style="width: 150px; left: 290px;">
+        and time
+      </div>
+      <div
+        class="caption pile2"
+        style="width: 150px; left: 340px; margin-top: 100px; top:-70px;"
+      >
+        and people.
+      </div>
+      <div
+        class="caption scrollStep pile2"
+        style="
+          width: 200px;
+          left: 20px;
+          margin-top: 110px;
+          margin-bottom: 100px;
+          top:-60px;
+        "
+      >
+        That scale is nothing without story.
+      </div>
+      
+      <div
+        class="caption scrollStep pile2"
+        id="triggerCaption"
+        style="
+          width: 200px;
+          left: 200px;
+          margin-top: 110px;
+          margin-bottom: 100px;
+        "
+      >
+        Here is a story.
+      </div>
+
+    </div>
+
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <footer class="footer"></footer>
+  </body>
+</html>

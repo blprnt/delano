@@ -1,2 +1,1 @@
-# delano
-A Search For The Heart
+# A Search for the Heart - Dynamic
