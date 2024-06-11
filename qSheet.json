@@ -1571,6 +1571,287 @@
           }
         }
       ]
+    },
+    {
+      "pageNumber": 11,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Mock23-24.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "instead of a model trained on RANDOM IMAGES FROM THE INTERNET, we might imagine a model trained on the thousands of images jack delano took in puerto rico, and thousands more images from the library of congress collections. a tool like this could help a lot of people...",
+            "text_sp": "tinstead of a model trained on RANDOM IMAGES FROM THE INTERNET, we might imagine a model trained on the thousands of images jack delano took in puerto rico, and thousands more images from the library of congress collections. a tool like this could help a lot of people...",
+            "pos": { "x": 3, "y": 3 },
+            "width": 478
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "a 9 year old girl who wants to know more about how her grandparents grew up",
+            "text_sp": "a 9 year old girl who wants to know more about how her grandparents grew up",
+            "pos": { "x": 3, "y": 339 },
+            "width": 226
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3.5,
+          "caption": {
+            "text_en": "an old man whois trying to remember the faces of his friends",
+            "text_sp": "an old man whois trying to remember the faces of his friends",
+            "pos": { "x": 16, "y": 614 },
+            "width": 126
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4.5,
+          "caption": {
+            "text_en": "A researcher who’s studying latin american labor movements",
+            "text_sp": "A researcher who’s studying latin american labor movements",
+            "pos": { "x": 293, "y": 262 },
+            "width": 185
+          }
+        },
+        {
+          "type": "caption",
+          "time": 5.5,
+          "caption": {
+            "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
+            "text_sp": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
+            "pos": { "x": 310, "y": 638 },
+            "width": 202
+          }
+        },
+        {
+          "type": "caption",
+          "time": 7.5,
+          "caption": {
+            "text_en": "it would also raise a lot of questions.",
+            "text_sp": "it would also raise a lot of questions.",
+            "pos": { "x": 584, "y": 6 },
+            "width": 288
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "WHY is all of this KIND OF work being done by big, for-profit companies?",
+            "text_sp": "WHY is all of this KIND OF work being done by big, for-profit companies?",
+            "pos": { "x": 532, "y": 36 },
+            "width": 199
+          }
+        },
+        {
+          "type": "caption",
+          "time": 9.5,
+          "caption": {
+            "text_en": "and why does the data always seem to get used by people who aren’t puerto rican?",
+            "text_sp": "and why does the data always seem to get used by people who aren’t puerto rican?",
+            "pos": { "x": 751, "y": 47 },
+            "width": 209
+          }
+        },
+        {
+          "type": "caption",
+          "time": 10.5,
+          "caption": {
+            "text_en": "IT all just feels like another flavor of colonialism.",
+            "text_sp": "IT all just feels like another flavor of colonialism.",
+            "pos": { "x": 828, "y": 207 },
+            "width": 152
+          }
+        },
+        {
+          "type": "caption",
+          "time": 12,
+          "caption": {
+            "text_en": "if images of MY ANCESTORS are being used to train facial recognition, what does that mean for ME?",
+            "text_sp": "if images of MY ANCESTORS are being used to train facial recognition, what does that mean for ME?",
+            "pos": { "x": 629, "y": 356 },
+            "width": 210
+          }
+        },
+        {
+          "type": "caption",
+          "time": 14,
+          "caption": {
+            "text_en": "what does it mean for my kids?",
+            "text_sp": "what does it mean for my kids?",
+            "pos": { "x": 832, "y": 418 },
+            "width": 116
+          }
+        },
+        {
+          "type": "caption",
+          "time": 15,
+          "caption": {
+            "text_en": "thinking about a.I. in the context of communities, care, and responisibility is hard, but necessary.",
+            "text_sp": "thinking about a.I. in the context of communities, care, and responisibility is hard, but necessary.",
+            "pos": { "x": 571, "y": 652 },
+            "width": 387
+          }
+        },
+        {
+          "type": "caption",
+          "time": 16,
+          "caption": {
+            "text_en": "we might ask our friend jack delano for some advice...",
+            "text_sp": "we might ask our friend jack delano for some advice...",
+            "pos": { "x": 695, "y": 699 },
+            "width": 277
+          }
+        }
+      ]
+    },
+    {
+      "pageNumber": 12,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Mock25-26.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "there’s no way we could have known about the ways our photographs might be used eighty years in the future.",
+            "text_sp": "there’s no way we could have known about the ways our photographs might be used eighty years in the future.",
+            "pos": { "x": 122, "y": 71 },
+            "width": 227
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "machine labeling? facial recognition? None of that would have even occurred to us.",
+            "text_sp": "machine labeling? facial recognition? None of that would have even occurred to us.",
+            "pos": { "x": 486, "y": 23 },
+            "width": 223
+          }
+        },
+        {
+          "type": "caption",
+          "time": 3.5,
+          "caption": {
+            "text_en": "But we always did have one principal that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
+            "text_sp": "But we always did have one principal that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
+            "pos": { "x": 727, "y": 49 },
+            "width": 219
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4.5,
+          "caption": {
+            "text_en": "And that was to always treat our subjects with respect.",
+            "text_sp": "And that was to always treat our subjects with respect.",
+            "pos": { "x": 539, "y": 156 },
+            "width": 177
+          }
+        }
+      ]
+    },
+     {
+      "pageNum": 13,
+      "backDims": {
+        "width": 1920,
+        "height": 1200
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/Delano_Roundtable.mp4"
+        },
+        {
+          "time": 3.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
+            "text_es": "respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
+            "pos": { "x": 22, "y": 30 },
+            "width": 327
+          }
+        },
+        {
+          "time": 4.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "it means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
+            "text_es": "it means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
+            "pos": { "x": 14, "y": 117 },
+            "width": 245
+          }
+        },
+        {
+          "time": 6.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "it means coming together to talk.",
+            "text_es": "it means coming together to talk.",
+            "pos": { "x": 301, "y": 295 },
+            "width": 170
+          }
+        },
+        {
+          "time": 7.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "to listen.",
+            "text_es": "to listen.",
+            "pos": { "x": 638, "y": 139 },
+            "width": 99
+          }
+        },
+        {
+          "time": 8.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "to learn.",
+            "text_es": "to learn.",
+            "pos": { "x": 449, "y": 370 },
+            "width": 99
+          }
+        },
+        {
+          "time": 9.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "to collaborate.",
+            "text_es": "to collaborate.",
+            "pos": { "x": 817, "y": 234 },
+            "width": 153
+          }
+        },
+        {
+          "time": 10.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "to dream.",
+            "text_es": "to dream.",
+            "pos": { "x": 786, "y": 635 },
+            "width": 140
+          }
+        }
+      ]
     }
   ]
+
 }
