@@ -67,6 +67,10 @@ body {
   font-size:22px;
 }
 
+a {
+    color: #898989;
+}
+
 .videoWrapper {
   display: block;
   position: relative;
