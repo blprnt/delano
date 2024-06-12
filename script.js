@@ -75,7 +75,7 @@ function doTimer() {
   let now = new Date();
 
   let frames = document.querySelectorAll(".frame");
-  
+
 
   let elapsed = (now.getTime() - startTime.getTime()) / 1000;
   if (currentQ < qPage.queues.length) {
@@ -231,11 +231,8 @@ function offset(el) {
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
 }
 
-function toPage(_q) {
-  if (_q.pageNum != bump + 1) {
-    //gsap.to(currentPageElement.elt, { opacity:0 });
-    //gsap.to(wrapper.elt, { top: -(currentPageElement.elt.offsetTop + 10) });
-  } else {
+function toPage(_q, _isStart) {
+  if (_isStart) {
     //wrapper.position(0, 0, "relative");
 
     let cw = select(".comicwrapper");
@@ -297,7 +294,7 @@ function addCaption(_params) {
 // scrollama event handlers
 function handleStepEnter(response) {
   //console.log(response);
-  //console.log("ENTER" + response.index);
+  console.log("ENTER" + response.index);
   if (response.index == 1) {
     gsap.to(document.querySelector("#mcclellanCaption"), {
       opacity: 1,
@@ -373,12 +370,22 @@ function handleStepEnter(response) {
     }
   }
 
+  if (response.index == 23) {
+    gsap.to(document.querySelector("#endCaption"), {
+      opacity: 1,
+      rotation: "2deg",
+      duration: 1,
+    });
+  }
+
   if (response.element.classList.contains("frame")) {
+    let isStart = (!timing);
+
     timing = true;
     response.element.timing = true;
     //console.log(response.element.q);
     if (!response.element.played) {
-      toPage(response.element.q);
+      toPage(response.element.q, isStart);
       response.element.played = true;
     }
     
