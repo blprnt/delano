@@ -124,8 +124,34 @@ video {
   opacity:0;
 }
 
+.noBack {
+  background-color: transparent !important;
+  border: none !important;
+  text-align: center;
+}
+
+.noBackArrow {
+  background-color: transparent !important;
+  border: none !important;
+}
+
 .small {
   padding: 6px !important;
+}
+
+.smaller {
+  font-size: 10.5px;
+}
+.trainSmall {
+  font-size: 12.5px;
+}
+.bubblewrap {
+  position:absolute;
+  display:block;
+  background-color: transparent;
+  left:0px;
+  top:0px;
+  z-index:1;
 }
 
 .capwrap {
@@ -133,7 +159,7 @@ video {
   display:block;
   left:0px;
   top:0px;
-  z-index:1;
+  z-index:2;
 }
 
 .page {
@@ -200,23 +226,25 @@ video {
 
 .title {
   display:block;
-  height:300px;
   text-align:left;
   font-family: Freeman, serif;
   font-size: 60px;
   
-  margin-top:125px;
-  padding-top:215px;
+  margin-top:115px;
+  padding-top:225px;
+  padding-bottom: 30px;
   padding-left:20px;
   background-image:url("https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/people.png?v=1716831689255");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:240px 320px;
   background-position:65px 0px;
 }
 
 h2 {
-  margin-top:-50px;
+  margin-top:-70px;
+  margin-left: 30px;
   font-size:24px;
+  width:300px;
   padding-bottom:50px;
   color:#4A8394;
 }

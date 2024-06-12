@@ -40,8 +40,8 @@ function setup() {
   qSheet.queues.forEach((q) => {
     //let d = createDiv();
     let d = document.querySelector("#frame" + q.pageNum);
-    console.log("#frame" + q.pageNum)
-    console.log(d);
+    //console.log("#frame" + q.pageNum)
+    //console.log(d);
     //d.class("frame scrollStep");
     d.q = q;
     //select(".content").child(d);
@@ -116,8 +116,28 @@ function loadVideoTrans(_url1, _url2, _offset) {
   vh.parent(currentPageElement);
   
   currentVideo = document.querySelector("#walkers");
-  
-  
+}
+
+
+function addBubbles(_i) {
+
+  //caption wrapper
+
+  if (currentPageElement.bubbleWrap) {
+    console.log("Remove wrap");
+    currentPageElement.bubbleWrap.remove();
+  }
+
+  let bubbleWrap = createDiv();
+  bubbleWrap.class("bubblewrap");
+  bubbleWrap.parent(currentPageElement);
+  currentPageElement.bubbleWrap = bubbleWrap;
+
+  console.log("Add bubbles" + _i);
+  console.log(currentPageElement.q.bubbleSet[_i])
+
+  let bi = createImg(currentPageElement.q.bubbleSet[_i].url);
+  currentPageElement.bubbleWrap.child(bi);
 }
 
 function loadVideo(_url) {
@@ -184,6 +204,9 @@ function processQ(_q) {
   switch (t) {
     case "caption":
       addCaption(_q.caption);
+      break;
+    case "bubbles":
+      addBubbles(_q.index);
       break;
     case "videoLoad":
       loadVideo(_q.url);
@@ -254,6 +277,10 @@ function toPage(_q, _isStart) {
   currentPageElement = createDiv();
   currentPageElement.parent(wrapper);
   currentPageElement.class("page");
+  currentPageElement.q = _q;
+
+  
+
 
   //caption wrapper
   let capWrap = createDiv();
