@@ -134,7 +134,7 @@ function loadVideo(_url) {
   v.parent(vh);
 
   vh.style("opacity", 0);
-  gsap.to(vh.elt, {opacity:1});
+  gsap.to(vh.elt, {opacity:1, duration:2});
 
 }
 
