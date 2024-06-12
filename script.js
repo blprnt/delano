@@ -141,15 +141,35 @@ function addBubbles(_i) {
 }
 
 function loadVideo(_url) {
+
+  /*
+let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
+  <source 
+    src="` + _url1 + `" 
+    type="video/mp4; codecs="hvc1"">
+  <source 
+    src="` + _url2 + `" 
+    type="video/webm">
+  </video>`);
+  */
+
   console.log("load vid ");
   let vh = createDiv();
   vh.class("videoWrapper");
   vh.parent(currentPageElement);
+
+  let v = createDiv(`<video muted autoplay playsinline>
+  <source 
+    src="` + _url + `" 
+    type="video/mp4; codecs="hvc1"">
+  </video>`);
+  /*
   let v = createVideo(_url, function _vh(_v) {
     console.log(v);
     v.elt.muted = true;
     v.play();
   });
+  */
 
   v.parent(vh);
 

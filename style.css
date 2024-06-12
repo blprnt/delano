@@ -108,7 +108,7 @@ a {
 video {
   display: block;
   position:relative;
-  height:100%;
+  height:100vh;
   width:auto;
 }
 
