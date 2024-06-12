@@ -207,17 +207,20 @@ function imageDrift(_q) {
   let bi = currentPageElement.elt.querySelector(".imageWrapper");
   console.log("Image drift");
   console.log(bi);
-  gsap.to(bi, { left: "-=50%", ease: "none", duration: 60, delay: 0 });
+  gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
 }
 
 function capDrift(_q) {
   let bi = currentPageElement.elt.querySelector(".capwrap");
+  let bw = currentPageElement.elt.querySelector(".bubblewrap");
   let vi = currentPageElement.elt.querySelector(".videoWrapperTrans");
   console.log("Caption drift");
   console.log(bi);
+  console.log(bw);
   gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
   gsap.to(vi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
   gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(bw, { left: "-=600px", ease: "none", duration: 10, delay: 10 });
 }
 
 function processQ(_q) {

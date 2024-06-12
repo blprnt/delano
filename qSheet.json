@@ -508,11 +508,18 @@
     "width": 1920,
     "height": 1080
   },
+  "bubbleSet":[
+        {"url":"images/11-12/Artboard%201.png"},
+        {"url":"images/11-12/Artboard%202.png"},
+        {"url":"images/11-12/Artboard%203.png"},
+        {"url":"images/11-12/Artboard%204.png"},
+        {"url":"images/11-12/Artboard%205.png"}
+      ],
   "queues": [
     {
       "type": "imageLoad",
       "time": 0.1,
-      "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/11-14back.png?v=1718024184489",
+      "url": "images/Back11-14.png",
       "width": 3840,
       "height": 1080
     },
@@ -596,7 +603,7 @@
           "x": 634.24,
           "y": 55.86
         },
-        "width": 284.83
+        "width": 300
       }
     },
     {
@@ -1004,6 +1011,10 @@
       }
     },
     {
+      "type":"videoPlay",
+      "time":15.85
+    },
+    {
       "type": "caption",
       "time": 15.9,
       "caption": {
@@ -1016,10 +1027,6 @@
         "width": 36,
         "extra": "small"
       }
-    },
-    {
-      "type":"videoPlay",
-      "time":16.1
     },
     {
       "type": "caption",
@@ -1339,7 +1346,7 @@
           "x": 1625.59,
           "y": 591.21
         },
-        "width": 39.23
+        "width": 60.23
       }
     },
     {
