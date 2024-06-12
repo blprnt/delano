@@ -171,7 +171,7 @@ let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
     v.play();
   });
   */
-
+  v.play();
   v.parent(vh);
 
   vh.style("opacity", 0);
