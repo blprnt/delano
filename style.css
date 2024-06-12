@@ -95,6 +95,14 @@ a {
   position: relative;
   height: 100vh;
   z-index:0;
+  left:0px;
+  top:0px;
+}
+
+.imageDiv {
+  display: block;
+  position:relative;
+  width:auto;
 }
 
 video {
@@ -133,7 +141,10 @@ video {
   display:block;
   left:0px;
   top:0px;
-  width:auto;
+  
+  width:90vw;
+  min-width:1024px;
+
   height:100vh;
   overflow:hidden;
   z-index:1;
@@ -143,8 +154,7 @@ video {
 .comicwrapper {
   width:100%;
   position:absolute;
-  display: grid;
-  place-items: center;
+  
   opacity:0;
   height:auto;
 }
@@ -165,6 +175,8 @@ video {
   width:auto;
   margin:auto;
   height:100vh;
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {
@@ -216,6 +228,7 @@ h2 {
 }
 
 .frame {
+
   position:relative;
   display:block;
   height:100vh;

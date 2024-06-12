@@ -138,7 +138,7 @@ function loadVideo(_url) {
 function loadImageQ(_q) {
   console.log("load image");
   
-  let vh = createDiv("<img src=" + _q.url + ">");
+  let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
   vh.parent(currentPageElement);
   //vh.style("background-image", "url(" + _q.url + ")");
@@ -336,11 +336,16 @@ function handleStepEnter(response) {
     if (!piled2) {
       piled2 = true;
       let i = 0;
+      let times = [0, 0.5, 1, 3];
       document.querySelectorAll(".pile2").forEach((c) => {
-        gsap.to(c, { opacity: 1, delay: 0.5 + i * 1.5 });
+        gsap.to(c, { opacity: 1, delay: times[i] });
         i++;
       });
     }
+  }
+
+  if (response.index == 7) {
+        gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0 });
   }
 
   //Hide comic on up scroll
@@ -357,6 +362,7 @@ function handleStepEnter(response) {
         gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.1, top: "+=50px" });
         i++;
       });
+      gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0 });
     }
   }
 
@@ -404,11 +410,13 @@ function handleStepExit(response) {
         duration: 5,
       });
       //Hide captions
+      let times = [0, 0.5, 1, 2, 3];
       let i = 0;
       document.querySelectorAll(".pile2").forEach((c) => {
-        gsap.to(c, { opacity: 0, delay: 0.5 + i * 0.1, top: "-=50px" });
+        gsap.to(c, { opacity: 0, delay: times[i], top: "-=50px" });
         i++;
       });
+      gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, delay: 1 });
       //toPage(qSheet.queues[0]);
     }
   }
