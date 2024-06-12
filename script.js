@@ -31,7 +31,7 @@ function preload() {
 }
 
 function setup() {
-  //parseSpread(xml);
+  parseSpread(xml);
   wrapper = select(".comic");
   let i = 10;
 
@@ -39,6 +39,7 @@ function setup() {
 
   qSheet.queues.forEach((q) => {
     //let d = createDiv();
+    console.log(q);
     let d = document.querySelector("#frame" + q.pageNum);
     //console.log("#frame" + q.pageNum)
     //console.log(d);
@@ -206,7 +207,7 @@ function imageDrift(_q) {
   let bi = currentPageElement.elt.querySelector(".imageWrapper");
   console.log("Image drift");
   console.log(bi);
-  gsap.to(bi, { left: "-=10%", ease: "none", duration: 60, delay: 0 });
+  gsap.to(bi, { left: "-=50%", ease: "none", duration: 60, delay: 0 });
 }
 
 function capDrift(_q) {
@@ -214,9 +215,9 @@ function capDrift(_q) {
   let vi = currentPageElement.elt.querySelector(".videoWrapperTrans");
   console.log("Caption drift");
   console.log(bi);
-  gsap.to(vi, { opacity:1, delay: 31.4, duration:2 });
-  gsap.to(vi, { left: "-=15%", ease: "none", duration: 30, delay: 10 });
-  gsap.to(bi, { left: "-=15%", ease: "none", duration: 30, delay: 10 });
+  gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
+  gsap.to(vi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
 }
 
 function processQ(_q) {
@@ -577,7 +578,7 @@ function parseSpread(_x) {
   });
 
   let j = {};
-  j.pageNumber = 6;
+  j.pageNum = 6;
   j.backDims = {
     width: 1920,
     height: 1080,
@@ -591,7 +592,7 @@ function parseSpread(_x) {
       if (i < firsts.length) {
         cj.time = firsts[i].time;
         cj.caption = {
-          text_en: firsts[i].en,
+          text_ven: firsts[i].en,
           text_sp: firsts[i].sp,
           pos: {
             x: c.getNum("x"),
@@ -604,17 +605,17 @@ function parseSpread(_x) {
           {
             en: "so",
             sp: "so",
-            time: 36,
+            time: 11,
           },
           {
             en: "many",
             sp: "many",
-            time: 37.5,
+            time: 12.5,
           },
           {
             en: "stories",
             sp: "stories",
-            time:39,
+            time:14,
           },
         ];
         cj.time = ends[i - 57].time;
@@ -628,7 +629,7 @@ function parseSpread(_x) {
           width: c.getNum("width"),
         };
       } else {
-        cj.time = parseFloat(11.5 + (i - firsts.length) * 0.5);
+        cj.time = parseFloat(11.5 + (i - firsts.length) * 0.2);
         cj.caption = {
           text_en: i % 2 == 0 ? "so" : "many",
           text_sp: i % 2 == 0 ? "so" : "many",
@@ -664,6 +665,6 @@ function parseSpread(_x) {
   });
 
   //qSheet.queues.unshift(j);
-  console.log(JSON.stringify(j, 3));
+  console.log(JSON.stringify(j, null, 2));
   //console.log(qSheet);
 }
