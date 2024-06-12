@@ -132,7 +132,10 @@ function loadVideo(_url) {
   });
 
   v.parent(vh);
-  //v.autoplay();
+
+  vh.style("opacity", 0);
+  gsap.to(vh.elt, {opacity:1});
+
 }
 
 function loadImageQ(_q) {
