@@ -28,11 +28,12 @@ let illiFactor = 1440.0 / 981.0;
 
 function preload() {
   qSheet = loadJSON("qSheet.json");
-  xml = loadXML("bigSpread.xml");
+  //xml = loadXML("bigSpread.xml");
 }
 
 function setup() {
-  parseSpread(xml);
+  console.log("setup");
+  //parseSpread(xml);
   wrapper = select(".comic");
   let i = 10;
 
@@ -481,6 +482,7 @@ function handleStepExit(response) {
 
 //Scrolling stuff
 function init() {
+  console.log("init");
   scroller = scrollama();
   // 1. setup the scroller with the bare-bones options
   // 		this will also initialize trigger observations
