@@ -246,20 +246,28 @@ video {
   margin-top:115px;
   padding-top:225px;
   padding-bottom: 30px;
-  padding-left:20px;
+  padding-left:00px;
   background-image:url("https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/people.png?v=1716831689255");
   background-repeat: no-repeat;
   background-size:240px 320px;
-  background-position:65px 0px;
+  background-position:45px 0px;
 }
 
 h2 {
-  margin-top:-70px;
-  margin-left: 30px;
+  margin-top:-65px;
+  margin-left: 00px;
   font-size:24px;
-  width:300px;
-  padding-bottom:50px;
+  width:100%;
+  padding-bottom:30px;
   color:#4A8394;
+}
+
+h3 {
+  font-size:16px;
+}
+
+h3 a {
+  color: black;
 }
 
 .mock {
