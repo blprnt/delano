@@ -188,11 +188,12 @@ function loadImageQ(_q, _elt) {
   
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
+  vh.style("max-width", ((windowHeight / 1440) * windowWidth) + "px");
   vh.parent(_elt.p5);
 
   if (_q.width) {
-    vh.style("width", _q.width + "px");
-    vh.style("height", _q.height + "px");
+    //vh.style("width", _q.width + "px");
+    //vh.style("height", _q.height + "px");
   }
    if (_q.pos) {
     let sf = (windowHeight / qPage.backDims.height) * illiFactor;
@@ -209,7 +210,7 @@ function loadImageQ(_q, _elt) {
 
 function imageDrift(_q, _elt) {
   let bi = _elt.querySelector(".imageWrapper");
-  gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(bi, { left: "-=100%", ease: "none", duration: 10, delay: 10 });
 }
 
 function capDrift(_q, _elt) {
@@ -217,8 +218,8 @@ function capDrift(_q, _elt) {
   let bw = _elt.querySelector(".bubblewrap");
   let vi = _elt.querySelector(".videoWrapperTrans");
   gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
-  gsap.to(vi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
-  gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(vi, { left: "-=100%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(bi, { left: "-=100%", ease: "none", duration: 10, delay: 10 });
   gsap.to(bw, { left: "-=600px", ease: "none", duration: 10, delay: 10 });
 }
 
