@@ -423,7 +423,7 @@
           "time": 1,
           "caption": {
             "text_en": "IN DECEMBER, 1941, Jack had been heading to the U.S. Virgin islands on assignment...",
-            "text_sp": "IN DECEMBER, 1941, Jack had been heading to the U.S. Virgin islands on assignment...",
+            "text_es": "En diciembre de 1941, una misión llevó a Jack a las Islas Vírgenes de EE.UU. …   ",
             "pos": { "x": 3, "y": 3 },
             "width": 304
           }
@@ -433,7 +433,7 @@
           "time": 2,
           "caption": {
             "text_en": "at the exact moment pre-war america ceased to exist.",
-            "text_sp": "at the exact moment pre-war america ceased to exist.",
+            "text_es": "en el momento exacto en que la América de preguerra dejaba de existir.",
             "pos": { "x": 211, "y": 411 },
             "width": 234
           }
@@ -443,7 +443,7 @@
           "time": 3,
           "caption": {
             "text_en": "a few days became a week.",
-            "text_sp": "a few days became a week.",
+            "text_es": "Un par de días se convirtieron en una semana.",
             "pos": { "x": 7, "y": 682 },
             "width": 284
           }
@@ -453,7 +453,7 @@
           "time": 4,
           "caption": {
             "text_en": "JACK had no way to leave puerto rico. his wife IRENE was IN NYC.",
-            "text_sp": "JACK had no way to leave puerto rico. his wife IRENE was IN NYC.",
+            "text_es": "Jack no tenía forma de salir de Puerto Rico. Su mujer, Irene, estaba en Nueva York.",
             "pos": { "x": 527, "y": 76 },
             "width": 200
           }
@@ -464,7 +464,7 @@
           "time": 5,
           "caption": {
             "text_en": "irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
-            "text_sp": "irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
+            "text_es": "Irene, que no era paciente por naturaleza, entró de contrabando en Puerto Rico a bordo de un transatlántico.",
             "pos": { "x": 525, "y": 423 },
             "width": 236
           }
@@ -474,7 +474,7 @@
           "time": 6,
           "caption": {
             "text_en": "from then on they were a team.",
-            "text_sp": "from then on they were a team.",
+            "text_es": "A partir de entonces fueron un equipo.",
             "pos": { "x": 502, "y": 501 },
             "width": 145
           }
@@ -484,7 +484,7 @@
           "time": 7,
           "caption": {
             "text_en": "over the next THREE MONTHS the delanos will visit every part of the small caribbean island nation",
-            "text_sp": "over the next THREE MONTHS the delanos will visit every part of the small caribbean island nation",
+            "text_es": "En los próximos tres meses, los Delanos visitarán todos los rincones del pequeño país insular caribeño.",
             "pos": { "x": 536, "y": 571 },
             "width": 263
           }
@@ -494,7 +494,7 @@
           "time": 8,
           "caption": {
             "text_en": "jack will shoot more than 2,000 photographs.",
-            "text_sp": "jack will shoot more than 2,000 photographs." ,
+            "text_es": "Jack tomará más de 2000 fotografías." ,
             "pos": { "x": 705, "y": 651 },
             "width": 225
           }
@@ -546,7 +546,7 @@
       "time": 1,
       "caption": {
         "text_en": "These photographs tell the story of a time",
-        "text_sp": "These photographs tell the story of a time",
+        "text_es": "Estas fotografías cuentan la historia de una época.",
         "pos": {
           "x": 34.38,
           "y": 191.84
@@ -559,7 +559,7 @@
       "time": 2,
       "caption": {
         "text_en": "The story of a place",
-        "text_sp": "The story of a place",
+        "text_es": "La historia de un lugar.",
         "pos": {
           "x": 96.83,
           "y": 256.32
@@ -572,7 +572,7 @@
       "time": 3,
       "caption": {
         "text_en": "The story of a nation.",
-        "text_sp": "The story of a nation.",
+        "text_es": "La historia de una nación.",
         "pos": {
           "x": 186.46,
           "y": 303.81
@@ -585,7 +585,7 @@
       "time": 4,
       "caption": {
         "text_en": "The story of a people.",
-        "text_sp": "The story of a people.",
+        "text_es": "La historia de un pueblo.",
         "pos": {
           "x": 233.53,
           "y": 460.84
@@ -598,7 +598,7 @@
       "time": 5,
       "caption": {
         "text_en": "In this photograph there is a dream",
-        "text_sp": "In this photograph there is a dream",
+        "text_es": "En esta fotografía hay un sueño.",
         "pos": {
           "x": 634.24,
           "y": 55.86
@@ -611,7 +611,7 @@
       "time": 6,
       "caption": {
         "text_en": "In this one there's a tragedy",
-        "text_sp": "In this one there's a tragedy",
+        "text_es": "En esta hay una tragedia.",
         "pos": {
           "x": 754.1,
           "y": 204.09
@@ -624,7 +624,7 @@
       "time": 7,
       "caption": {
         "text_en": "In this one there is a whole life left to be lived",
-        "text_sp": "In this one there is a whole life left to be lived",
+        "text_es": "En esta hay una vida entera por vivir.",
         "pos": {
           "x": 514.34,
           "y": 269.31
@@ -637,7 +637,7 @@
       "time": 8,
       "caption": {
         "text_en": "In this image there is a question",
-        "text_sp": "In this image there is a question",
+        "text_es": "En esta imagen hay una pregunta.",
         "pos": {
           "x": 769.12,
           "y": 367.77
@@ -650,7 +650,7 @@
       "time": 9,
       "caption": {
         "text_en": "In this one there is an answer",
-        "text_sp": "In this one there is an answer",
+        "text_es": "En esta hay una respuesta.",
         "pos": {
           "x": 558.25,
           "y": 399.29
@@ -664,7 +664,7 @@
       "time": 9.5,
       "caption": {
         "text_en": "There are",
-        "text_sp": "There are",
+        "text_es": "hay",
         "pos": {
           "x": 709.51,
           "y": 654.06
@@ -679,7 +679,7 @@
       "time": 10.5,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 833.33,
           "y": 642.03
@@ -693,7 +693,7 @@
       "time": 11,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 886.56,
           "y": 603.89
@@ -707,7 +707,7 @@
       "time": 11.5,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 959.55,
           "y": 552.84
@@ -721,7 +721,7 @@
       "time": 11.7,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 968.75,
           "y": 477.65
@@ -735,7 +735,7 @@
       "time": 11.9,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1016.47,
           "y": 205.95
@@ -749,7 +749,7 @@
       "time": 12.1,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1030.14,
           "y": 449.84
@@ -763,7 +763,7 @@
       "time": 12.3,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1047.16,
           "y": 140.05
@@ -777,7 +777,7 @@
       "time": 12.5,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1059.66,
           "y": 413.91
@@ -791,7 +791,7 @@
       "time": 12.7,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1075.57,
           "y": 266.18
@@ -805,7 +805,7 @@
       "time": 12.9,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1093.75,
           "y": 173
@@ -819,7 +819,7 @@
       "time": 13.1,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1101.7,
           "y": 358.23
@@ -833,7 +833,7 @@
       "time": 13.3,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1105.98,
           "y": 302.11
@@ -847,7 +847,7 @@
       "time": 13.5,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1150.57,
           "y": 234.36
@@ -861,7 +861,7 @@
       "time": 13.7,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1152.01,
           "y": 488.2
@@ -875,7 +875,7 @@
       "time": 13.9,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1156.25,
           "y": 156.82
@@ -889,7 +889,7 @@
       "time": 14.1,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1177.28,
           "y": 472.85
@@ -903,7 +903,7 @@
       "time": 14.3,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1182.38,
           "y": 393.45
@@ -917,7 +917,7 @@
       "time": 14.5,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1184.66,
           "y": 318.45
@@ -931,7 +931,7 @@
       "time": 14.7,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1191.47,
           "y": 209.36
@@ -945,7 +945,7 @@
       "time": 14.9,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1199.43,
           "y": 278.68
@@ -959,7 +959,7 @@
       "time": 15.1,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1242.61,
           "y": 446.59
@@ -973,7 +973,7 @@
       "time": 15.3,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1247.16,
           "y": 357.95
@@ -987,7 +987,7 @@
       "time": 15.5,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1248.29,
           "y": 182.09
@@ -1001,7 +1001,7 @@
       "time": 15.7,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1268.64,
           "y": 240.23
@@ -1019,7 +1019,7 @@
       "time": 15.9,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1270.77,
           "y": 529.13
@@ -1033,7 +1033,7 @@
       "time": 16.1,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1275.57,
           "y": 479.55
@@ -1047,7 +1047,7 @@
       "time": 16.3,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1292.19,
           "y": 321.82
@@ -1061,7 +1061,7 @@
       "time": 16.5,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1292.61,
           "y": 151.41
@@ -1075,7 +1075,7 @@
       "time": 16.7,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1308.52,
           "y": 416.77
@@ -1089,7 +1089,7 @@
       "time": 16.9,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1342.05,
           "y": 303.53
@@ -1103,7 +1103,7 @@
       "time": 17.1,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1347.16,
           "y": 224.14
@@ -1117,7 +1117,7 @@
       "time": 17.3,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1353.72,
           "y": 496.17
@@ -1131,7 +1131,7 @@
       "time": 17.5,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1354.04,
           "y": 364.38
@@ -1145,7 +1145,7 @@
       "time": 17.7,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1368.75,
           "y": 538.64
@@ -1159,7 +1159,7 @@
       "time": 17.9,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1411.93,
           "y": 188.64
@@ -1173,7 +1173,7 @@
       "time": 18.1,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1416.6,
           "y": 295.88
@@ -1187,7 +1187,7 @@
       "time": 18.3,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1435.54,
           "y": 359.81
@@ -1201,7 +1201,7 @@
       "time": 18.5,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1438.07,
           "y": 445.73
@@ -1215,7 +1215,7 @@
       "time": 18.7,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1440.34,
           "y": 310.23
@@ -1229,7 +1229,7 @@
       "time": 18.9,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1468.48,
           "y": 481.65
@@ -1243,7 +1243,7 @@
       "time": 19.1,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1473.29,
           "y": 247.45
@@ -1257,7 +1257,7 @@
       "time": 19.3,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1513.07,
           "y": 413.91
@@ -1271,7 +1271,7 @@
       "time": 19.5,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1518.49,
           "y": 326.86
@@ -1285,7 +1285,7 @@
       "time": 19.700000000000003,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1533.52,
           "y": 369.32
@@ -1299,7 +1299,7 @@
       "time": 19.9,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1540.62,
           "y": 499.86
@@ -1313,7 +1313,7 @@
       "time": 20.1,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1561.93,
           "y": 458.23
@@ -1327,7 +1327,7 @@
       "time": 20.3,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1567.01,
           "y": 544.6
@@ -1341,7 +1341,7 @@
       "time": 21,
       "caption": {
         "text_en": "so",
-        "text_sp": "so",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1625.59,
           "y": 591.21
@@ -1354,7 +1354,7 @@
       "time": 22,
       "caption": {
         "text_en": "many",
-        "text_sp": "many",
+        "text_es": "muchísimas",
         "pos": {
           "x": 1683.53,
           "y": 621.67
@@ -1367,7 +1367,7 @@
       "time": 23,
       "caption": {
         "text_en": "stories",
-        "text_sp": "stories",
+        "text_es": "historias",
         "pos": {
           "x": 1777.21,
           "y": 661.5
@@ -1405,7 +1405,7 @@
           "time": 1,
           "caption": {
             "text_en": "we sent all of our negatives by mail to WASHINGTON to be developed.",
-            "text_sp": "we sent all of our negatives by mail to WASHINGTON to be developed.",
+            "text_es": "Enviamos todos nuestros negativos por correo a Washington para que los revelaran.",
             "pos": { "x": 140, "y": 3 },
             "extra": "noBack",
             "width": 203
@@ -1421,7 +1421,7 @@
           "time": 2,
           "caption": {
             "text_en": "roy stryker would have prints made of the ones he liked most and send them back.",
-            "text_sp": "roy stryker would have prints made of the ones he liked most and send them back.",
+            "text_es": "Roy stryker mandaba hacer copias de las que más le gustaban y las enviaba de regreso.",
             "pos": { "x": 208, "y": 161 },
             "extra": "noBack",
             "width": 243
@@ -1437,7 +1437,7 @@
           "time": 3,
           "caption": {
             "text_en": "we spent our evenings filling in caption books with details about each frame we shot.",
-            "text_sp": "we spent our evenings filling in caption books with details about each frame we shot.",
+            "text_es": "Nos pasábamos las tardes rellenando álbumes de fotos con detalles sobre cada fotograma que tomábamos.",
             "pos": { "x": 97, "y": 275 },
             "extra": "noBack",
             "width": 223
@@ -1453,7 +1453,7 @@
           "time": 4,
           "caption": {
             "text_en": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
-            "text_sp": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
+            "text_es": "Nosotros también escribimos largas cartas a Roy. pero parece que muchas de ellas se han perdido.",
             "pos": { "x": 215, "y": 485 },
             "extra": "noBack",
             "width": 220
@@ -1464,7 +1464,7 @@
           "time": 5,
           "caption": {
             "text_en": "if you spent just five minutes describing each photo Jack delano took in puerto rico, it’d take you 65 days.",
-            "text_sp": "if you spent just five minutes describing each photo Jack delano took in puerto rico, it’d take you 65 days.",
+            "text_es": "Si dedicaras apenas cinco minutos a describir cada foto que Jack Delano tomó en Puerto Rico, te llevaría 65 días.",
             "pos": { "x": 513, "y": 10 },
             "width": 418
           }
@@ -1474,7 +1474,7 @@
           "time": 6,
           "caption": {
             "text_en": "if you spent JUST ONE minute with every photograph in the library’s photo collection, you’d be there for more than twenty-SIX years.",
-            "text_sp": "if you spent JUST ONE minute with every photograph in the library’s photo collection, you’d be there for more than twenty-SIX years.",
+            "text_es": "Si pasaras tan solo un minuto con cada fotografía de la colección fotográfica de la biblioteca, estarías allí durante más de 26 años.",
             "pos": { "x": 575, "y": 646 },
             "width": 411
           }
@@ -1504,7 +1504,7 @@
           "time": 1,
           "caption": {
             "text_en": "this is helena zinkham, chief of the library of congress prints and photographs division.",
-            "text_sp": "this is helena zinkham, chief of the library of congress prints and photographs division.",
+            "text_es": "Esta es Helena Zinkham, jefa de la división de publicaciones y fotografías de la biblioteca del congreso.",
             "pos": { "x": 19, "y": 22 },
             "width": 278
           }
@@ -1529,7 +1529,7 @@
           "time": 2,
           "caption": {
             "text_en": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependant on how much information is attached to that photograph.",
-            "text_sp": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependant on how much information is attached to that photograph.",
+            "text_es": "Cuando alguien va a buscar una fotografía a la biblioteca del congreso, sus posibilidades de encontrarla realmente dependen de cuánta información haya adjunta a esa fotografía.",
             "pos": { "x": 491, "y": 50 },
             "extra": "noBack",
             "width": 310
@@ -1555,7 +1555,7 @@
           "time": 3,
           "caption": {
             "text_en": "every little piece of data makes an object more findable.",
-            "text_sp": "every little piece of data makes an object more findable.",
+            "text_es": "Cada pequeño dato hace que un objeto sea más localizable.",
             "pos": { "x": 830, "y": 110 },
             "extra": "noBack",
             "width": 179
@@ -1571,7 +1571,7 @@
           "time": 4,
           "caption": {
             "text_en": "our catalogers do their best to add as many details to the records as they can.",
-            "text_sp": "our catalogers do their best to add as many details to the records as they can.",
+            "text_es": "Nuestros catalogadores hacen todo lo posible por añadir tantos detalles a los registros como pueden.",
             "pos": { "x": 775, "y": 445 },
             "extra": "noBack",
             "width": 227
@@ -1587,7 +1587,7 @@
           "time": 5,
           "caption": {
             "text_en": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
-            "text_sp": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
+            "text_es": "Pero hay más de catorce millones de fotografías en la colección, y hay muy poca información en el catálogo sobre muchas de esas imágenes.",
             "pos": { "x": 505, "y": 505 },
             "extra": "noBack",
             "width": 261
@@ -1598,7 +1598,7 @@
           "time": 6,
           "caption": {
             "text_en": "What if computers could help HELENA’S TEAM to fill some of the gaps in the catalog data? this could make photos like jack’s more findable for anyone looking for images of puerto rico in the 1940s.",
-            "text_sp": "What if computers could help HELENA’S TEAM to fill some of the gaps in the catalog data? this could make photos like jack’s more findable for anyone looking for images of puerto rico in the 1940s. ",
+            "text_es": "¿Y si las computadoras pudieran ayudar al equipo de Helena a completar algunos datos faltantes del catálogo? Esto podría hacer que fotos como las de Jack fueran más fáciles de encontrar para cualquiera que busque imágenes de Puerto Rico en la década del cuarenta.",
             "pos": { "x": 546, "y": 630 },
             "width": 414
           }
@@ -1631,7 +1631,7 @@
           "time": 1.5,
           "caption": {
             "text_en": "Let's give it a try with this image.",
-            "text_sp": "Let's give it a try with this image.",
+            "text_es": "vamos a intentarlo con esta imagen.",
             "pos": { "x": 37, "y": 91 },
             "transform": "rotate(-7.6deg)",
             "width": 145
@@ -1652,7 +1652,7 @@
           "time": 2.5,
           "caption": {
             "text_en": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
-            "text_sp": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
+            "text_es": "Utilizaremos un modelo de aprendizaje automático llamado Transformador de Visión (VIT en inglés).",
             "pos": { "x": 26, "y": 171 },
             "width": 338
           }
@@ -1662,7 +1662,7 @@
           "time": 3.5,
           "caption": {
             "text_en": "The vision transformer does two things.",
-            "text_sp": "The vision transformer does two things.",
+            "text_es": "El transformador de visión hace dos cosas.",
             "pos": { "x": 47, "y": 237 },
             "transform": "rotate(3deg)",
             "width": 325
@@ -1673,7 +1673,7 @@
           "time": 4.5,
           "caption": {
             "text_en": "it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
-            "text_sp": "it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
+            "text_es": "intenta detectar elementos conocidos en la imagen  (cosas como personas, autos o flores), y  aprende el tamaño y la posición de esas cosas.",
             "pos": { "x": 119, "y": 432 },
             "transform": "rotate(-2deg)",
             "width": 356
@@ -1684,7 +1684,7 @@
           "time": 4.9,
           "caption": {
             "text_en": "It uses what it has learned from the labelled images it was trained on to generate a new caption.",
-            "text_sp": "It uses what it has learned from the labelled images it was trained on to generate a new caption.",
+            "text_es": "Utiliza lo que ha aprendido de las imágenes etiquetadas,  con las que ha sido entrenado para generar una nueva leyenda",
             "pos": { "x": 65, "y": 503 },
             "transform": "rotate(6deg)",
             "width": 239
@@ -1695,7 +1695,7 @@
           "time": 5.9,
           "caption": {
             "text_en": "sometimes the image descriptions we getfrom jack’s images of puerto rico are accurate... if a little bit unimaginative.",
-            "text_sp": "sometimes the image descriptions we getfrom jack’s images of puerto rico are accurate... if a little bit unimaginative.",
+            "text_es": "a veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
             "pos": { "x": 506, "y": 668 },
             "transform": "rotate(6deg)",
             "width": 326
@@ -1726,7 +1726,7 @@
           "time": 8,
           "caption": {
             "text_en": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
-            "text_sp": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
+            "text_es": "Sin embargo, a menudo los modelos tienen dificultades con objetos que no aparecen mucho en su material de entrenamiento (como la caña de azúcar).",
             "pos": { "x": 653, "y": 408 },
             "transform": "rotate(3deg)",
             "width": 268
@@ -1747,7 +1747,7 @@
           "time": 9,
           "caption": {
             "text_en": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
-            "text_sp": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
+            "text_es": "... y lugares que no están en su visión del mundo, como los  asentamientos irregulares.",
             "pos": { "x": 635, "y": 197 },
             "transform": "rotate(-2deg)",
             "width": 261
@@ -1758,7 +1758,7 @@
           "time": 10,
           "caption": {
             "text_en": "THESE MACHINE-GENERATED CAPTIONS COME NOWHERE NEAR THE library’s exacting STANDARDS.",
-            "text_sp": "THESE MACHINE-GENERATED CAPTIONS COME NOWHERE NEAR THE library’s exacting STANDARDS.",
+            "text_es": "estas leyendas generadas por máquinas están lejísimos de las normas de exactitud de la biblioteca.",
             "pos": { "x": 690, "y": 46 },
             "transform": "rotate(2deg)",
             "width": 261
@@ -1769,7 +1769,7 @@
           "time": 11,
           "caption": {
             "text_en": "they’re OFTEN worse than having no caption at all.",
-            "text_sp": "they’re OFTEN worse than having no caption at all.",
+            "text_es": "a menudo son peores que no tener ninguna leyenda.",
             "pos": { "x": 770, "y": 12 },
             "width": 198
           }
@@ -1793,7 +1793,7 @@
           "time": 1.5,
           "caption": {
             "text_en": "these kinds of machine learning models are OFTEN trained on a 2012 dataset called ImageNet.",
-            "text_sp": "these kinds of machine learning models are OFTEN trained on a 2012 dataset called ImageNet.",
+            "text_es": "El entrenamiento de este tipo de modelos de aprendizaje automático suelen basarse en un conjunto de datos de 2012 llamado ImageNet.",
             "pos": { "x": 54, "y": 88 },
             "width": 223
           }
@@ -1803,7 +1803,7 @@
           "time": 2.5,
           "caption": {
             "text_en": "imagenet contains 14,197,122 images, scraped from the internet.",
-            "text_sp": "imagenet contains 14,197,122 images, scraped from the internet.",
+            "text_es": "imagenet contiene 14.197.122 imágenes extraídas de Internet.",
             "pos": { "x": 103, "y": 180 },
             "width": 285
           }
@@ -1812,9 +1812,9 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
-            "text_sp": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
-            "pos": { "x": 32, "y": 533 },
+            "text_en": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
+            "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
+            "pos": { "x": 674, "y": 44 },
             "width": 271
           }
         },
@@ -1822,19 +1822,19 @@
           "type": "caption",
           "time": 4.5,
           "caption": {
-            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
-            "text_sp": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
-            "pos": { "x": 45, "y": 647 },
-            "width": 329
+            "text_en": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
+            "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada wordnet.",
+            "pos": { "x": 655, "y": 135 },
+            "width": 297
           }
         },
         {
           "type": "caption",
           "time": 5.5,
           "caption": {
-            "text_en": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
-            "text_sp": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
-            "pos": { "x": 674, "y": 44 },
+            "text_en": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
+            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del wall street journal.",
+            "pos": { "x": 32, "y": 533 },
             "width": 271
           }
         },
@@ -1842,10 +1842,10 @@
           "type": "caption",
           "time": 6.5,
           "caption": {
-            "text_en": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
-            "text_sp": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
-            "pos": { "x": 655, "y": 135 },
-            "width": 297
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
+            "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de internet (incluyendo memes y el resto), leído a través de la lente de un periódico de nueva york, escrito para operadores de bolsa de mediana edad.",
+            "pos": { "x": 45, "y": 647 },
+            "width": 329
           }
         },
         {
@@ -1853,7 +1853,7 @@
           "time": 7.5,
           "caption": {
             "text_en": "it is a model that knows a lot about cats...",
-            "text_sp": "it is a model that knows a lot about cats...",
+            "text_es": "Es un modelo que sabe mucho sobre gatos…",
             "pos": { "x": 532, "y": 647 },
             "width": 297
           }
@@ -1863,7 +1863,7 @@
           "time": 8.5,
           "caption": {
             "text_en": "and very little about puerto rico in the 1940s.",
-            "text_sp": "and very little about puerto rico in the 1940s.",
+            "text_es": "y muy poco sobre  puerto rico en la década del 40.",
             "pos": { "x": 739, "y": 702 },
             "width": 225
           }
@@ -1893,7 +1893,7 @@
           "time": 1.5,
           "caption": {
             "text_en": "instead of a model trained on RANDOM IMAGES FROM THE INTERNET, we might imagine a model trained on the thousands of images jack delano took in puerto rico, and thousands more images from the library of congress collections. a tool like this could help a lot of people...",
-            "text_sp": "tinstead of a model trained on RANDOM IMAGES FROM THE INTERNET, we might imagine a model trained on the thousands of images jack delano took in puerto rico, and thousands more images from the library of congress collections. a tool like this could help a lot of people...",
+            "text_es": "en lugar de un modelo entrenado con imágenes aleatorias de internet, podríamos imaginar un modelo entrenado con las miles de fotos que jack delano tomó en puerto rico, y miles de imágenes más de las colecciones de la biblioteca del congreso. una herramienta como esta podría ayudar a mucha gente...",
             "pos": { "x": 3, "y": 3 },
             "width": 478
           }
@@ -1903,7 +1903,7 @@
           "time": 2.5,
           "caption": {
             "text_en": "a 9 year old girl who wants to know more about how her grandparents grew up",
-            "text_sp": "a 9 year old girl who wants to know more about how her grandparents grew up",
+            "text_es": "una niña de nueve años que quiere  saber más sobre cómo crecieron sus abuelos",
             "pos": { "x": 3, "y": 339 },
             "width": 226
           }
@@ -1912,8 +1912,8 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "an old man whois trying to remember the faces of his friends",
-            "text_sp": "an old man whois trying to remember the faces of his friends",
+            "text_en": "an old man who is trying to remember the faces of his friends",
+            "text_es": "un anciano que intenta recordar las caras de sus amigos",
             "pos": { "x": 16, "y": 614 },
             "width": 126
           }
@@ -1923,7 +1923,7 @@
           "time": 4.5,
           "caption": {
             "text_en": "A researcher who’s studying latin american labor movements",
-            "text_sp": "A researcher who’s studying latin american labor movements",
+            "text_es": "Un investigador que estudia los movimientos obreros latinoamericanos",
             "pos": { "x": 293, "y": 262 },
             "width": 185
           }
@@ -1933,7 +1933,7 @@
           "time": 5.5,
           "caption": {
             "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
-            "text_sp": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
+            "text_es": "Un dibujante de cómics que  necesita una modelo de una concurrida fiesta de Reyes Magos en casa de un granjero",
             "pos": { "x": 310, "y": 638 },
             "width": 202
           }
@@ -1943,7 +1943,7 @@
           "time": 7.5,
           "caption": {
             "text_en": "it would also raise a lot of questions.",
-            "text_sp": "it would also raise a lot of questions.",
+            "text_es": "también suscitaría muchas preguntas.",
             "pos": { "x": 584, "y": 3 },
             "width": 388
           }
@@ -1958,7 +1958,7 @@
           "time": 8.5,
           "caption": {
             "text_en": "WHY is all of this KIND OF work being done by big, for-profit companies?",
-            "text_sp": "WHY is all of this KIND OF work being done by big, for-profit companies?",
+            "text_es": "¿Por qué todo este tipo de trabajo lo realizan grandes empresas con ánimo de lucro?",
             "pos": { "x": 550, "y": 45 },
             "extra": "noBack smaller",
             "width": 199
@@ -1974,7 +1974,7 @@
           "time": 9.5,
           "caption": {
             "text_en": "and why does the data always seem to get used by people who aren’t puerto rican?",
-            "text_sp": "and why does the data always seem to get used by people who aren’t puerto rican?",
+            "text_es": "¿y por qué los datos siempre parecen ser usados por personas que no son puertorriqueñas?",
             "pos": { "x": 780, "y": 52 },
             "extra": "noBack smaller",
             "width": 209
@@ -1990,7 +1990,7 @@
           "time": 10.5,
           "caption": {
             "text_en": "IT all just feels like another flavor of colonialism.",
-            "text_sp": "IT all just feels like another flavor of colonialism.",
+            "text_es": "todo esto parece ser colonialismo con otro sabor.",
             "pos": { "x": 852, "y": 232 },
             "extra": "noBack smaller",
             "width": 172
@@ -2006,7 +2006,7 @@
           "time": 12,
           "caption": {
             "text_en": "if images of MY ANCESTORS are being used to train facial recognition, what does that mean for ME?",
-            "text_sp": "if images of MY ANCESTORS are being used to train facial recognition, what does that mean for ME?",
+            "text_es": "si se utilizan imágenes de mis antepasados para entrenar el reconocimiento facial, ¿qué significa eso para mí?",
             "pos": { "x": 659, "y": 385 },
             "extra": "noBack smaller",
             "width": 210
@@ -2022,7 +2022,7 @@
           "time": 14,
           "caption": {
             "text_en": "what does it mean for my kids?",
-            "text_sp": "what does it mean for my kids?",
+            "text_es": "¿Qué  significa para  mis hijos?",
             "pos": { "x": 866, "y": 445 },
             "extra": "noBack smaller",
             "width": 116
@@ -2033,7 +2033,7 @@
           "time": 15,
           "caption": {
             "text_en": "thinking about a.I. in the context of communities, care, and responisibility is hard, but necessary.",
-            "text_sp": "thinking about a.I. in the context of communities, care, and responisibility is hard, but necessary.",
+            "text_es": "Es difícil mas necesario pensar en la inteligencia artificial en el contexto de las comunidades, el cuidado y la responsabilidad.",
             "pos": { "x": 571, "y": 652 },
             "width": 387
           }
@@ -2043,7 +2043,7 @@
           "time": 16,
           "caption": {
             "text_en": "we might ask our friend jack delano for some advice...",
-            "text_sp": "we might ask our friend jack delano for some advice...",
+            "text_es": "podríamos pedirle consejo a nuestro amigo jack delano…",
             "pos": { "x": 695, "y": 699 },
             "width": 277
           }
@@ -2077,7 +2077,7 @@
           "time": 1.5,
           "caption": {
             "text_en": "there’s no way we could have known about the ways our photographs might be used eighty years in the future.",
-            "text_sp": "there’s no way we could have known about the ways our photographs might be used eighty years in the future.",
+            "text_es": "jamás podríamos haber imaginado cómo se utilizarían nuestras fotografías ochenta años más tarde.",
             "pos": { "x": 122, "y": 88 },
             "extra": "noBack smaller",
             "width": 227
@@ -2093,7 +2093,7 @@
           "time": 2.5,
           "caption": {
             "text_en": "machine labeling? facial recognition? None of that would have even occurred to us.",
-            "text_sp": "machine labeling? facial recognition? None of that would have even occurred to us.",
+            "text_es": "¿etiquetado automático? ¿reconocimiento facial? Nada de eso se nos habría ocurrido.",
             "pos": { "x": 539, "y": 166 },
             "extra": "noBack",
             "width": 223
@@ -2109,7 +2109,7 @@
           "time": 3.5,
           "caption": {
             "text_en": "But we always did have one principal that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
-            "text_sp": "But we always did have one principal that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
+            "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
             "pos": { "x": 762, "y": 70 },
             "extra": "noBack",
             "width": 219
@@ -2125,7 +2125,7 @@
           "time": 4.5,
           "caption": {
             "text_en": "And that was to always treat our subjects with respect.",
-            "text_sp": "And that was to always treat our subjects with respect.",
+            "text_es": "Y era tratar siempre a nuestros temas con respeto.",
             "pos": { "x": 560, "y": 43 },
             "extra": "noBack",
             "width": 177
@@ -2150,7 +2150,7 @@
           "type": "caption",
           "caption": {
             "text_en": "respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
-            "text_es": "respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
+            "text_es": "respeto significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
             "pos": { "x": 22, "y": 30 },
             "width": 327
           }
@@ -2160,7 +2160,7 @@
           "type": "caption",
           "caption": {
             "text_en": "it means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
-            "text_es": "it means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
+            "text_es": "significa imaginar formas en que estas tecnologías podrían ayudar a las personas y a las comunidades, sin perder de vista los riesgos, los daños y las consecuencias inesperadas.",
             "pos": { "x": 14, "y": 117 },
             "width": 245
           }
@@ -2170,7 +2170,7 @@
           "type": "caption",
           "caption": {
             "text_en": "it means coming together to talk.",
-            "text_es": "it means coming together to talk.",
+            "text_es": "significa juntarse para hablar.",
             "pos": { "x": 301, "y": 295 },
             "width": 170
           }
@@ -2180,7 +2180,7 @@
           "type": "caption",
           "caption": {
             "text_en": "to listen.",
-            "text_es": "to listen.",
+            "text_es": "para escuchar.",
             "pos": { "x": 638, "y": 139 },
             "width": 99
           }
@@ -2190,7 +2190,7 @@
           "type": "caption",
           "caption": {
             "text_en": "to learn.",
-            "text_es": "to learn.",
+            "text_es": "para aprender.",
             "pos": { "x": 449, "y": 370 },
             "width": 99
           }
@@ -2200,7 +2200,7 @@
           "type": "caption",
           "caption": {
             "text_en": "to collaborate.",
-            "text_es": "to collaborate.",
+            "text_es": "para colaborar.",
             "pos": { "x": 817, "y": 234 },
             "width": 153
           }
@@ -2210,7 +2210,7 @@
           "type": "caption",
           "caption": {
             "text_en": "to dream.",
-            "text_es": "to dream.",
+            "text_es": "para soñar.",
             "pos": { "x": 786, "y": 635 },
             "width": 140
           }

@@ -50,9 +50,9 @@ to this section's matching END comment to see page-specific styles.
 
 @font-face {
   font-family: "Back Issues BB";
-  src: url("https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/BackIssuesBB.woff2?v=1714405759705")
+  src: url("type/PlotHolesBB-Regular.woff2")
       format("woff2"),
-    url("https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/BackIssuesBB.woff?v=1714405726785")
+    url("type/PlotHolesBB-Regular.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
@@ -225,11 +225,16 @@ video {
   position:relative;
   margin:auto;
   width:60vw;
-  min-width:500px;
+  min-width:390px;
   height:100%;
   overflow-x:visible;
   overflow-y:scroll;
   padding-bottom:100vh;
+}
+
+.peopleHolder {
+  width: 100%;
+  height:auto;
 }
 
 .title {

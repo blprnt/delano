@@ -254,8 +254,12 @@ function processQ(_q, _elt) {
 function setLanguage(_code) {
   let captions = selectAll(".caption");
   captions.forEach((c) => {
-    console.log(c);
-    c.html(c.elt.params["text_" + _code]);
+    try {
+     console.log(c);
+      c.html(c.elt.params["text_" + _code]);
+    } catch (e) {
+
+    }
   });
   lang = _code;
 }
@@ -324,6 +328,7 @@ function clearComic() {
 
 function addCaption(_params, _elt) {
   let e = createDiv(_params["text_" + lang]);
+  console.log("text_" + lang)
   e.parent(_elt.p5.capWrap);
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
