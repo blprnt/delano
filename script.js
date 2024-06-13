@@ -8,6 +8,7 @@ let currentVideo;
 let currentPage = -1;
 let currentQ = 0;
 let startTime;
+let lastTime;
 
 let scroller;
 
@@ -45,9 +46,11 @@ function setup() {
     //console.log(d);
     //d.class("frame scrollStep");
     d.q = q;
+    q.time = 0;
     //select(".content").child(d);
   });
 
+  lastTime = new Date();
   init();
 }
 
@@ -77,29 +80,50 @@ function doTimer() {
 
   let frames = document.querySelectorAll(".frame");
 
-
   let elapsed = (now.getTime() - startTime.getTime()) / 1000;
+  let ft = (now.getTime() - lastTime.getTime()) / 1000;
+
+  let pages = document.querySelectorAll(".page");
+  pages.forEach(p => {
+    let isIn = isElementInViewport(p);
+    if (isIn) {
+      p.time += ft;
+      if (p.currentQ < p.q.queues.length) {
+        if (p.time > parseFloat(p.q.queues[p.currentQ].time)) {
+          processQ(p.q.queues[p.currentQ], p);
+          p.currentQ++;
+        }
+      }
+    }
+  });
+
+  lastTime = now;
+
+  /*
   if (currentQ < qPage.queues.length) {
     if (elapsed > parseFloat(qPage.queues[currentQ].time)) {
       processQ(qPage.queues[currentQ]);
       currentQ++;
     }
   }
+  */
+}
+
+function isElementInViewport (el) {
+
+    // Special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
+    }
+
+    var rect = el.getBoundingClientRect();
+
+    return (
+        (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight)) || rect.bottom >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
 }
 
 function loadVideoTrans(_url1, _url2, _offset) {
-  /*
-  
-  <video width="600" height="100%" autoplay loop muted playsinline>
-  <source 
-    src="https://rotato.netlify.app/alpha-demo/movie-hevc.mov" 
-    type='video/mp4; codecs="hvc1"'>
-  <source 
-    src="https://rotato.netlify.app/alpha-demo/movie-webm.webm" 
-    type="video/webm">
-  </video>
-
-  */
   
   console.log("load vid trans");
   let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
@@ -120,57 +144,37 @@ function loadVideoTrans(_url1, _url2, _offset) {
 }
 
 
-function addBubbles(_i) {
+function addBubbles(_i, _elt) {
 
   //caption wrapper
 
-  if (currentPageElement.bubbleWrap) {
+  if (_elt.p5.bubbleWrap) {
     console.log("Remove wrap");
-    currentPageElement.bubbleWrap.remove();
+    _elt.p5.bubbleWrap.remove();
   }
 
   let bubbleWrap = createDiv();
   bubbleWrap.class("bubblewrap");
-  bubbleWrap.parent(currentPageElement);
-  currentPageElement.bubbleWrap = bubbleWrap;
+  bubbleWrap.parent(_elt.p5);
+  _elt.p5.bubbleWrap = bubbleWrap;
 
-  console.log("Add bubbles" + _i);
-  console.log(currentPageElement.q.bubbleSet[_i])
-
-  let bi = createImg(currentPageElement.q.bubbleSet[_i].url);
-  currentPageElement.bubbleWrap.child(bi);
+  let bi = createImg(_elt.p5.q.bubbleSet[_i].url);
+  _elt.p5.bubbleWrap.child(bi);
 }
 
-function loadVideo(_url) {
-
-  /*
-let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
-  <source 
-    src="` + _url1 + `" 
-    type="video/mp4; codecs="hvc1"">
-  <source 
-    src="` + _url2 + `" 
-    type="video/webm">
-  </video>`);
-  */
+function loadVideo(_url, _elt) {
 
   console.log("load vid ");
   let vh = createDiv();
   vh.class("videoWrapper");
-  vh.parent(currentPageElement);
+  vh.parent(_elt.p5);
 
   let v = createDiv(`<video id="currentvideo" muted autoplay playsinline>
   <source 
     src="` + _url + `" 
     type="video/mp4; codecs="hvc1"">
   </video>`);
-  /*
-  let v = createVideo(_url, function _vh(_v) {
-    console.log(v);
-    v.elt.muted = true;
-    v.play();
-  });
-  */
+
   v.elt.querySelector('#currentvideo').play();
   v.parent(vh);
 
@@ -179,13 +183,13 @@ let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
 
 }
 
-function loadImageQ(_q) {
+function loadImageQ(_q, _elt) {
   console.log("load image");
   
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
-  vh.parent(currentPageElement);
-  //vh.style("background-image", "url(" + _q.url + ")");
+  vh.parent(_elt.p5);
+
   if (_q.width) {
     vh.style("width", _q.width + "px");
     vh.style("height", _q.height + "px");
@@ -203,52 +207,47 @@ function loadImageQ(_q) {
   
 }
 
-function imageDrift(_q) {
-  let bi = currentPageElement.elt.querySelector(".imageWrapper");
-  console.log("Image drift");
-  console.log(bi);
+function imageDrift(_q, _elt) {
+  let bi = _elt.querySelector(".imageWrapper");
   gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
 }
 
-function capDrift(_q) {
-  let bi = currentPageElement.elt.querySelector(".capwrap");
-  let bw = currentPageElement.elt.querySelector(".bubblewrap");
-  let vi = currentPageElement.elt.querySelector(".videoWrapperTrans");
-  console.log("Caption drift");
-  console.log(bi);
-  console.log(bw);
+function capDrift(_q, _elt) {
+  let bi = _elt.querySelector(".capwrap");
+  let bw = _elt.querySelector(".bubblewrap");
+  let vi = _elt.querySelector(".videoWrapperTrans");
   gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
   gsap.to(vi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
   gsap.to(bi, { left: "-=60%", ease: "none", duration: 10, delay: 10 });
   gsap.to(bw, { left: "-=600px", ease: "none", duration: 10, delay: 10 });
 }
 
-function processQ(_q) {
+function processQ(_q, _elt) {
   let t = _q.type;
   switch (t) {
     case "caption":
-      addCaption(_q.caption);
+      addCaption(_q.caption, _elt);
       break;
     case "bubbles":
-      addBubbles(_q.index);
+      addBubbles(_q.index, _elt);
       break;
     case "videoLoad":
-      loadVideo(_q.url);
+      loadVideo(_q.url, _elt);
       break;
     case "videoLoadTrans":
-      loadVideoTrans(_q.url, _q.url2, _q.offset);
+      loadVideoTrans(_q.url, _q.url2, _q.offset, _elt);
       break;
     case "videoPlay":
       currentVideo.play();
       break;
     case "imageLoad":
-      loadImageQ(_q);
+      loadImageQ(_q, _elt);
       break;
     case "imageDrift":
-      imageDrift(_q);
+      imageDrift(_q, _elt);
       break;
     case "capDrift":
-      capDrift(_q);
+      capDrift(_q, _elt);
       break;
   }
 }
@@ -287,7 +286,7 @@ function toPage(_q, _isStart) {
 
     let cw = select(".comicwrapper");
     let yt = offset(select(".frame").elt).top;
-    console.log("GO TO:" + yt);
+
     gsap.to(cw.elt, { top: yt, duration: 0 });
     gsap.to(select(".shade").elt, { opacity: 1 });
     gsap.to(cw.elt, {
@@ -302,9 +301,10 @@ function toPage(_q, _isStart) {
   currentPageElement.parent(wrapper);
   currentPageElement.class("page");
   currentPageElement.q = _q;
-
-  
-
+  currentPageElement.elt.q = _q;
+  currentPageElement.elt.time = 0;
+  currentPageElement.elt.currentQ = 0;
+  currentPageElement.elt.p5 = currentPageElement;
 
   //caption wrapper
   let capWrap = createDiv();
@@ -323,9 +323,9 @@ function clearComic() {
   wrapper.html("");
 }
 
-function addCaption(_params) {
+function addCaption(_params, _elt) {
   let e = createDiv(_params["text_" + lang]);
-  e.parent(currentPageElement.capWrap);
+  e.parent(_elt.p5.capWrap);
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
 
@@ -443,7 +443,7 @@ function handleStepEnter(response) {
 
     timing = true;
     response.element.timing = true;
-    //console.log(response.element.q);
+
     if (!response.element.played) {
       toPage(response.element.q, isStart);
       response.element.played = true;
@@ -453,7 +453,6 @@ function handleStepEnter(response) {
 }
 
 function handleStepExit(response) {
-  // response = { element, direction, index }
   console.log("EXIT" + response.index);
   if (response.index == 8) {
     console.log(timing);
@@ -471,7 +470,6 @@ function handleStepExit(response) {
         i++;
       });
       gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, delay: 1 });
-      //toPage(qSheet.queues[0]);
     }
   }
 

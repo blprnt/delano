@@ -14,7 +14,7 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "https://cdn.glitch.me/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Scene_1_4-3.mp4?v=1714408858376"
+          "url": "video/farmhouse.mp4"
         },
         {
           "time": 1.0,
@@ -74,7 +74,7 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Dalano_Ballroom.mp4?v=1714576062937"
+          "url": "video/ballroom.mp4"
         },
         {
           "time": 3.0,
@@ -188,7 +188,7 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Tobacco%20(1).mp4?v=1714579703119"
+          "url": "video/tobacco.mp4"
         },
         {
           "time": 0.5,
@@ -315,7 +315,7 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "https://cdn.glitch.me/0b4cb25c-9c9e-4557-837e-1a280c87accf/RAILYARD.mov?v=1716665811209"
+          "url": "video/railyard.mp4"
         },
         {
           "time": 4.5,
@@ -526,8 +526,8 @@
     {
           "time": 0.2,
           "type": "videoLoadTrans",
-          "url": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Walking_ALPHA_6.6.24-vp9-chrome.webm?v=1718035914392",
-          "url2": "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/Delano_Walking_ALPHA_6.6.24-hevc-safari.mp4?v=1718035920534",
+          "url": "video/walking.webm",
+          "url2": "video/walking.mp4",
           "offset": {
             "x":2920,
             "y":0
@@ -2143,7 +2143,7 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/Delano_Roundtable.mp4"
+          "url": "video/community.mp4"
         },
         {
           "time": 3.0,
