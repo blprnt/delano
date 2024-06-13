@@ -159,7 +159,7 @@ let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
   vh.class("videoWrapper");
   vh.parent(currentPageElement);
 
-  let v = createDiv(`<video muted autoplay playsinline>
+  let v = createDiv(`<video id="currentvideo" muted autoplay playsinline>
   <source 
     src="` + _url + `" 
     type="video/mp4; codecs="hvc1"">
@@ -171,7 +171,7 @@ let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
     v.play();
   });
   */
-  v.play();
+  v.elt.querySelector('#currentvideo').play();
   v.parent(vh);
 
   vh.style("opacity", 0);
