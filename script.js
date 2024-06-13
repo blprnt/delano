@@ -44,7 +44,7 @@ function setup() {
     let d = document.querySelector("#frame" + q.pageNum);
     d.q = q;
     q.time = 0;
-    
+
   });
 
   lastTime = new Date();
@@ -70,6 +70,7 @@ function resetTimer() {
   startTime = new Date();
   timing = true;
   currentQ = 0;
+  lastTime = new Date();
 }
 
 function doTimer() {
@@ -441,6 +442,7 @@ function handleStepEnter(response) {
 
     timing = true;
     response.element.timing = true;
+    lastTime = new Date();
 
     if (!response.element.played) {
       toPage(response.element.q, isStart);
