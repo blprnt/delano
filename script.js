@@ -40,15 +40,11 @@ function setup() {
   qSheet.queues = qSheet.queues.slice(bump);
 
   qSheet.queues.forEach((q) => {
-    //let d = createDiv();
-    console.log(q);
+
     let d = document.querySelector("#frame" + q.pageNum);
-    //console.log("#frame" + q.pageNum)
-    //console.log(d);
-    //d.class("frame scrollStep");
     d.q = q;
     q.time = 0;
-    //select(".content").child(d);
+    
   });
 
   lastTime = new Date();
@@ -484,6 +480,7 @@ function handleStepExit(response) {
 function init() {
   console.log("init");
   scroller = scrollama();
+  console.log(scroller);
   // 1. setup the scroller with the bare-bones options
   // 		this will also initialize trigger observations
   // 2. bind scrollama event handlers (this can be chained like below)
