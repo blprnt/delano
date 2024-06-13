@@ -1528,7 +1528,7 @@
           "type": "caption",
           "time": 2,
           "caption": {
-            "text_en": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependant on how much information is attached to that photograph.",
+            "text_en": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.",
             "text_es": "Cuando alguien va a buscar una fotografía a la biblioteca del congreso, sus posibilidades de encontrarla realmente dependen de cuánta información haya adjunta a esa fotografía.",
             "pos": { "x": 491, "y": 50 },
             "extra": "noBack",
@@ -2108,7 +2108,7 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "But we always did have one principal that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
+            "text_en": "But we always did have one principle that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
             "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
             "pos": { "x": 762, "y": 70 },
             "extra": "noBack",
