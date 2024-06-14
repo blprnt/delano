@@ -22,8 +22,6 @@ let piled3 = false;
 
 let xml;
 
-let bump = 0;
-
 let illiFactor = 1440.0 / 981.0;
 
 function preload() {
@@ -32,29 +30,38 @@ function preload() {
 }
 
 function setup() {
-  console.log("setup");
+  //Used to make the q page for the step down scene
   //parseSpread(xml);
+
   wrapper = select(".comic");
-  let i = 10;
 
-  qSheet.queues = qSheet.queues.slice(bump);
-
+  //Run through the q sheet and make elements for each, and set up timers
   qSheet.queues.forEach((q) => {
 
     let d = document.querySelector("#frame" + q.pageNum);
     d.q = q;
     q.time = 0;
 
+    let p = processPage(q, d);
+    processQ(q.queues[0], p);
+    q.queues.shift();
+    p.currentQ++;
+
   });
 
+  //Set the timer value - this gets set again so may be redundant but I'm leaving it for now
   lastTime = new Date();
+
+  //Initialize the scroll library
   init();
 }
 
 function draw() {
   if (timing) {
-    doTimer();
+    
   }
+
+  doTimer();
 }
 
 function mousePressed() {}
@@ -69,26 +76,24 @@ function keyPressed() {
 function resetTimer() {
   startTime = new Date();
   timing = true;
-  currentQ = 0;
   lastTime = new Date();
 }
 
 function doTimer() {
   let now = new Date();
-
-  let frames = document.querySelectorAll(".frame");
-
-  let elapsed = (now.getTime() - startTime.getTime()) / 1000;
   let ft = (now.getTime() - lastTime.getTime()) / 1000;
 
   let pages = document.querySelectorAll(".page");
   pages.forEach(p => {
     let isIn = isElementInViewport(p);
     if (isIn) {
+      console.log("IN");
       p.time += ft;
       if (p.currentQ < p.q.queues.length) {
         if (p.time > parseFloat(p.q.queues[p.currentQ].time)) {
-          processQ(p.q.queues[p.currentQ], p);
+          processQ(p.q.queues[p.currentQ], p.p5);
+          console.log(p.p5);
+          console.log(p.q.queues[p.currentQ]);
           p.currentQ++;
         }
       }
@@ -97,22 +102,9 @@ function doTimer() {
 
   lastTime = now;
 
-  /*
-  if (currentQ < qPage.queues.length) {
-    if (elapsed > parseFloat(qPage.queues[currentQ].time)) {
-      processQ(qPage.queues[currentQ]);
-      currentQ++;
-    }
-  }
-  */
 }
 
 function isElementInViewport (el) {
-
-    // Special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
-    }
 
     var rect = el.getBoundingClientRect();
 
@@ -121,10 +113,10 @@ function isElementInViewport (el) {
     );
 }
 
-function loadVideoTrans(_url1, _url2, _offset) {
+function loadVideoTrans(_url1, _url2, _offset, _elt) {
   
   console.log("load vid trans");
-  let vh = createDiv(`<video id="walkers" width="600" muted playsinline>
+  let vh = createDiv(`<video id="walkers" muted playsinline>
   <source 
     src="` + _url1 + `" 
     type="video/mp4; codecs="hvc1"">
@@ -136,9 +128,9 @@ function loadVideoTrans(_url1, _url2, _offset) {
   let sf = (windowHeight / qPage.backDims.height) * illiFactor;
   vh.style("left", round(1920 * 0.5 * sf) + "px");
   
-  vh.parent(currentPageElement);
+  vh.parent(_elt);
   
-  currentVideo = document.querySelector("#walkers");
+  _elt.mainVideo = document.querySelector("#walkers");
 }
 
 
@@ -146,18 +138,21 @@ function addBubbles(_i, _elt) {
 
   //caption wrapper
 
-  if (_elt.p5.bubbleWrap) {
+  if (_elt.bubbleWrap) {
     console.log("Remove wrap");
-    _elt.p5.bubbleWrap.remove();
+    _elt.bubbleWrap.remove();
   }
+
+  let sf = (windowHeight / qPage.backDims.height) * illiFactor;
 
   let bubbleWrap = createDiv();
   bubbleWrap.class("bubblewrap");
-  bubbleWrap.parent(_elt.p5);
-  _elt.p5.bubbleWrap = bubbleWrap;
+  bubbleWrap.parent(_elt.capWrap);
+  bubbleWrap.style("transform", `scale(` + sf + `)`);
+  _elt.bubbleWrap = bubbleWrap;
 
-  let bi = createImg(_elt.p5.q.bubbleSet[_i].url);
-  _elt.p5.bubbleWrap.child(bi);
+  let bi = createImg(_elt.q.bubbleSet[_i].url, 'speech bubbles');
+  _elt.bubbleWrap.child(bi);
 }
 
 function loadVideo(_url, _elt) {
@@ -165,19 +160,22 @@ function loadVideo(_url, _elt) {
   console.log("load vid ");
   let vh = createDiv();
   vh.class("videoWrapper");
-  vh.parent(_elt.p5);
+  vh.parent(_elt);
+  _elt.mediaWrap = vh;
 
-  let v = createDiv(`<video id="currentvideo" muted autoplay playsinline>
+  let v = createDiv(`<video id="currentvideo" muted playsinline>
   <source 
     src="` + _url + `" 
     type="video/mp4; codecs="hvc1"">
   </video>`);
 
-  v.elt.querySelector('#currentvideo').play();
+  //v.elt.querySelector('#currentvideo').play();
   v.parent(vh);
 
   vh.style("opacity", 0);
   gsap.to(vh.elt, {opacity:1, duration:2});
+
+  _elt.mainVideo = v.elt.querySelector('#currentvideo');
 
 }
 
@@ -186,8 +184,8 @@ function loadImageQ(_q, _elt) {
   
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
-  vh.style("max-width", ((windowHeight / 1440) * windowWidth) + "px");
-  vh.parent(_elt.p5);
+  //vh.style("max-width", ((windowHeight / 1440) * windowWidth) + "px");
+  vh.parent(_elt);
 
   if (_q.width) {
     //vh.style("width", _q.width + "px");
@@ -196,6 +194,8 @@ function loadImageQ(_q, _elt) {
    if (_q.pos) {
     let sf = (windowHeight / qPage.backDims.height) * illiFactor;
     vh.position(_q.pos.x * sf, _q.pos.y * sf);
+   } else {
+    _elt.mediaWrap = vh;
    }
    if (_q.animate) {
     vh.style("opacity", 0);
@@ -207,17 +207,17 @@ function loadImageQ(_q, _elt) {
 }
 
 function imageDrift(_q, _elt) {
-  let bi = _elt.querySelector(".imageWrapper");
-  gsap.to(bi, { left: "-=100%", ease: "none", duration: 10, delay: 10 });
+  let bi = _elt.elt.querySelector(".imageWrapper");
+  gsap.to(bi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
 }
 
 function capDrift(_q, _elt) {
-  let bi = _elt.querySelector(".capwrap");
-  let bw = _elt.querySelector(".bubblewrap");
-  let vi = _elt.querySelector(".videoWrapperTrans");
+  let bi = _elt.elt.querySelector(".capwrap");
+  let bw = _elt.elt.querySelector(".bubblewrap");
+  let vi = _elt.elt.querySelector(".videoWrapperTrans");
   gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
-  gsap.to(vi, { left: "-=100%", ease: "none", duration: 10, delay: 10 });
-  gsap.to(bi, { left: "-=100%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(vi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(bi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
   gsap.to(bw, { left: "-=600px", ease: "none", duration: 10, delay: 10 });
 }
 
@@ -237,7 +237,8 @@ function processQ(_q, _elt) {
       loadVideoTrans(_q.url, _q.url2, _q.offset, _elt);
       break;
     case "videoPlay":
-      currentVideo.play();
+      console.log(_elt.mainVideo);
+      _elt.mainVideo.play();
       break;
     case "imageLoad":
       loadImageQ(_q, _elt);
@@ -283,9 +284,32 @@ function offset(el) {
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
 }
 
+
+function processPage(_q, _frame) {
+  let pe = createDiv();
+  pe.parent(_frame);
+  pe.class("page");
+  pe.q = _q;
+  pe.elt.q = _q;
+  pe.elt.time = 0;
+  pe.elt.currentQ = 0;
+  pe.elt.p5 = pe;
+
+  //caption wrapper
+  let capWrap = createDiv();
+  capWrap.class("capwrap");
+  capWrap.parent(pe);
+  pe.capWrap = capWrap;
+
+  gsap.to(pe.elt, { opacity: 1 });
+
+  qPage = _q;
+
+  return(pe);
+}
+
 function toPage(_q, _isStart) {
   if (_isStart) {
-    //wrapper.position(0, 0, "relative");
 
     let cw = select(".comicwrapper");
     let yt = offset(select(".frame").elt).top;
@@ -328,14 +352,15 @@ function clearComic() {
 
 function addCaption(_params, _elt) {
   let e = createDiv(_params["text_" + lang]);
-  console.log("text_" + lang)
-  e.parent(_elt.p5.capWrap);
+  //console.log(_elt.capWrap);
+  e.parent(_elt.capWrap);
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
 
   //calculate scalefactor
   
   let sf = (windowHeight / qPage.backDims.height) * illiFactor;
+  console.log(sf);
 
   e.position(_params.pos.x * sf, _params.pos.y * sf);
   e.style("width", _params.width + "px");
@@ -352,7 +377,12 @@ function addCaption(_params, _elt) {
 // scrollama event handlers
 function handleStepEnter(response) {
   //console.log(response);
-  console.log("ENTER" + response.index);
+  //console.log("ENTER" + response.index);
+
+  if (response.index < 9) {
+    hideComic();
+  }
+
   if (response.index == 1) {
     gsap.to(document.querySelector("#mcclellanCaption"), {
       opacity: 1,
@@ -402,36 +432,12 @@ function handleStepEnter(response) {
     }
   }
 
-  if (response.index == 7) {
-        gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0 });
-  }
-
-  //Hide comic on up scroll
-  if (response.index == 8) {
-    if (timing) {
-      timing = false;
-      gsap.to(document.querySelector(".shade"), {
-        opacity: 0,
-        duration: 1,
-      });
-
-      let i = 0;
-      document.querySelectorAll(".pile2").forEach((c) => {
-        gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.1, top: "+=50px" });
-        i++;
-      });
-      gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0 });
-    }
+  if (response.index == 6) {
+        gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 4 });
   }
 
   if (response.index == 22) {
-    if (timing) {
-      timing = false;
-      gsap.to(document.querySelector(".shade"), {
-        opacity: 0,
-        duration: 1,
-      });
-    }
+    hideComic();
   }
 
   if (response.index == 23) {
@@ -443,51 +449,49 @@ function handleStepEnter(response) {
   }
 
   if (response.element.classList.contains("frame")) {
-    let isStart = (!timing);
-
+    if (document.querySelector("#frameset").style.opacity == 0) {
+      gsap.to(document.querySelector("#frameset"), { opacity: 1, delay: 0 });
+    }
+    console.log("ENTER FRAME");
     timing = true;
     response.element.timing = true;
     lastTime = new Date();
-
-    if (!response.element.played) {
-      toPage(response.element.q, isStart);
-      response.element.played = true;
-    }
-    
   }
 }
 
 function handleStepExit(response) {
-  console.log("EXIT" + response.index);
-  if (response.index == 8) {
-    console.log(timing);
-    if (!timing) {
-      //Start timing and show media holder
-      gsap.to(document.querySelector(".comicwrapper"), {
-        opacity: 1,
-        duration: 5,
-      });
-      //Hide captions
-      let times = [0, 0.5, 1, 2, 3];
-      let i = 0;
-      document.querySelectorAll(".pile2").forEach((c) => {
-        gsap.to(c, { opacity: 0, delay: times[i], top: "-=50px" });
-        i++;
-      });
-      gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, delay: 1 });
-    }
-  }
-
+  console.log("EXIT:" + response.index);
   if (response.element.classList.contains("frame")) {
     response.element.timing = false;
   }
+
+  if (response.index == 8) {
+        gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, top:"-=100", delay: 0 });
+  }
+}
+
+function hideComic() {
+  if (timing) {
+      timing = false;
+      gsap.to(document.querySelector(".shade"), {
+        opacity: 0,
+        duration: 1,
+      });
+
+      let i = 0;
+      document.querySelectorAll(".pile2").forEach((c) => {
+        gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.1});
+        i++;
+      });
+
+      gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0 });
+    }
 }
 
 //Scrolling stuff
 function init() {
   console.log("init");
   scroller = scrollama();
-  console.log(scroller);
   // 1. setup the scroller with the bare-bones options
   // 		this will also initialize trigger observations
   // 2. bind scrollama event handlers (this can be chained like below)

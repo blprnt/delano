@@ -17,6 +17,10 @@
           "url": "video/farmhouse.mp4"
         },
         {
+          "time": 0.9,
+          "type": "videoPlay"
+        },
+        {
           "time": 1.0,
           "type": "caption",
           "caption": {
@@ -57,7 +61,7 @@
           "caption": {
             "text_en": "This is <strong>Jack Delano</strong>",
             "text_es": "Este es Jack Delano",
-            "pos": { "x": 825, "y": 220 },
+            "pos": { "x": 850, "y":200 },
             "extra":"noBack",
             "width": 148
           }
@@ -75,6 +79,10 @@
           "time": 0,
           "type": "videoLoad",
           "url": "video/ballroom.mp4"
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
         },
         {
           "time": 3.0,
@@ -189,6 +197,10 @@
           "time": 0,
           "type": "videoLoad",
           "url": "video/tobacco.mp4"
+        },
+        {
+          "time": 0.4,
+          "type": "videoPlay"
         },
         {
           "time": 0.5,
@@ -318,6 +330,10 @@
           "url": "video/railyard.mp4"
         },
         {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
           "time": 4.5,
           "type": "caption",
           "caption": {
@@ -389,7 +405,7 @@
           "caption": {
             "text_en": "THIS WAS THE START OF A YEARs-long project THAT WOULD RESULT IN SOME OF THE most iconic and  important images OF THE ERA.",
             "text_es": "Este fue el comienzo de un proyecto, el cual duró varios años, que daría como resultado algunas de las imágenes más icónicas e importantes de la época.",
-            "pos": { "x": 805, "y": 466 },
+            "pos": { "x": 835, "y": 425 },
             "extra":"noBackArrow trainSmall",
             "transform": "rotate(4.65deg)",
             "width": 200
@@ -1406,8 +1422,8 @@
           "caption": {
             "text_en": "we sent all of our negatives by mail to WASHINGTON to be developed.",
             "text_es": "Enviamos todos nuestros negativos por correo a Washington para que los revelaran.",
-            "pos": { "x": 140, "y": 3 },
-            "extra": "noBack",
+            "pos": { "x": 200, "y": -4 },
+            "extra": "noBack trainSmall",
             "width": 203
           }
         },
@@ -1422,8 +1438,8 @@
           "caption": {
             "text_en": "roy stryker would have prints made of the ones he liked most and send them back.",
             "text_es": "Roy stryker mandaba hacer copias de las que más le gustaban y las enviaba de regreso.",
-            "pos": { "x": 208, "y": 161 },
-            "extra": "noBack",
+            "pos": { "x": 255, "y": 150 },
+            "extra": "noBack trainSmall",
             "width": 243
           }
         },
@@ -1438,8 +1454,8 @@
           "caption": {
             "text_en": "we spent our evenings filling in caption books with details about each frame we shot.",
             "text_es": "Nos pasábamos las tardes rellenando álbumes de fotos con detalles sobre cada fotograma que tomábamos.",
-            "pos": { "x": 97, "y": 275 },
-            "extra": "noBack",
+            "pos": { "x": 150, "y": 255 },
+            "extra": "noBack trainSmall",
             "width": 223
           }
         },
@@ -1454,8 +1470,8 @@
           "caption": {
             "text_en": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
             "text_es": "Nosotros también escribimos largas cartas a Roy. pero parece que muchas de ellas se han perdido.",
-            "pos": { "x": 215, "y": 485 },
-            "extra": "noBack",
+            "pos": { "x": 270, "y": 460 },
+            "extra": "noBack trainSmall",
             "width": 220
           }
         },
@@ -2144,6 +2160,10 @@
           "time": 0,
           "type": "videoLoad",
           "url": "video/community.mp4"
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
         },
         {
           "time": 3.0,
