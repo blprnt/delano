@@ -49,7 +49,7 @@ to this section's matching END comment to see page-specific styles.
 }
 
 @font-face {
-  font-family: "Back Issues BB";
+  font-family: "Plot Holes BB";
   src: url("type/PlotHolesBB-Regular.woff2")
       format("woff2"),
     url("type/PlotHolesBB-Regular.woff")
@@ -119,7 +119,7 @@ video {
   background-color: white;
   border: 1px solid black;
   padding: 16px;
-  font-family: "Back Issues BB";
+  font-family: "Plot Holes BB";
   color:black;
   opacity:0;
   z-index: 5;
@@ -174,7 +174,7 @@ video {
   width:90vw;
   min-width:1024px;
   */
-  background-color: orange;
+  background-color: #121212;
   height:100vh;
   overflow:visible;
   z-index:1;
