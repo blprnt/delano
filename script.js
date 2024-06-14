@@ -312,7 +312,7 @@ function addCaption(_params, _elt) {
   //calculate scalefactor
   let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
 
-  e.position(_params.pos.x * sf, _params.pos.y * sf);
+  e.position(_params.pos.x * sf, _params.pos.y * sf, "relative");
   e.style("width", _params.width + "px");
 
   let trans = "scale(" + sf + ")";
