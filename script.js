@@ -306,7 +306,8 @@ function addCaption(_params, _elt) {
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
 
-  console.log(e);
+
+  console.log(_elt.capWrap);
 
   //calculate scalefactor
   let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
