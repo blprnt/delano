@@ -208,7 +208,7 @@ function processQ(_q, _elt) {
   let t = _q.type;
   switch (t) {
     case "caption":
-      //addCaption(_q.caption, _elt);
+      addCaption(_q.caption, _elt);
       break;
     case "bubbles":
       addBubbles(_q.index, _elt);
