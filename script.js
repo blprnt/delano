@@ -306,7 +306,7 @@ function addCaption(_params, _elt) {
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
 
-  console.log("1.1");
+  console.log("1.2");
   console.log(_elt.capWrap);
 
   //calculate scalefactor
