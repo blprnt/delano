@@ -438,7 +438,7 @@ function handleStepExit(response) {
   }
 
   if (response.index == 8) {
-        gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, top:"-=100", delay: 0 });
+        //gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, top:"-=100", delay: 0 });
   }
 }
 
