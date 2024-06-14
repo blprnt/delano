@@ -424,7 +424,7 @@ function handleStepEnter(response) {
     if (!piled2) {
       piled2 = true;
       let i = 0;
-      let times = [0, 0.5, 1, 3];
+      let times = [0, 0.5, 1, 2];
       document.querySelectorAll(".pile2").forEach((c) => {
         gsap.to(c, { opacity: 1, delay: times[i] });
         i++;
