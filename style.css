@@ -25,6 +25,14 @@ to this section's matching END comment to see page-specific styles.
   --font-family-header: "Futura";
 }
 
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
@@ -172,7 +180,6 @@ video {
   position:absolute;
   display:block;
   background-color: transparent;
-  overflow: hidden;
   left:0px;
   top:0px;
   height: 100%;
@@ -182,7 +189,6 @@ video {
 .capwrap {
   display:block;
   position: absolute;
-  overflow: hidden;
   left:0px;
   top:0px;
   z-index:2;
