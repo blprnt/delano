@@ -30,6 +30,7 @@ function preload() {
 }
 
 function setup() {
+  console.log("setup");
   //Used to make the q page for the step down scene
   //parseSpread(xml);
 
@@ -294,45 +295,19 @@ function processPage(_q, _frame) {
   return(pe);
 }
 
-function toPage(_q, _isStart) {
-
-  currentPageElement = createDiv();
-  currentPageElement.parent(wrapper);
-  currentPageElement.class("page");
-  currentPageElement.q = _q;
-  currentPageElement.elt.q = _q;
-  currentPageElement.elt.time = 0;
-  currentPageElement.elt.currentQ = 0;
-  currentPageElement.elt.p5 = currentPageElement;
-
-  //caption wrapper
-  let capWrap = createDiv();
-  capWrap.class("capwrap");
-  capWrap.parent(currentPageElement);
-  currentPageElement.capWrap = capWrap;
-
-  gsap.to(currentPageElement.elt, { opacity: 1 });
-
-  qPage = _q;
-
-  resetTimer();
-}
-
 function clearComic() {
   wrapper.html("");
 }
 
 function addCaption(_params, _elt) {
+  console.log("caption");
   let e = createDiv(_params["text_" + lang]);
-  //console.log(_elt.capWrap);
   e.parent(_elt.capWrap);
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
 
   //calculate scalefactor
-  
   let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
-  console.log(sf);
 
   e.position(_params.pos.x * sf, _params.pos.y * sf);
   e.style("width", _params.width + "px");
