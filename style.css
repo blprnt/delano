@@ -172,6 +172,7 @@ video {
   position:absolute;
   display:block;
   background-color: transparent;
+  overflow: hidden;
   left:0px;
   top:0px;
   height: 100%;
@@ -181,6 +182,7 @@ video {
 .capwrap {
   display:block;
   position: absolute;
+  overflow: hidden;
   left:0px;
   top:0px;
   z-index:2;
