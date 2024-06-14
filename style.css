@@ -25,14 +25,6 @@ to this section's matching END comment to see page-specific styles.
   --font-family-header: "Futura";
 }
 
-/* Basic page style resets */
-* {
-
-}
-[hidden] {
-  display: none !important;
-}
-
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
