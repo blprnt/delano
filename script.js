@@ -91,7 +91,7 @@ function doTimer() {
       p.time += ft;
       if (p.currentQ < p.q.queues.length) {
         if (p.time > parseFloat(p.q.queues[p.currentQ].time)) {
-          //processQ(p.q.queues[p.currentQ], p.p5);
+          processQ(p.q.queues[p.currentQ], p.p5);
           p.currentQ++;
         }
       }
