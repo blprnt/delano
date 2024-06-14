@@ -200,7 +200,7 @@ video {
   */
   background-color: #121212;
   height:100vh;
-  overflow:visible;
+  overflow:hidden;
   z-index:1;
   opacity:1;
 
