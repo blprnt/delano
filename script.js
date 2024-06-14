@@ -87,13 +87,10 @@ function doTimer() {
   pages.forEach(p => {
     let isIn = isElementInViewport(p);
     if (isIn) {
-      console.log("IN");
       p.time += ft;
       if (p.currentQ < p.q.queues.length) {
         if (p.time > parseFloat(p.q.queues[p.currentQ].time)) {
           processQ(p.q.queues[p.currentQ], p.p5);
-          console.log(p.p5);
-          console.log(p.q.queues[p.currentQ]);
           p.currentQ++;
         }
       }
@@ -135,23 +132,8 @@ function loadVideoTrans(_url1, _url2, _offset, _elt) {
 
 
 function addBubbles(_i, _elt) {
-
-  //caption wrapper
-
-  if (_elt.bubbleWrap) {
-    console.log("Remove wrap");
-    _elt.bubbleWrap.remove();
-  }
-
-  let sf = (windowHeight / qPage.backDims.height) * illiFactor;
-
-  let bubbleWrap = createDiv();
-  bubbleWrap.class("bubblewrap");
-  bubbleWrap.parent(_elt.capWrap);
-  bubbleWrap.style("transform", `scale(` + sf + `)`);
-  _elt.bubbleWrap = bubbleWrap;
-
   let bi = createImg(_elt.q.bubbleSet[_i].url, 'speech bubbles');
+  bi.class("bubbleImage");
   _elt.bubbleWrap.child(bi);
 }
 
@@ -185,14 +167,14 @@ function loadImageQ(_q, _elt) {
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
   //vh.style("max-width", ((windowHeight / 1440) * windowWidth) + "px");
-  vh.parent(_elt);
+  vh.parent(_q.isBack ? _elt.contentWrap:_elt.contentWrap);
 
   if (_q.width) {
     //vh.style("width", _q.width + "px");
     //vh.style("height", _q.height + "px");
   }
    if (_q.pos) {
-    let sf = (windowHeight / qPage.backDims.height) * illiFactor;
+    let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
     vh.position(_q.pos.x * sf, _q.pos.y * sf);
    } else {
     _elt.mediaWrap = vh;
@@ -265,17 +247,6 @@ function setLanguage(_code) {
   lang = _code;
 }
 
-function nextPage() {
-  currentPage++;
-  currentPageElement = createDiv();
-  currentPageElement.parent(wrapper);
-  currentPageElement.class("page");
-  qPage = qSheet[currentPage];
-  resetTimer();
-
-  if (currentPage > 0)
-    gsap.to(wrapper.elt, { top: -(currentPageElement.elt.offsetTop + 10) });
-}
 
 function offset(el) {
   var rect = el.getBoundingClientRect(),
@@ -295,10 +266,25 @@ function processPage(_q, _frame) {
   pe.elt.currentQ = 0;
   pe.elt.p5 = pe;
 
+  //content holder - this gets scaled
+  let contentWrap = createDiv();
+  contentWrap.class("contentWrap");
+  contentWrap.parent(pe);
+  pe.contentWrap = contentWrap;
+
+  let sf = (windowHeight / _q.backDims.height) * illiFactor;
+  contentWrap.style("transform", "scale(" + sf + ")");
+
+  //bubble wrapper
+  let bubbleWrap = createDiv();
+  bubbleWrap.class("bubblewrap");
+  bubbleWrap.parent(contentWrap);
+  pe.bubbleWrap = bubbleWrap;
+
   //caption wrapper
   let capWrap = createDiv();
   capWrap.class("capwrap");
-  capWrap.parent(pe);
+  capWrap.parent(contentWrap);
   pe.capWrap = capWrap;
 
   gsap.to(pe.elt, { opacity: 1 });
@@ -309,20 +295,6 @@ function processPage(_q, _frame) {
 }
 
 function toPage(_q, _isStart) {
-  if (_isStart) {
-
-    let cw = select(".comicwrapper");
-    let yt = offset(select(".frame").elt).top;
-
-    gsap.to(cw.elt, { top: yt, duration: 0 });
-    gsap.to(select(".shade").elt, { opacity: 1 });
-    gsap.to(cw.elt, {
-      opacity: 1,
-      onComplete: function () {
-        gsap.to(cw.elt, { top: window.scrollY, duration: 1 });
-      },
-    });
-  }
 
   currentPageElement = createDiv();
   currentPageElement.parent(wrapper);
@@ -359,7 +331,7 @@ function addCaption(_params, _elt) {
 
   //calculate scalefactor
   
-  let sf = (windowHeight / qPage.backDims.height) * illiFactor;
+  let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
   console.log(sf);
 
   e.position(_params.pos.x * sf, _params.pos.y * sf);

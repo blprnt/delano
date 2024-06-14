@@ -60,8 +60,8 @@
           "type": "caption",
           "caption": {
             "text_en": "This is <strong>Jack Delano</strong>",
-            "text_es": "Este es Jack Delano",
-            "pos": { "x": 850, "y":200 },
+            "text_es": "Este es <strong>Jack Delano</strong>",
+            "pos": { "x": 792, "y":206 },
             "extra":"noBack",
             "width": 148
           }
@@ -405,7 +405,7 @@
           "caption": {
             "text_en": "THIS WAS THE START OF A YEARs-long project THAT WOULD RESULT IN SOME OF THE most iconic and  important images OF THE ERA.",
             "text_es": "Este fue el comienzo de un proyecto, el cual duró varios años, que daría como resultado algunas de las imágenes más icónicas e importantes de la época.",
-            "pos": { "x": 835, "y": 425 },
+            "pos": { "x": 770, "y": 442 },
             "extra":"noBackArrow trainSmall",
             "transform": "rotate(4.65deg)",
             "width": 200
@@ -1422,7 +1422,7 @@
           "caption": {
             "text_en": "we sent all of our negatives by mail to WASHINGTON to be developed.",
             "text_es": "Enviamos todos nuestros negativos por correo a Washington para que los revelaran.",
-            "pos": { "x": 200, "y": -4 },
+            "pos": { "x": 135, "y": 0 },
             "extra": "noBack trainSmall",
             "width": 203
           }
@@ -1438,7 +1438,7 @@
           "caption": {
             "text_en": "roy stryker would have prints made of the ones he liked most and send them back.",
             "text_es": "Roy stryker mandaba hacer copias de las que más le gustaban y las enviaba de regreso.",
-            "pos": { "x": 255, "y": 150 },
+            "pos": { "x": 200, "y": 154 },
             "extra": "noBack trainSmall",
             "width": 243
           }
@@ -1454,7 +1454,7 @@
           "caption": {
             "text_en": "we spent our evenings filling in caption books with details about each frame we shot.",
             "text_es": "Nos pasábamos las tardes rellenando álbumes de fotos con detalles sobre cada fotograma que tomábamos.",
-            "pos": { "x": 150, "y": 255 },
+            "pos": { "x": 100, "y": 265 },
             "extra": "noBack trainSmall",
             "width": 223
           }
@@ -1470,7 +1470,7 @@
           "caption": {
             "text_en": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
             "text_es": "Nosotros también escribimos largas cartas a Roy. pero parece que muchas de ellas se han perdido.",
-            "pos": { "x": 270, "y": 460 },
+            "pos": { "x": 210, "y": 460 },
             "extra": "noBack trainSmall",
             "width": 220
           }
@@ -1513,7 +1513,8 @@
           "time": 0.1,
           "url": "images/Mock17-18.png",
           "width": 1920,
-          "height": 1080
+          "height": 1080,
+          "isBack":true
         },
         {
           "type": "caption",
@@ -1546,8 +1547,8 @@
           "caption": {
             "text_en": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.",
             "text_es": "Cuando alguien va a buscar una fotografía a la biblioteca del congreso, sus posibilidades de encontrarla realmente dependen de cuánta información haya adjunta a esa fotografía.",
-            "pos": { "x": 491, "y": 50 },
-            "extra": "noBack",
+            "pos": { "x": 475, "y": 50 },
+            "extra": "noBack trainSmall",
             "width": 310
           }
         },
@@ -1572,8 +1573,8 @@
           "caption": {
             "text_en": "every little piece of data makes an object more findable.",
             "text_es": "Cada pequeño dato hace que un objeto sea más localizable.",
-            "pos": { "x": 830, "y": 110 },
-            "extra": "noBack",
+            "pos": { "x": 790, "y": 110 },
+            "extra": "noBack trainSmall ",
             "width": 179
           }
         },
@@ -1588,8 +1589,8 @@
           "caption": {
             "text_en": "our catalogers do their best to add as many details to the records as they can.",
             "text_es": "Nuestros catalogadores hacen todo lo posible por añadir tantos detalles a los registros como pueden.",
-            "pos": { "x": 775, "y": 445 },
-            "extra": "noBack",
+            "pos": { "x": 745, "y": 435 },
+            "extra": "noBack trainSmall",
             "width": 227
           }
         },
@@ -1604,8 +1605,8 @@
           "caption": {
             "text_en": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
             "text_es": "Pero hay más de catorce millones de fotografías en la colección, y hay muy poca información en el catálogo sobre muchas de esas imágenes.",
-            "pos": { "x": 505, "y": 505 },
-            "extra": "noBack",
+            "pos": { "x": 495, "y": 495 },
+            "extra": "noBack trainSmall",
             "width": 261
           }
         },
@@ -1921,7 +1922,8 @@
             "text_en": "a 9 year old girl who wants to know more about how her grandparents grew up",
             "text_es": "una niña de nueve años que quiere  saber más sobre cómo crecieron sus abuelos",
             "pos": { "x": 3, "y": 339 },
-            "width": 226
+            "width": 226,
+            "extra":"trainSmall"
           }
         },
         {
@@ -1931,7 +1933,8 @@
             "text_en": "an old man who is trying to remember the faces of his friends",
             "text_es": "un anciano que intenta recordar las caras de sus amigos",
             "pos": { "x": 16, "y": 614 },
-            "width": 126
+            "width": 126,
+            "extra":"trainSmall"
           }
         },
         {
@@ -1941,7 +1944,8 @@
             "text_en": "A researcher who’s studying latin american labor movements",
             "text_es": "Un investigador que estudia los movimientos obreros latinoamericanos",
             "pos": { "x": 293, "y": 262 },
-            "width": 185
+            "width": 185,
+            "extra":"trainSmall"
           }
         },
         {
@@ -1951,7 +1955,8 @@
             "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
             "text_es": "Un dibujante de cómics que  necesita una modelo de una concurrida fiesta de Reyes Magos en casa de un granjero",
             "pos": { "x": 310, "y": 638 },
-            "width": 202
+            "width": 202,
+            "extra":"trainSmall"
           }
         },
         {
@@ -1960,7 +1965,7 @@
           "caption": {
             "text_en": "it would also raise a lot of questions.",
             "text_es": "también suscitaría muchas preguntas.",
-            "pos": { "x": 584, "y": 3 },
+            "pos": { "x": 584, "y": -8 },
             "width": 388
           }
         },
@@ -1975,7 +1980,7 @@
           "caption": {
             "text_en": "WHY is all of this KIND OF work being done by big, for-profit companies?",
             "text_es": "¿Por qué todo este tipo de trabajo lo realizan grandes empresas con ánimo de lucro?",
-            "pos": { "x": 550, "y": 45 },
+            "pos": { "x": 525, "y": 35 },
             "extra": "noBack smaller",
             "width": 199
           }
@@ -1991,7 +1996,7 @@
           "caption": {
             "text_en": "and why does the data always seem to get used by people who aren’t puerto rican?",
             "text_es": "¿y por qué los datos siempre parecen ser usados por personas que no son puertorriqueñas?",
-            "pos": { "x": 780, "y": 52 },
+            "pos": { "x": 750, "y": 44 },
             "extra": "noBack smaller",
             "width": 209
           }
@@ -2007,7 +2012,7 @@
           "caption": {
             "text_en": "IT all just feels like another flavor of colonialism.",
             "text_es": "todo esto parece ser colonialismo con otro sabor.",
-            "pos": { "x": 852, "y": 232 },
+            "pos": { "x": 820, "y": 215 },
             "extra": "noBack smaller",
             "width": 172
           }
@@ -2023,7 +2028,7 @@
           "caption": {
             "text_en": "if images of MY ANCESTORS are being used to train facial recognition, what does that mean for ME?",
             "text_es": "si se utilizan imágenes de mis antepasados para entrenar el reconocimiento facial, ¿qué significa eso para mí?",
-            "pos": { "x": 659, "y": 385 },
+            "pos": { "x": 629, "y": 365 },
             "extra": "noBack smaller",
             "width": 210
           }
@@ -2039,7 +2044,7 @@
           "caption": {
             "text_en": "what does it mean for my kids?",
             "text_es": "¿Qué  significa para  mis hijos?",
-            "pos": { "x": 866, "y": 445 },
+            "pos": { "x": 836, "y": 415 },
             "extra": "noBack smaller",
             "width": 116
           }
@@ -2050,8 +2055,9 @@
           "caption": {
             "text_en": "thinking about a.I. in the context of communities, care, and responisibility is hard, but necessary.",
             "text_es": "Es difícil mas necesario pensar en la inteligencia artificial en el contexto de las comunidades, el cuidado y la responsabilidad.",
-            "pos": { "x": 571, "y": 652 },
-            "width": 387
+            "pos": { "x": 521, "y": 602 },
+            "width": 387,
+            "extra": "trainSmall"
           }
         },
         {
@@ -2060,8 +2066,9 @@
           "caption": {
             "text_en": "we might ask our friend jack delano for some advice...",
             "text_es": "podríamos pedirle consejo a nuestro amigo jack delano…",
-            "pos": { "x": 695, "y": 699 },
-            "width": 277
+            "pos": { "x": 655, "y": 659 },
+            "width": 277,
+            "extra": "trainSmall"
           }
         }
       ]
@@ -2094,7 +2101,7 @@
           "caption": {
             "text_en": "there’s no way we could have known about the ways our photographs might be used eighty years in the future.",
             "text_es": "jamás podríamos haber imaginado cómo se utilizarían nuestras fotografías ochenta años más tarde.",
-            "pos": { "x": 122, "y": 88 },
+            "pos": { "x": 122, "y": 80 },
             "extra": "noBack smaller",
             "width": 227
           }
@@ -2110,8 +2117,8 @@
           "caption": {
             "text_en": "machine labeling? facial recognition? None of that would have even occurred to us.",
             "text_es": "¿etiquetado automático? ¿reconocimiento facial? Nada de eso se nos habría ocurrido.",
-            "pos": { "x": 539, "y": 166 },
-            "extra": "noBack",
+            "pos": { "x": 515, "y": 166 },
+            "extra": "noBack trainSmall",
             "width": 223
           }
         },
@@ -2126,8 +2133,8 @@
           "caption": {
             "text_en": "But we always did have one principle that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
             "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
-            "pos": { "x": 762, "y": 70 },
-            "extra": "noBack",
+            "pos": { "x": 734, "y": 70 },
+            "extra": "noBack trainSmall",
             "width": 219
           }
         },
@@ -2142,8 +2149,8 @@
           "caption": {
             "text_en": "And that was to always treat our subjects with respect.",
             "text_es": "Y era tratar siempre a nuestros temas con respeto.",
-            "pos": { "x": 560, "y": 43 },
-            "extra": "noBack",
+            "pos": { "x": 540, "y": 40 },
+            "extra": "noBack trainSmall",
             "width": 177
           }
         }
@@ -2229,8 +2236,8 @@
           "time": 10.0,
           "type": "caption",
           "caption": {
-            "text_en": "to dream.",
-            "text_es": "para soñar.",
+            "text_en": "to <strong>dream</strong>.",
+            "text_es": "para <strong>soñar</strong>.",
             "pos": { "x": 786, "y": 635 },
             "width": 140
           }

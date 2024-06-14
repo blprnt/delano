@@ -59,6 +59,18 @@ to this section's matching END comment to see page-specific styles.
   font-display: swap;
 }
 
+
+@font-face {
+  font-family: "Plot Holes BB";
+  src: url("type/PlotHolesBB-Bold.woff2")
+      format("woff2"),
+    url("type/PlotHolesBB-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
@@ -70,6 +82,8 @@ body {
 a {
     color: #898989;
 }
+
+
 
 .videoWrapper {
   display: block;
@@ -92,7 +106,7 @@ a {
 
 .imageWrapper {
   display: block;
-  position: relative;
+  position: absolute;
   height: 100vh;
   left:0px;
   top:0px;
@@ -146,6 +160,22 @@ video {
 .trainSmall {
   font-size: 11px;
 }
+
+.bubbleImage {
+  position: absolute;
+}
+.contentWrap {
+  position: absolute;
+  display: block;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1440px;
+  transform-origin: left top;
+  z-index: 1;
+}
+
+
 .bubblewrap {
   position:absolute;
   display:block;
@@ -153,7 +183,7 @@ video {
   left:0px;
   top:0px;
   height: 100%;
-  z-index:0;
+  z-index:2;
 }
 
 .capwrap {
@@ -165,7 +195,7 @@ video {
 }
 
 .page {
-  position:relative;
+  position:absolute;
   display:block;
   left:0px;
   top:0px;
