@@ -446,7 +446,7 @@
         },
         {
           "type": "caption",
-          "time": 2,
+          "time": 4,
           "caption": {
             "text_en": "at the exact moment pre-war america ceased to exist.",
             "text_es": "en el momento exacto en que la América de preguerra dejaba de existir.",
@@ -456,7 +456,7 @@
         },
         {
           "type": "caption",
-          "time": 3,
+          "time": 6,
           "caption": {
             "text_en": "a few days became a week.",
             "text_es": "Un par de días se convirtieron en una semana.",
@@ -466,7 +466,7 @@
         },
         {
           "type": "caption",
-          "time": 4,
+          "time": 8,
           "caption": {
             "text_en": "JACK had no way to leave puerto rico. his wife IRENE was IN NYC.",
             "text_es": "Jack no tenía forma de salir de Puerto Rico. Su mujer, Irene, estaba en Nueva York.",
@@ -477,42 +477,46 @@
         
         {
           "type": "caption",
-          "time": 5,
+          "time": 10,
           "caption": {
             "text_en": "irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
             "text_es": "Irene, que no era paciente por naturaleza, entró de contrabando en Puerto Rico a bordo de un transatlántico.",
             "pos": { "x": 525, "y": 423 },
-            "width": 236
+            "width": 236,
+            "extra":"smaller"
           }
         },
         {
           "type": "caption",
-          "time": 6,
+          "time": 11.5,
           "caption": {
             "text_en": "from then on they were a team.",
             "text_es": "A partir de entonces fueron un equipo.",
             "pos": { "x": 502, "y": 501 },
-            "width": 145
+            "width": 145,
+            "extra":"smaller"
           }
         },
         {
           "type": "caption",
-          "time": 7,
+          "time": 13,
           "caption": {
             "text_en": "over the next THREE MONTHS the delanos will visit every part of the small caribbean island nation",
             "text_es": "En los próximos tres meses, los Delanos visitarán todos los rincones del pequeño país insular caribeño.",
             "pos": { "x": 536, "y": 571 },
-            "width": 263
+            "width": 263,
+            "extra":"smaller"
           }
         },
         {
           "type": "caption",
-          "time": 8,
+          "time": 15,
           "caption": {
             "text_en": "jack will shoot more than 2,000 photographs.",
             "text_es": "Jack tomará más de 2000 fotografías." ,
             "pos": { "x": 705, "y": 651 },
-            "width": 225
+            "width": 225,
+            "extra":"smaller"
           }
         }
 
