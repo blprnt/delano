@@ -335,7 +335,7 @@ h3 a {
 }
 
 #frameset {
-  margin-top: -0vh;
+  margin-top: -30vh;
   background-color: black;
   margin-left: calc((-100vw + 100%) / 2);
   margin-right: calc((-100vw + 100%) / 2);
