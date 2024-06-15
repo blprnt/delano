@@ -1651,11 +1651,36 @@
             "text_es": "vamos a intentarlo con esta imagen.",
             "pos": { "x": 37, "y": 91 },
             "transform": "rotate(-7.6deg)",
-            "width": 145
+            "width": 145,
+            "extra":"trainSmall"
           }
         },
         {
-          "time":2.0,
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
+            "text_es": "Utilizaremos un modelo de aprendizaje automático llamado Transformador de Visión (VIT en inglés).",
+            "pos": { "x": 26, "y": 171 },
+            "width": 338,
+            "extra":"trainSmall"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 4.5,
+          "caption": {
+            "text_en": "The vision transformer does two things.",
+            "text_es": "El transformador de visión hace dos cosas.",
+            "pos": { "x": 47, "y": 237 },
+            "transform": "rotate(3deg)",
+            "width": 325,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time":5.5,
           "type":"imageLoad",
           "url":"images/19-20/Asset%201.png",
           "pos": {
@@ -1666,60 +1691,54 @@
         },
         {
           "type": "caption",
-          "time": 2.5,
+          "time": 6.5,
           "caption": {
-            "text_en": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
-            "text_es": "Utilizaremos un modelo de aprendizaje automático llamado Transformador de Visión (VIT en inglés).",
-            "pos": { "x": 26, "y": 171 },
-            "width": 338
-          }
-        },
-        {
-          "type": "caption",
-          "time": 3.5,
-          "caption": {
-            "text_en": "The vision transformer does two things.",
-            "text_es": "El transformador de visión hace dos cosas.",
-            "pos": { "x": 47, "y": 237 },
-            "transform": "rotate(3deg)",
-            "width": 325
-          }
-        },
-        {
-          "type": "caption",
-          "time": 4.5,
-          "caption": {
-            "text_en": "it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
+            "text_en": "1. it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
             "text_es": "intenta detectar elementos conocidos en la imagen  (cosas como personas, autos o flores), y  aprende el tamaño y la posición de esas cosas.",
             "pos": { "x": 119, "y": 432 },
             "transform": "rotate(-2deg)",
-            "width": 356
+            "width": 356,
+            "extra":"trainSmall"
           }
         },
         {
           "type": "caption",
-          "time": 4.9,
+          "time": 8.5,
           "caption": {
-            "text_en": "It uses what it has learned from the labelled images it was trained on to generate a new caption.",
+            "text_en": "2. It uses what it has learned from the labelled images it was trained on to generate a new caption.",
             "text_es": "Utiliza lo que ha aprendido de las imágenes etiquetadas,  con las que ha sido entrenado para generar una nueva leyenda",
             "pos": { "x": 65, "y": 503 },
             "transform": "rotate(6deg)",
-            "width": 239
+            "width": 239,
+            "extra":"trainSmall"
+          }
+        },
+
+        {
+          "type": "caption",
+          "time": 9.1,
+          "caption": {
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"a man standing next to a building with a horse \"<br>}",
+            "pos": { "x": 88, "y": 584 },
+            "transform": "rotate(-6deg)",
+            "width": 332,
+            "extra":"code"
           }
         },
         {
           "type": "caption",
-          "time": 5.9,
+          "time": 10.9,
           "caption": {
             "text_en": "sometimes the image descriptions we getfrom jack’s images of puerto rico are accurate... if a little bit unimaginative.",
             "text_es": "a veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
             "pos": { "x": 506, "y": 668 },
-            "transform": "rotate(6deg)",
-            "width": 326
+            "transform": "rotate(4deg)",
+            "width": 426,
+            "extra":"trainSmall"
           }
         },
         {
-          "time":6.5,
+          "time":12,
           "type":"imageLoad",
           "url":"images/19-20/Asset%204.png",
           "pos": {
@@ -1729,7 +1748,31 @@
           "animate":"fade,turn"
         },
         {
-          "time":7.5,
+          "type": "caption",
+          "time": 12.5,
+          "caption": {
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"people standing around a building \"<br>}",
+            "pos": { "x": 711, "y": 551 },
+            "transform": "rotate(2deg)",
+            "width": 255,
+            "extra":"code smaller"
+          }
+        },
+
+        {
+          "type": "caption",
+          "time": 14,
+          "caption": {
+            "text_en": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
+            "text_es": "Sin embargo, a menudo los modelos tienen dificultades con objetos que no aparecen mucho en su material de entrenamiento (como la caña de azúcar).",
+            "pos": { "x": 653, "y": 408 },
+            "transform": "rotate(3deg)",
+            "width": 268,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time":15,
           "type":"imageLoad",
           "url":"images/19-20/Asset%202.png",
           "pos": {
@@ -1740,17 +1783,32 @@
         },
         {
           "type": "caption",
-          "time": 8,
+          "time": 15.5,
           "caption": {
-            "text_en": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
-            "text_es": "Sin embargo, a menudo los modelos tienen dificultades con objetos que no aparecen mucho en su material de entrenamiento (como la caña de azúcar).",
-            "pos": { "x": 653, "y": 408 },
-            "transform": "rotate(3deg)",
-            "width": 268
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"a man in a field with a bunch of dead trees \"<br>}",
+            "pos": { "x": 513, "y": 281 },
+            "transform": "rotate(-5deg)",
+            "width": 255,
+            "extra":"code smaller"
+          }
+        },
+        
+        
+        
+        {
+          "type": "caption",
+          "time": 18,
+          "caption": {
+            "text_en": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
+            "text_es": "... y lugares que no están en su visión del mundo, como los  asentamientos irregulares.",
+            "pos": { "x": 605, "y": 197 },
+            "transform": "rotate(-2deg)",
+            "width": 301,
+            "extra":"trainSmall"
           }
         },
         {
-          "time":8.5,
+          "time":19,
           "type":"imageLoad",
           "url":"images/19-20/Asset%205.png",
           "pos": {
@@ -1761,34 +1819,36 @@
         },
         {
           "type": "caption",
-          "time": 9,
+          "time": 19.5,
           "caption": {
-            "text_en": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
-            "text_es": "... y lugares que no están en su visión del mundo, como los  asentamientos irregulares.",
-            "pos": { "x": 635, "y": 197 },
-            "transform": "rotate(-2deg)",
-            "width": 261
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"a woman is standing in a parking lot \"<br>}",
+            "pos": { "x": 696, "y": 122 },
+            "transform": "rotate(2deg)",
+            "width": 255,
+            "extra":"code smaller"
           }
         },
         {
           "type": "caption",
-          "time": 10,
+          "time": 22,
           "caption": {
             "text_en": "THESE MACHINE-GENERATED CAPTIONS COME NOWHERE NEAR THE library’s exacting STANDARDS.",
             "text_es": "estas leyendas generadas por máquinas están lejísimos de las normas de exactitud de la biblioteca.",
             "pos": { "x": 690, "y": 46 },
             "transform": "rotate(2deg)",
-            "width": 261
+            "width": 261,
+            "extra":"trainSmall"
           }
         },
         {
           "type": "caption",
-          "time": 11,
+          "time": 24,
           "caption": {
             "text_en": "they’re OFTEN worse than having no caption at all.",
             "text_es": "a menudo son peores que no tener ninguna leyenda.",
-            "pos": { "x": 770, "y": 12 },
-            "width": 198
+            "pos": { "x": 570, "y": 12 },
+            "width": 398,
+            "extra":"trainSmall"
           }
         }
 

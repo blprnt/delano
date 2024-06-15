@@ -154,6 +154,15 @@ video {
   padding: 6px !important;
 }
 
+.code {
+  background-color: #DAA135 !important;
+  color:white !important;
+  font-family: monospace !important;
+  border: none !important;
+  padding: 6px !important;
+  z-index: 4 !important;
+}
+
 .smaller {
   font-size: 10.5px;
 }
