@@ -404,6 +404,10 @@ function handleStepEnter(response) {
     timing = true;
     response.element.timing = true;
     lastTime = new Date();
+  } else {
+    if (document.querySelector("#frameset").style.opacity == 1) {
+      gsap.to(document.querySelector("#frameset"), { opacity: 0, delay: 0 });
+    }
   }
 }
 
