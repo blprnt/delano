@@ -100,7 +100,7 @@ a {
   left:15px;
   top:18px;
   opacity:0;
-  z-index:2;
+  z-index:1;
 }
 
 
@@ -290,6 +290,10 @@ video {
 .peopleHolder {
   width: 100%;
   height:auto;
+}
+
+#walkers {
+  left:920px;
 }
 
 .title {

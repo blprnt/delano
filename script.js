@@ -111,10 +111,9 @@ function isElementInViewport (el) {
     );
 }
 
-function loadVideoTrans(_url1, _url2, _offset, _elt) {
+function loadVideoTrans(_url1, _url2, _offset, _elt, _slug) {
   
-  console.log("load vid trans");
-  let vh = createDiv(`<video id="walkers" muted playsinline>
+  let vh = createDiv(`<video id="` + _slug + `" muted playsinline>
   <source 
     src="` + _url1 + `" 
     type="video/mp4; codecs="hvc1"">
@@ -124,11 +123,13 @@ function loadVideoTrans(_url1, _url2, _offset, _elt) {
   </video>`);
   vh.class("videoWrapperTrans");
   let sf = (windowHeight / qPage.backDims.height) * illiFactor;
-  vh.style("left", round(1920 * 0.5 * sf) + "px");
+  //vh.style("left", _offset.x + "px");
+
+  gsap.to(vh.elt, {opacity:1})
   
-  vh.parent(_elt);
+  vh.parent(_elt.contentWrap);
   
-  _elt.mainVideo = document.querySelector("#walkers");
+  _elt.mainVideo = document.querySelector("#" + _slug);
 }
 
 
@@ -217,7 +218,7 @@ function processQ(_q, _elt) {
       loadVideo(_q.url, _elt);
       break;
     case "videoLoadTrans":
-      loadVideoTrans(_q.url, _q.url2, _q.offset, _elt);
+      loadVideoTrans(_q.url, _q.url2, _q.offset, _elt, _q.slug);
       break;
     case "videoPlay":
       console.log(_elt.mainVideo);

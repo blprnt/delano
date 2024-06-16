@@ -548,6 +548,7 @@
           "type": "videoLoadTrans",
           "url": "video/walking.webm",
           "url2": "video/walking.mp4",
+          "slug":"walkers",
           "offset": {
             "x":2920,
             "y":0
@@ -1637,6 +1638,19 @@
           "width": 1920,
           "height": 1080
         },
+
+        {
+          "time": 0.1,
+          "type": "videoLoadTrans",
+          "url": "video/line.webm",
+          "url2": "video/line.mp4",
+          "slug":"line",
+          "offset": {
+            "x":0,
+            "y":0
+          }
+        },
+        
         {
           "time":1.0,
           "type":"imageLoad",
@@ -1646,6 +1660,10 @@
             "y":-10
           },
           "animate":"fade,turn"
+        },
+        {
+          "type":"videoPlay",
+          "time":1.5
         },
         {
           "type": "caption",
@@ -1733,7 +1751,7 @@
           "type": "caption",
           "time": 10.9,
           "caption": {
-            "text_en": "sometimes the image descriptions we getfrom jack’s images of puerto rico are accurate... if a little bit unimaginative.",
+            "text_en": "sometimes the image descriptions we get from jack’s images of puerto rico are accurate... if a little bit unimaginative.",
             "text_es": "a veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
             "pos": { "x": 506, "y": 668 },
             "transform": "rotate(4deg)",
@@ -1796,9 +1814,6 @@
             "extra":"code smaller"
           }
         },
-        
-        
-        
         {
           "type": "caption",
           "time": 18,
@@ -1869,6 +1884,7 @@
           "width": 1920,
           "height": 1080
         },
+
         {
           "type": "caption",
           "time": 1.5,
