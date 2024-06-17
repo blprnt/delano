@@ -324,10 +324,6 @@ function processPage(_q, _frame) {
   return(pe);
 }
 
-function clearComic() {
-  wrapper.html("");
-}
-
 function addCaption(_params, _elt) {
   let e = createDiv(_params["text_" + lang]);
   e.parent(_elt.capWrap);
@@ -338,7 +334,8 @@ function addCaption(_params, _elt) {
   e.elt.style.top = (_params.pos.y) + "px";
   e.elt.style.width = _params.width + "px";
 
-  gsap.to(e.elt, { opacity: 1 });
+  //gsap.to(e.elt, { opacity: 1 });
+  e.elt.style.opacity = 1;
 }
 
 // scrollama event handlers
