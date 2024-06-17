@@ -87,7 +87,6 @@ a {
 
 .videoWrapper {
   display: block;
-  position: absolute;
   height: 100vh;
   left:0px;
   top:0px;
@@ -121,7 +120,7 @@ a {
 video {
   display: block;
   position:absolute;
-  height:100vh;
+  height:100%;
   width:auto;
 }
 
@@ -193,8 +192,8 @@ video {
   left:0px;
   top:0px;
   width:1920px;
-  height:1440px;
-  overflow: visible;
+  height:1080px;
+  overflow: hidden;
   transform-origin: left top;
   z-index: 1;
 }
@@ -216,19 +215,52 @@ video {
   z-index:2;
 }
 
+.frame {
+
+  position:relative;
+  display:block;
+  overflow: hidden;
+
+  width: min(133vh, 80vw);
+  height:min(100vh,60vw);
+  z-index:0;
+
+/*
+  margin-left: -5vw;
+  margin-right: -5vw;
+*/
+  
+  margin-left: calc((-80vw + 100%) / 2);
+  margin-right: calc((-80vw + 100%) / 2);
+  
+  margin-bottom: 10px;
+
+  display: grid;
+  place-items: center;
+
+ 
+}
+
+.frameBack {
+
+}
+
 .page {
   position:absolute;
   display:block;
   left:0px;
   top:0px;
+
+  height: 1920px;
+  width: 1080px;
   
   background-color: #121212;
-  height:100vh;
+
   overflow:visible;
   z-index:1;
   opacity:1;
-
   
+  transform-origin: left top;
   display: grid;
   place-items: center;
   
@@ -357,28 +389,6 @@ h3 a {
   opacity: 0;
 }
 
-.frame {
-
-  position:relative;
-  display:block;
-  overflow: hidden;
-
-  height:100vh;
-  z-index:0;
-
-/*
-  margin-left: -5vw;
-  margin-right: -5vw;
-*/
-  
-  margin-left: calc((-130vh + 100%) / 2);
-  margin-right: calc((-130vh + 100%) / 2);
-  
-  margin-bottom: 10px;
-
-  display: grid;
-  place-items: center;
-}
 .intro {
   font-size:22px;
 }

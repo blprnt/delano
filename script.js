@@ -49,11 +49,12 @@ function setup() {
         preloadImage(b.url);
       });
     }
-
+    
     let p = processPage(q, d);
-    processQ(q.queues[0], p);
+    processQ(q.queues[0], p, true);
     q.queues.shift();
     p.currentQ++;
+    
 
 
   });
@@ -121,17 +122,23 @@ function doTimer() {
 
 function doScaleAll() {
   let cwraps = document.querySelectorAll(".contentWrap");
+
   cwraps.forEach(cw => {
-    console.log(cw.q);
-    let sf = (windowHeight / cw.q.backDims.height) * illiFactor;
-    cw.style.transform = "scale(" + sf +  ")";
+    doScale(cw.p5);
   });
 }
 
 function doScale(_cw) {
+  
 
-  let sf = (windowHeight / _cw.q.backDims.height) * illiFactor;
-  _cw.elt.style.transform = "scale(" + sf +  ")";
+  let hf = ((windowWidth * 1) / 1920) * illiFactor;
+    //let wf = (windowWidth / 1920) * illiFactor;
+    let sf = hf;//max(hf, wf);
+    //console.log(hf + ":" + wf);
+    console.log(sf);
+    console.log(_cw.elt);
+    if (windowWidth / windowHeight < 1.77) _cw.elt.style.transform = "scale(" + sf +  ")";
+    
 
 }
 
@@ -140,7 +147,6 @@ window.onresize = doScaleAll;
 function isElementInViewport (el) {
 
     var rect = el.getBoundingClientRect();
-
     return (
         (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))|| rect.bottom >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
     );
@@ -171,11 +177,11 @@ function addBubbles(_i, _elt) {
   _elt.bubbleWrap.child(bi);
 }
 
-function loadVideo(_url, _elt) {
+function loadVideo(_url, _elt, _isFirst) {
 
   let vh = createDiv();
-  vh.class("videoWrapper");
-  vh.parent(_elt);
+  vh.class(_isFirst ? "videoWrapper frameBack":"videoWrapper");
+  vh.parent(_elt.contentWrap);
   _elt.mediaWrap = vh;
 
   let v = createDiv(`<video id="currentvideo" muted playsinline>
@@ -194,10 +200,10 @@ function loadVideo(_url, _elt) {
 
 }
 
-function loadImageQ(_q, _elt) {
+function loadImageQ(_q, _elt, _isFirst) {
   
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
-  vh.class("imageWrapper");
+  vh.class(_isFirst ?"imageWrapper frameBack":"imageWrapper");
   vh.parent(_q.isBack ? _elt.contentWrap:_elt.contentWrap);
 
 
@@ -231,7 +237,7 @@ function capDrift(_q, _elt) {
   gsap.to(bw, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
 }
 
-function processQ(_q, _elt) {
+function processQ(_q, _elt, _isFirst) {
   let t = _q.type;
   switch (t) {
     case "caption":
@@ -241,7 +247,7 @@ function processQ(_q, _elt) {
       addBubbles(_q.index, _elt);
       break;
     case "videoLoad":
-      loadVideo(_q.url, _elt);
+      loadVideo(_q.url, _elt, _isFirst);
       break;
     case "videoLoadTrans":
       loadVideoTrans(_q.url, _q.url2, _q.offset, _elt, _q.slug);
@@ -250,7 +256,7 @@ function processQ(_q, _elt) {
       _elt.mainVideo.play();
       break;
     case "imageLoad":
-      loadImageQ(_q, _elt);
+      loadImageQ(_q, _elt, _isFirst);
       break;
     case "imageDrift":
       imageDrift(_q, _elt);
@@ -300,8 +306,7 @@ function processPage(_q, _frame) {
   pe.contentWrap = contentWrap;
   contentWrap.q = _q;
   contentWrap.elt.q = _q;
-
-  let sf = (windowHeight / _q.backDims.height) * illiFactor;
+  contentWrap.elt.p5 = contentWrap;
 
   //bubble wrapper
   let bubbleWrap = createDiv();
