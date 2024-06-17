@@ -615,6 +615,11 @@
       }
     },
     {
+      "type":"bubbles",
+      "index":0,
+      "time":4.9
+    },
+    {
       "type": "caption",
       "time": 5,
       "caption": {
@@ -622,10 +627,16 @@
         "text_es": "En esta fotografía hay un sueño.",
         "pos": {
           "x": 634.24,
-          "y": 55.86
+          "y": 45.86
         },
-        "width": 300
+        "width": 300,
+        "extra":"noBack trainSmall"
       }
+    },
+    {
+      "type":"bubbles",
+      "index":1,
+      "time":5.9
     },
     {
       "type": "caption",
@@ -635,10 +646,16 @@
         "text_es": "En esta hay una tragedia.",
         "pos": {
           "x": 754.1,
-          "y": 204.09
+          "y": 195.09
         },
-        "width": 155.96
+        "width": 155.96,
+        "extra":"noBack trainSmall"
       }
+    },
+    {
+      "type":"bubbles",
+      "index":2,
+      "time":6.9
     },
     {
       "type": "caption",
@@ -648,10 +665,16 @@
         "text_es": "En esta hay una vida entera por vivir.",
         "pos": {
           "x": 514.34,
-          "y": 269.31
+          "y": 259.31
         },
-        "width": 202.28
+        "width": 210.28,
+        "extra":"noBack trainSmall"
       }
+    },
+    {
+      "type":"bubbles",
+      "index":3,
+      "time":7.9
     },
     {
       "type": "caption",
@@ -661,10 +684,16 @@
         "text_es": "En esta imagen hay una pregunta.",
         "pos": {
           "x": 769.12,
-          "y": 367.77
+          "y": 357.77
         },
-        "width": 166.21
+        "width": 166.21,
+        "extra":"noBack trainSmall"
       }
+    },
+    {
+      "type":"bubbles",
+      "index":4,
+      "time":8.9
     },
     {
       "type": "caption",
@@ -674,15 +703,16 @@
         "text_es": "En esta hay una respuesta.",
         "pos": {
           "x": 558.25,
-          "y": 399.29
+          "y": 389.29
         },
-        "width": 137.81
+        "width": 147.81,
+        "extra":"noBack trainSmall"
       }
     },
     
     {
       "type": "caption",
-      "time": 9.5,
+      "time": 10.5,
       "caption": {
         "text_en": "There are",
         "text_es": "hay",
@@ -697,7 +727,7 @@
     
     {
       "type": "caption",
-      "time": 10.5,
+      "time": 10.9,
       "caption": {
         "text_en": "so",
         "text_es": "muchísimas",
@@ -711,7 +741,7 @@
     },
     {
       "type": "caption",
-      "time": 11,
+      "time": 11.3,
       "caption": {
         "text_en": "many",
         "text_es": "muchísimas",
@@ -1410,11 +1440,13 @@
       ],
       "queues": [
         {
-          "type": "imageLoad",
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/negatives.mp4"
+        },
+        {
           "time": 0.1,
-          "url": "images/Mock15-16.png",
-          "width": 1920,
-          "height": 1080
+          "type": "videoPlay"
         },
         {
           "type":"bubbles",
@@ -1482,7 +1514,7 @@
         },
         {
           "type": "caption",
-          "time": 5,
+          "time": 6,
           "caption": {
             "text_en": "if you spent just five minutes describing each photo Jack delano took in puerto rico, it’d take you 65 days.",
             "text_es": "Si dedicaras apenas cinco minutos a describir cada foto que Jack Delano tomó en Puerto Rico, te llevaría 65 días.",
@@ -1492,7 +1524,7 @@
         },
         {
           "type": "caption",
-          "time": 6,
+          "time": 8,
           "caption": {
             "text_en": "if you spent JUST ONE minute with every photograph in the library’s photo collection, you’d be there for more than twenty-SIX years.",
             "text_es": "Si pasaras tan solo un minuto con cada fotografía de la colección fotográfica de la biblioteca, estarías allí durante más de 26 años.",
@@ -1878,91 +1910,100 @@
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
-          "type": "imageLoad",
-          "time": 0.1,
-          "url": "images/Mock21-22.png",
-          "width": 1920,
-          "height": 1080
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/algopeeps.mp4"
         },
-
+        
         {
           "type": "caption",
           "time": 1.5,
           "caption": {
             "text_en": "these kinds of machine learning models are OFTEN trained on a 2012 dataset called ImageNet.",
             "text_es": "El entrenamiento de este tipo de modelos de aprendizaje automático suelen basarse en un conjunto de datos de 2012 llamado ImageNet.",
-            "pos": { "x": 54, "y": 88 },
-            "width": 223
-          }
-        },
-        {
-          "type": "caption",
-          "time": 2.5,
-          "caption": {
-            "text_en": "imagenet contains 14,197,122 images, scraped from the internet.",
-            "text_es": "imagenet contiene 14.197.122 imágenes extraídas de Internet.",
-            "pos": { "x": 103, "y": 180 },
-            "width": 285
+            "pos": { "x": 5, "y":5 },
+            "width": 223,
+            "extra":"trainSmall"
           }
         },
         {
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
-            "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
-            "pos": { "x": 674, "y": 44 },
-            "width": 271
+            "text_en": "imagenet contains 14,197,122 images, scraped from the internet.",
+            "text_es": "imagenet contiene 14.197.122 imágenes extraídas de Internet.",
+            "pos": { "x": 63, "y": 80 },
+            "width": 285,
+            "extra":"trainSmall"
           }
         },
         {
-          "type": "caption",
-          "time": 4.5,
-          "caption": {
-            "text_en": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
-            "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada wordnet.",
-            "pos": { "x": 655, "y": 135 },
-            "width": 297
-          }
+          "time": 5.4,
+          "type": "videoPlay"
         },
-        {
-          "type": "caption",
-          "time": 5.5,
-          "caption": {
-            "text_en": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
-            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del wall street journal.",
-            "pos": { "x": 32, "y": 533 },
-            "width": 271
-          }
-        },
+
         {
           "type": "caption",
           "time": 6.5,
           "caption": {
-            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
-            "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de internet (incluyendo memes y el resto), leído a través de la lente de un periódico de nueva york, escrito para operadores de bolsa de mediana edad.",
-            "pos": { "x": 45, "y": 647 },
-            "width": 329
-          }
-        },
-        {
-          "type": "caption",
-          "time": 7.5,
-          "caption": {
-            "text_en": "it is a model that knows a lot about cats...",
-            "text_es": "Es un modelo que sabe mucho sobre gatos…",
-            "pos": { "x": 532, "y": 647 },
-            "width": 297
+            "text_en": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
+            "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
+            "pos": { "x": 674, "y": 4 },
+            "width": 271,
+            "extra":"trainSmall"
           }
         },
         {
           "type": "caption",
           "time": 8.5,
           "caption": {
+            "text_en": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
+            "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada wordnet.",
+            "pos": { "x": 655, "y": 100 },
+            "width": 297,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 10.5,
+          "caption": {
+            "text_en": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
+            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del wall street journal.",
+            "pos": { "x": 32, "y": 533 },
+            "width": 271,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 13.5,
+          "caption": {
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
+            "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de internet (incluyendo memes y el resto), leído a través de la lente de un periódico de nueva york, escrito para operadores de bolsa de mediana edad.",
+            "pos": { "x": 45, "y": 607 },
+            "width": 329,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 17,
+          "caption": {
+            "text_en": "it is a model that knows a lot about cats...",
+            "text_es": "Es un modelo que sabe mucho sobre gatos…",
+            "pos": { "x": 532, "y": 607 },
+            "width": 297
+          }
+        },
+        {
+          "type": "caption",
+          "time": 18,
+          "caption": {
             "text_en": "and very little about puerto rico in the 1940s.",
             "text_es": "y muy poco sobre  puerto rico en la década del 40.",
-            "pos": { "x": 739, "y": 702 },
-            "width": 225
+            "pos": { "x": 709, "y": 667 },
+            "width": 255
           }
         }
       ]

@@ -43,10 +43,18 @@ function setup() {
     d.q = q;
     q.time = 0;
 
+    //preload bubbles
+    if (q.bubbleSet) {
+      q.bubbleSet.forEach(b => {
+        preloadImage(b.url);
+      });
+    }
+
     let p = processPage(q, d);
     processQ(q.queues[0], p);
     q.queues.shift();
     p.currentQ++;
+
 
   });
 
@@ -63,6 +71,12 @@ function draw() {
   }
 
   doTimer();
+}
+
+function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
 }
 
 function mousePressed() {}
@@ -99,15 +113,39 @@ function doTimer() {
   });
 
   lastTime = now;
+}
+
+//Scaling stuff
+
+
+
+function doScaleAll() {
+  let cwraps = document.querySelectorAll(".contentWrap");
+  cwraps.forEach(cw => {
+    console.log(cw.q);
+    let sf = (windowHeight / cw.q.backDims.height) * illiFactor;
+    cw.style.transform = "scale(" + sf +  ")";
+  });
+}
+
+function doScale(_cw) {
+
+  let sf = (windowHeight / _cw.q.backDims.height) * illiFactor;
+  _cw.elt.style.transform = "scale(" + sf +  ")";
+
+  console.log("DO SCALE: " + sf);
+  console.log(_cw);
 
 }
+
+window.onresize = doScaleAll;
 
 function isElementInViewport (el) {
 
     var rect = el.getBoundingClientRect();
 
     return (
-        (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight)) || rect.bottom >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))|| rect.bottom >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
     );
 }
 
@@ -122,9 +160,6 @@ function loadVideoTrans(_url1, _url2, _offset, _elt, _slug) {
     type="video/webm">
   </video>`);
   vh.class("videoWrapperTrans");
-  let sf = (windowHeight / qPage.backDims.height) * illiFactor;
-  //vh.style("left", _offset.x + "px");
-
   gsap.to(vh.elt, {opacity:1})
   
   vh.parent(_elt.contentWrap);
@@ -141,7 +176,6 @@ function addBubbles(_i, _elt) {
 
 function loadVideo(_url, _elt) {
 
-  console.log("load vid ");
   let vh = createDiv();
   vh.class("videoWrapper");
   vh.parent(_elt);
@@ -164,7 +198,6 @@ function loadVideo(_url, _elt) {
 }
 
 function loadImageQ(_q, _elt) {
-  console.log("load image");
   
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
@@ -202,7 +235,7 @@ function capDrift(_q, _elt) {
   gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
   gsap.to(vi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
   gsap.to(bi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
-  gsap.to(bw, { left: "-=600px", ease: "none", duration: 10, delay: 10 });
+  gsap.to(bw, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
 }
 
 function processQ(_q, _elt) {
@@ -221,7 +254,6 @@ function processQ(_q, _elt) {
       loadVideoTrans(_q.url, _q.url2, _q.offset, _elt, _q.slug);
       break;
     case "videoPlay":
-      console.log(_elt.mainVideo);
       _elt.mainVideo.play();
       break;
     case "imageLoad":
@@ -273,9 +305,11 @@ function processPage(_q, _frame) {
   contentWrap.class("contentWrap");
   contentWrap.parent(pe);
   pe.contentWrap = contentWrap;
+  contentWrap.q = _q;
+  contentWrap.elt.q = _q;
 
   let sf = (windowHeight / _q.backDims.height) * illiFactor;
-  contentWrap.style("transform", "scale(" + sf + ")");
+  //contentWrap.style("transform", "scale(" + sf + ")");
 
   //bubble wrapper
   let bubbleWrap = createDiv();
@@ -293,6 +327,8 @@ function processPage(_q, _frame) {
 
   qPage = _q;
 
+  doScale(contentWrap);
+
   return(pe);
 }
 
@@ -301,7 +337,6 @@ function clearComic() {
 }
 
 function addCaption(_params, _elt) {
-  console.log("caption");
   let e = createDiv(_params["text_" + lang]);
   e.parent(_elt.capWrap);
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
@@ -312,12 +347,6 @@ function addCaption(_params, _elt) {
 
   e.position(_params.pos.x * sf, _params.pos.y * sf);
   e.style("width", _params.width + "px");
-
-  let trans = "scale(" + sf + ")";
-  if (_params.transform) {
-    trans = trans + " " + _params.transform;
-  }
-  e.style("transform", trans);
 
   gsap.to(e.elt, { opacity: 1 });
 }
