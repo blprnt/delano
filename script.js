@@ -334,6 +334,10 @@ function addCaption(_params, _elt) {
   e.elt.style.top = (_params.pos.y) + "px";
   e.elt.style.width = _params.width + "px";
 
+  if (_params.transform) {
+    e.elt.style.transform = _params.transform;
+  }
+
   gsap.to(e.elt, { opacity: 1 });
 }
 
