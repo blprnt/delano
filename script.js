@@ -198,7 +198,6 @@ function loadImageQ(_q, _elt) {
   
   let vh = createDiv("<div class='imageDiv'><img src=" + _q.url + "></div>");
   vh.class("imageWrapper");
-  //vh.style("max-width", ((windowHeight / 1440) * windowWidth) + "px");
   vh.parent(_q.isBack ? _elt.contentWrap:_elt.contentWrap);
 
 
@@ -303,7 +302,6 @@ function processPage(_q, _frame) {
   contentWrap.elt.q = _q;
 
   let sf = (windowHeight / _q.backDims.height) * illiFactor;
-  //contentWrap.style("transform", "scale(" + sf + ")");
 
   //bubble wrapper
   let bubbleWrap = createDiv();
@@ -336,12 +334,8 @@ function addCaption(_params, _elt) {
   e.class("caption" + (_params.extra ? (" " + _params.extra) : "" ));
   e.elt.params = _params;
 
-  //calculate scalefactor
-  let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
-
-  //e.position(_params.pos.x * sf, _params.pos.y * sf);
-  e.elt.style.left = (_params.pos.x * sf) + "px";
-  e.elt.style.top = (_params.pos.y * sf) + "px";
+  e.elt.style.left = (_params.pos.x) + "px";
+  e.elt.style.top = (_params.pos.y) + "px";
   e.elt.style.width = _params.width + "px";
 
   gsap.to(e.elt, { opacity: 1 });
