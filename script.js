@@ -204,13 +204,10 @@ function loadImageQ(_q, _elt) {
   //vh.style("max-width", ((windowHeight / 1440) * windowWidth) + "px");
   vh.parent(_q.isBack ? _elt.contentWrap:_elt.contentWrap);
 
-  if (_q.width) {
-    //vh.style("width", _q.width + "px");
-    //vh.style("height", _q.height + "px");
-  }
+
    if (_q.pos) {
-    let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
-    vh.position(_q.pos.x * sf, _q.pos.y * sf);
+    vh.elt.style.left = _q.pos.x + "px";
+    vh.elt.style.top = _q.poys.y + "px;"
    } else {
     _elt.mediaWrap = vh;
    }
@@ -345,8 +342,10 @@ function addCaption(_params, _elt) {
   //calculate scalefactor
   let sf = 1;//(windowHeight / qPage.backDims.height) * illiFactor;
 
-  e.position(_params.pos.x * sf, _params.pos.y * sf);
-  e.style("width", _params.width + "px");
+  //e.position(_params.pos.x * sf, _params.pos.y * sf);
+  e.elt.style.left = (_params.pos.x * sf) + "px";
+  e.elt.style.top = (_params.pos.y * sf) + "px";
+  e.elt.style.width = _params.width + "px";
 
   gsap.to(e.elt, { opacity: 1 });
 }

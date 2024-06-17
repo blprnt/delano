@@ -126,7 +126,7 @@ video {
 }
 
 .caption  {
-  position:relative;
+  position:absolute;
   width:auto;
   display:block;
   font-size: 10pt;
@@ -207,10 +207,6 @@ video {
   left:0px;
   top:0px;
   
-  /*
-  width:90vw;
-  min-width:1024px;
-  */
   background-color: #121212;
   height:100vh;
   overflow:visible;
