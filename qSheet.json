@@ -2299,12 +2299,12 @@
           "caption": {
             "text_en": "respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
             "text_es": "respeto significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
-            "pos": { "x": 22, "y": 30 },
+            "pos": { "x": 10, "y": 10 },
             "width": 327
           }
         },
         {
-          "time": 4.0,
+          "time": 6.0,
           "type": "caption",
           "caption": {
             "text_en": "it means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
@@ -2314,7 +2314,7 @@
           }
         },
         {
-          "time": 6.0,
+          "time": 10.0,
           "type": "caption",
           "caption": {
             "text_en": "it means coming together to talk.",
@@ -2324,7 +2324,7 @@
           }
         },
         {
-          "time": 7.0,
+          "time": 12.0,
           "type": "caption",
           "caption": {
             "text_en": "to listen.",
@@ -2334,7 +2334,7 @@
           }
         },
         {
-          "time": 8.0,
+          "time": 14.0,
           "type": "caption",
           "caption": {
             "text_en": "to learn.",
@@ -2344,7 +2344,7 @@
           }
         },
         {
-          "time": 9.0,
+          "time": 15.0,
           "type": "caption",
           "caption": {
             "text_en": "to collaborate.",
@@ -2354,7 +2354,7 @@
           }
         },
         {
-          "time": 10.0,
+          "time": 17.0,
           "type": "caption",
           "caption": {
             "text_en": "to <strong>dream</strong>.",
