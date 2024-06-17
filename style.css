@@ -194,6 +194,7 @@ video {
   top:0px;
   width:1920px;
   height:1440px;
+  overflow: visible;
   transform-origin: left top;
   z-index: 1;
 }
