@@ -125,8 +125,22 @@ video {
   width:auto;
 }
 
-.caption  {
+.captionOut  {
   position:relative;
+  width:auto;
+  display:block;
+  font-size: 10pt;
+  background-color: white;
+  border: 1px solid black;
+  padding: 16px;
+  font-family: "Plot Holes BB";
+  color:black;
+  opacity:0;
+  z-index: 5;
+}
+
+.caption  {
+  position:absolute;
   width:auto;
   display:block;
   font-size: 10pt;

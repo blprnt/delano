@@ -133,9 +133,6 @@ function doScale(_cw) {
   let sf = (windowHeight / _cw.q.backDims.height) * illiFactor;
   _cw.elt.style.transform = "scale(" + sf +  ")";
 
-  console.log("DO SCALE: " + sf);
-  console.log(_cw);
-
 }
 
 window.onresize = doScaleAll;
@@ -207,7 +204,7 @@ function loadImageQ(_q, _elt) {
 
    if (_q.pos) {
     vh.elt.style.left = _q.pos.x + "px";
-    vh.elt.style.top = _q.poys.y + "px;"
+    vh.elt.style.top = _q.pos.y + "px";
    } else {
     _elt.mediaWrap = vh;
    }
