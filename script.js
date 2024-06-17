@@ -334,8 +334,7 @@ function addCaption(_params, _elt) {
   e.elt.style.top = (_params.pos.y) + "px";
   e.elt.style.width = _params.width + "px";
 
-  //gsap.to(e.elt, { opacity: 1 });
-  e.elt.style.opacity = 1;
+  gsap.to(e.elt, { opacity: 1 });
 }
 
 // scrollama event handlers
