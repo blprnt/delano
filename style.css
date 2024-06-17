@@ -126,7 +126,7 @@ video {
 }
 
 .caption  {
-  position:absolute;
+  position:relative;
   width:auto;
   display:block;
   font-size: 10pt;
