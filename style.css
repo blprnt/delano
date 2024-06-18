@@ -336,11 +336,17 @@ video {
 .content {
   position:relative;
   margin:auto;
-  width:60vw;
+  width:100vw;
   min-width:390px;
-  height:100%;
+  height:100%;  
   overflow-x:visible;
   padding-bottom:100vh;
+}
+
+
+.article {
+  width: 60vw;
+  margin: auto;
 }
 
 .content p {
@@ -364,22 +370,16 @@ video {
 }
 
 @media (max-device-width: 480px) {
-  .content {
-    position:relative;
-    margin:auto;
-    width:100vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    min-width:390px;
-    height:100%;
-    overflow-x:visible;
-    padding-bottom:100vh;
-  }
+ .article {
+  width: 80vw;
+  margin: auto;
+}
   .title {
     transform: scale(1.2);
     transform-origin: left top;
     padding-bottom: 80px;
   }
+  
   .content p {
    font-size: 30px;
   }
