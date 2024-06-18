@@ -62,7 +62,7 @@ to this section's matching END comment to see page-specific styles.
 
 @font-face {
   font-family: "Plot Holes BB";
-  src: url("type/PlotHolesBB-Bold.woff2")
+  src: url("type/PlotHolesBB-Bold.woff2") 
       format("woff2"),
     url("type/PlotHolesBB-Bold.woff")
       format("woff");
@@ -371,10 +371,13 @@ video {
 }
 
 @media (max-device-width: 480px) {
- .article {
-  width: 80vw;
-  margin: auto;
-}
+   .article {
+    width: 80vw;
+    margin: auto;
+  }
+  .captionOut {
+    font-size: 14pt;
+  }
   .title {
     transform: scale(1.2);
     transform-origin: left top;
