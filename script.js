@@ -145,6 +145,7 @@ function doScale(_cw) {
 window.onresize = doScaleAll;
 
 screen.orientation.addEventListener("change", (event) => {
+  console.log("orientation event");
   doScaleAll();
 });
 
