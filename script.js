@@ -234,7 +234,7 @@ function loadImageQ(_q, _elt, _isFirst) {
 
 function imageDrift(_q, _elt) {
   let bi = _elt.elt.querySelector(".imageWrapper");
-  gsap.to(bi, { left: _q.amount, ease: "none", duration: _q.time, delay: _q.delay });
+  gsap.to(bi, { left: _q.amount, ease: "none", duration: _q.atime, delay: _q.delay });
 }
 
 function capDrift(_q, _elt) {

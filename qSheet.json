@@ -518,6 +518,11 @@
             "width": 225,
             "extra":"smaller"
           }
+        },
+        {
+      "type": "imageLoad",
+        "time": 15.1,
+        "url": "images/9-10/Artboard%201.png"
         }
 
       ]
@@ -544,31 +549,31 @@
       "height": 1080
     },
     {
-          "time": 0.2,
-          "type": "videoLoadTrans",
-          "url": "video/walking.webm",
-          "url2": "video/walking.mp4",
-          "slug":"walkers",
-          "offset": {
-            "x":960,
-            "y":-6
-          },
-          "dims":{
-            "w":1920,
-            "h":1540,
-            "scale":0.68
-          }
-          
+      "time": 0.2,
+      "type": "videoLoadTrans",
+      "url": "video/walking.webm",
+      "url2": "video/walking.mp4",
+      "slug":"walkers",
+      "offset": {
+        "x":960,
+        "y":-6
+      },
+      "dims":{
+        "w":1920,
+        "h":1540,
+        "scale":0.68
+      }
+      
     },
     {
       "time": 0.2,
       "type": "imageDrift",
       "amount":"-=50%",
       "delay": 10,
-      "time": 10
+      "atime": 10
     },
     {
-      "time": 0.2,
+      "time": 0.3,
       "type": "capDrift"
     },
     {
@@ -1965,7 +1970,7 @@
           "type": "imageDrift",
           "amount": "-=17%",
           "delay": 0,
-          "time": 5
+          "atime": 5
          },
         {
           "time": 5.4,
