@@ -428,11 +428,13 @@
       "backDims": { "width": 1920, "height": 1080 },
       "queues": [
         {
-          "type": "imageLoad",
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/travel.mp4"
+        },
+        {
           "time": 0.1,
-          "url": "images/Mock9-10.png",
-          "width": 1920,
-          "height": 1080
+          "type": "videoPlay"
         },
         {
           "type": "caption",
@@ -1560,12 +1562,13 @@
       ],
       "queues": [
         {
-          "type": "imageLoad",
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/helena.mp4"
+        },
+        {
           "time": 0.1,
-          "url": "images/Mock17-18.png",
-          "width": 1920,
-          "height": 1080,
-          "isBack":true
+          "type": "videoPlay"
         },
         {
           "type": "caption",
@@ -1576,16 +1579,6 @@
             "pos": { "x": 19, "y": 22 },
             "width": 278
           }
-        },
-        {
-          "type": "imageLoad",
-          "time": 1.7,
-          "url": "images/17-18/Asset%201.png",
-          "pos":{
-            "x":217,
-            "y":98
-          },
-          "animate":"fade,turn"
         },
         {
           "type":"bubbles",
@@ -1602,6 +1595,16 @@
             "extra": "noBack trainSmall",
             "width": 310
           }
+        },
+         {
+          "type": "imageLoad",
+          "time": 3.1,
+          "url": "images/17-18/Asset%201.png",
+          "pos":{
+            "x":217,
+            "y":98
+          },
+          "animate":"fade,turn"
         },
         {
           "type": "imageLoad",
@@ -1930,7 +1933,7 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/algopeeps.mp4"
+          "url": "video/cats.mp4"
         },
         {
           "time":1,
@@ -1979,7 +1982,7 @@
 
         {
           "type": "caption",
-          "time": 6.5,
+          "time": 8.5,
           "caption": {
             "text_en": "These images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
             "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
@@ -1990,7 +1993,7 @@
         },
         {
           "type": "caption",
-          "time": 8.5,
+          "time": 11,
           "caption": {
             "text_en": "Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
             "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada wordnet.",
@@ -2001,7 +2004,7 @@
         },
         {
           "type": "caption",
-          "time": 10.5,
+          "time": 14.5,
           "caption": {
             "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from the Wall Street Journal.",
             "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del Wall Street Journal.",
@@ -2012,7 +2015,7 @@
         },
         {
           "type": "caption",
-          "time": 13.5,
+          "time": 16.5,
           "caption": {
             "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from New York City, written for middle-aged stock traders.",
             "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de internet (incluyendo memes y el resto), leído a través de la lente de un periódico de nueva york, escrito para operadores de bolsa de mediana edad.",
@@ -2023,7 +2026,7 @@
         },
         {
           "type": "caption",
-          "time": 17,
+          "time": 19,
           "caption": {
             "text_en": "It is a model that knows a lot about cats...",
             "text_es": "Es un modelo que sabe mucho sobre gatos…",
@@ -2033,7 +2036,7 @@
         },
         {
           "type": "caption",
-          "time": 18,
+          "time": 21,
           "caption": {
             "text_en": "and very little about Puerto Rico in the 1940s.",
             "text_es": "y muy poco sobre  puerto rico en la década del 40.",
