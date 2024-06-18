@@ -79,6 +79,11 @@ body {
   font-size:22px;
 }
 
+body[lang="en"] [lang="es"],
+body[lang="es"] [lang="en"] {
+  display: none;
+}
+
 a {
     color: #898989;
 }
@@ -351,11 +356,13 @@ video {
 }
 
 
-
 .content p {
   font-size: 22px;
 }
 
+.captionOut p {
+    font-size: 11pt;
+}
 
 .title {
   display:block;
@@ -381,6 +388,11 @@ video {
   .captionOut {
     font-size: 14pt;
   }
+
+  .captionOut p {
+    font-size: 14pt;
+  }
+
   .title {
     transform: scale(1.2);
     transform-origin: left top;

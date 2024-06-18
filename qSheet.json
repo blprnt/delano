@@ -2055,11 +2055,9 @@
       ],
       "queues": [
         {
-          "type": "imageLoad",
-          "time": 0.1,
-          "url": "images/Mock23-24.png",
-          "width": 1920,
-          "height": 1080
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/school.mp4"
         },
         {
           "type": "caption",
@@ -2070,6 +2068,10 @@
             "pos": { "x": 3, "y": 3 },
             "width": 478
           }
+        },
+        {
+          "time": 6.1,
+          "type": "videoPlay"
         },
         {
           "type": "caption",
@@ -2084,18 +2086,7 @@
         },
         {
           "type": "caption",
-          "time": 8,
-          "caption": {
-            "text_en": "An old man who is trying to remember the faces of his friends",
-            "text_es": "un anciano que intenta recordar las caras de sus amigos",
-            "pos": { "x": 16, "y": 614 },
-            "width": 126,
-            "extra":"trainSmall"
-          }
-        },
-        {
-          "type": "caption",
-          "time": 9.5,
+          "time": 8.5,
           "caption": {
             "text_en": "A researcher who’s studying latin american labor movements",
             "text_es": "Un investigador que estudia los movimientos obreros latinoamericanos",
@@ -2106,7 +2097,19 @@
         },
         {
           "type": "caption",
-          "time": 11,
+          "time": 11.0,
+          "caption": {
+            "text_en": "An old man who is trying to remember the faces of his friends",
+            "text_es": "un anciano que intenta recordar las caras de sus amigos",
+            "pos": { "x": 16, "y": 614 },
+            "width": 126,
+            "extra":"trainSmall"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 13.5,
           "caption": {
             "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
             "text_es": "Un dibujante de cómics que  necesita una modelo de una concurrida fiesta de Reyes Magos en casa de un granjero",
@@ -2117,7 +2120,7 @@
         },
         {
           "type": "caption",
-          "time": 14,
+          "time": 16,
           "caption": {
             "text_en": "It would also raise a lot of questions.",
             "text_es": "también suscitaría muchas preguntas.",
@@ -2127,12 +2130,12 @@
         },
         {
           "type":"bubbles",
-          "time":15.9,
+          "time":18.9,
           "index":0
         },
         {
           "type": "caption",
-          "time": 16,
+          "time": 19,
           "caption": {
             "text_en": "Why is all of this kind of work being done by big, for-profit companies?",
             "text_es": "¿Por qué todo este tipo de trabajo lo realizan grandes empresas con ánimo de lucro?",
@@ -2143,12 +2146,12 @@
         },
         {
           "type":"bubbles",
-          "time":17.9,
+          "time":20.9,
           "index":1
         },
         {
           "type": "caption",
-          "time": 18,
+          "time": 21,
           "caption": {
             "text_en": "And why does the data always seem to get used by people who aren’t Puerto Rican?",
             "text_es": "¿y por qué los datos siempre parecen ser usados por personas que no son puertorriqueñas?",
@@ -2159,12 +2162,12 @@
         },
         {
           "type":"bubbles",
-          "time":19.9,
+          "time":22.9,
           "index":2
         },
         {
           "type": "caption",
-          "time": 20,
+          "time": 23,
           "caption": {
             "text_en": "It all just feels like another flavor of colonialism.",
             "text_es": "todo esto parece ser colonialismo con otro sabor.",
@@ -2175,12 +2178,12 @@
         },
         {
           "type":"bubbles",
-          "time":22.9,
+          "time":25.9,
           "index":3
         },
         {
           "type": "caption",
-          "time": 23,
+          "time": 26,
           "caption": {
             "text_en": "If images of my ancestors are being used to train facial recognition, what does that mean for me?",
             "text_es": "si se utilizan imágenes de mis antepasados para entrenar el reconocimiento facial, ¿qué significa eso para mí?",
@@ -2191,12 +2194,12 @@
         },
         {
           "type":"bubbles",
-          "time":24.9,
+          "time":27.9,
           "index":4
         },
         {
           "type": "caption",
-          "time": 25,
+          "time": 28,
           "caption": {
             "text_en": "What does it mean for my kids?",
             "text_es": "¿Qué  significa para  mis hijos?",
@@ -2207,7 +2210,7 @@
         },
         {
           "type": "caption",
-          "time": 28,
+          "time": 31,
           "caption": {
             "text_en": "Thinking about A.I. in the context of communities, care, and responsibility is hard, but necessary.",
             "text_es": "Es difícil mas necesario pensar en la inteligencia artificial en el contexto de las comunidades, el cuidado y la responsabilidad.",
@@ -2218,7 +2221,7 @@
         },
         {
           "type": "caption",
-          "time": 31,
+          "time": 34,
           "caption": {
             "text_en": "We might ask our friend Jack Delano for some advice...",
             "text_es": "podríamos pedirle consejo a nuestro amigo Jack Delano…",
@@ -2240,20 +2243,22 @@
       ],
       "queues": [
         {
-          "type": "imageLoad",
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/twojacks.mp4"
+        },
+        {
           "time": 0.1,
-          "url": "images/Mock25-26.png",
-          "width": 1920,
-          "height": 1080
+          "type": "videoPlay"
         },
         {
           "type":"bubbles",
-          "time":1.4,
+          "time":2.4,
           "index":0
         },
         {
           "type": "caption",
-          "time": 1.5,
+          "time": 2.5,
           "caption": {
             "text_en": "There’s no way we could have known about the ways our photographs might be used eighty years in the future.",
             "text_es": "jamás podríamos haber imaginado cómo se utilizarían nuestras fotografías ochenta años más tarde.",
@@ -2264,12 +2269,12 @@
         },
         {
           "type":"bubbles",
-          "time":4.4,
+          "time":5.4,
           "index":1
         },
         {
           "type": "caption",
-          "time": 4.5,
+          "time": 5.5,
           "caption": {
             "text_en": "Machine labeling? facial recognition? None of that would have even occurred to us.",
             "text_es": "¿etiquetado automático? ¿reconocimiento facial? Nada de eso se nos habría ocurrido.",
@@ -2280,12 +2285,12 @@
         },
         {
           "type":"bubbles",
-          "time":6.9,
+          "time":7.9,
           "index":2
         },
         {
           "type": "caption",
-          "time": 7,
+          "time": 8,
           "caption": {
             "text_en": "But we always did have one principle that guided the work that we did. All of it, from Pennsylvania to Puerto Rico.",
             "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
@@ -2296,12 +2301,12 @@
         },
         {
           "type":"bubbles",
-          "time":9.9,
+          "time":10.9,
           "index":3
         },
         {
           "type": "caption",
-          "time": 10,
+          "time": 11,
           "caption": {
             "text_en": "And that was to always treat our subjects with respect.",
             "text_es": "Y era tratar siempre a nuestros temas con respeto.",
