@@ -131,7 +131,7 @@ video {
   background-color: white;
   border: 1px solid black;
   padding: 16px;
-  font-family: "Plot Holes BB";
+  font-family: "Plot Holes BB", "Comic Sans MS";
   color:black;
   opacity:0;
   z-index: 5;
@@ -145,7 +145,7 @@ video {
   background-color: white;
   border: 1px solid black;
   padding: 16px;
-  font-family: "Plot Holes BB";
+  font-family: "Plot Holes BB", "Comic Sans MS";
   color:black;
   opacity:0;
   z-index: 5;
@@ -416,7 +416,7 @@ h3 {
   font-size:14px;
   color: #C2A9A2;
   padding-top:15vh;
-  font-family: "Plot Holes BB";
+  font-family: "Plot Holes BB", "Comic Sans MS";
 }
 
 h3 a {
