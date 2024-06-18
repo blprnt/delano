@@ -551,7 +551,7 @@
           "slug":"walkers",
           "offset": {
             "x":960,
-            "y":-8
+            "y":-6
           },
           "dims":{
             "w":1920,
@@ -562,7 +562,10 @@
     },
     {
       "time": 0.2,
-      "type": "imageDrift"
+      "type": "imageDrift",
+      "amount":"-=50%",
+      "delay": 10,
+      "time": 10
     },
     {
       "time": 0.2,
@@ -632,7 +635,7 @@
         "text_en": "In this photograph there is a dream",
         "text_es": "En esta fotografía hay un sueño.",
         "pos": {
-          "x": 634.24,
+          "x": 624.24,
           "y": 45.86
         },
         "width": 300,
@@ -670,7 +673,7 @@
         "text_en": "In this one there is a whole life left to be lived",
         "text_es": "En esta hay una vida entera por vivir.",
         "pos": {
-          "x": 514.34,
+          "x": 504.34,
           "y": 259.31
         },
         "width": 210.28,
@@ -689,7 +692,7 @@
         "text_en": "In this image there is a question",
         "text_es": "En esta imagen hay una pregunta.",
         "pos": {
-          "x": 769.12,
+          "x": 764.12,
           "y": 357.77
         },
         "width": 166.21,
@@ -708,7 +711,7 @@
         "text_en": "In this one there is an answer",
         "text_es": "En esta hay una respuesta.",
         "pos": {
-          "x": 558.25,
+          "x": 548.25,
           "y": 389.29
         },
         "width": 147.81,
@@ -1924,7 +1927,16 @@
           "type": "videoLoad",
           "url": "video/algopeeps.mp4"
         },
-        
+        {
+          "time":1,
+          "type":"imageLoad",
+          "url":"images/21-22/Artboard%201.png",
+          "pos": {
+            "x":0,
+            "y":0
+          },
+          "animate":"fade"
+        },
         {
           "type": "caption",
           "time": 1.5,
@@ -1936,6 +1948,7 @@
             "extra":"trainSmall"
           }
         },
+        
         {
           "type": "caption",
           "time": 3.5,
@@ -1947,6 +1960,13 @@
             "extra":"trainSmall"
           }
         },
+        {
+          "time": 3.7,
+          "type": "imageDrift",
+          "amount": "-=17%",
+          "delay": 0,
+          "time": 5
+         },
         {
           "time": 5.4,
           "type": "videoPlay"
