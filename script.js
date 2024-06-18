@@ -1,3 +1,13 @@
+/*
+
+A Search For The Heart
+
+Jer Thorp
+jer.thorp@hey.com
+Summer, 2024
+
+*/
+
 let v;
 let qSheet;
 let qPage;
@@ -26,14 +36,10 @@ let illiFactor = 1440.0 / 981.0;
 
 function preload() {
   qSheet = loadJSON("qSheet.json");
-  //xml = loadXML("bigSpread.xml");
 }
 
 function setup() {
   console.log("setup");
-  //Used to make the q page for the step down scene
-  //parseSpread(xml);
-
   wrapper = select(".comic");
 
   //Run through the q sheet and make elements for each, and set up timers
@@ -117,9 +123,6 @@ function doTimer() {
 }
 
 //Scaling stuff
-
-
-
 function doScaleAll() {
   let cwraps = document.querySelectorAll(".contentWrap");
 
@@ -555,20 +558,7 @@ function parseSpread(_x) {
       time: 11.5,
     },
   ];
-  //<rect x="1093.75" y="173" class="st0" width="31.82" height="20.45"/>
-  /*
-  {
-          "time": 12.0,
-          "type": "caption",
-          "caption": {
-            "text_en": "THIS WAS THE START OF A YEARs-long project THAT WOULD RESULT IN SOME OF THE most iconic and  important images OF THE ERA.",
-            "text_es": "Este fue el comienzo de un proyecto, el cual duró varios años, que daría como resultado algunas de las imágenes más icónicas e importantes de la época.",
-            "pos": { "x": 653, "y": 358 },
-            "transform": "rotate(8deg)",
-            "width": 270
-          }
-        }
-  */
+  
   let captions = _x.getChildren("rect");
 
   //Sort the captions on X
@@ -663,7 +653,4 @@ function parseSpread(_x) {
     height: 1080,
   });
 
-  //qSheet.queues.unshift(j);
-  console.log(JSON.stringify(j, null, 2));
-  //console.log(qSheet);
 }
