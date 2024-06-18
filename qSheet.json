@@ -180,7 +180,7 @@
           "caption": {
             "text_en": "Telling the stories of peoples’ lives through his lens.",
             "text_es": "contar la vida de la gente a través de su cámara.",
-            "pos": { "x": 505, "y": 695 },
+            "pos": { "x": 505, "y": 685 },
             "width": 443
           }
         }
@@ -1589,12 +1589,12 @@
         },
         {
           "type":"bubbles",
-          "time":1.9,
+          "time":2.9,
           "index":0
         },
         {
           "type": "caption",
-          "time": 2,
+          "time": 3,
           "caption": {
             "text_en": "When somebody goes searching for a photograph at the Library of Congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.",
             "text_es": "Cuando alguien va a buscar una fotografía a la biblioteca del congreso, sus posibilidades de encontrarla realmente dependen de cuánta información haya adjunta a esa fotografía.",
@@ -1605,7 +1605,7 @@
         },
         {
           "type": "imageLoad",
-          "time": 2.9,
+          "time": 3.9,
           "url": "images/17-18/Asset%202.png",
           "pos":{
             "x":738,
@@ -1615,12 +1615,12 @@
         },
         {
           "type":"bubbles",
-          "time":2.9,
+          "time":6.4,
           "index":1
         },
         {
           "type": "caption",
-          "time": 3,
+          "time": 6.5,
           "caption": {
             "text_en": "Every little piece of data makes an object more findable.",
             "text_es": "Cada pequeño dato hace que un objeto sea más localizable.",
@@ -1631,12 +1631,12 @@
         },
         {
           "type":"bubbles",
-          "time":3.9,
+          "time":8.4,
           "index":2
         },
         {
           "type": "caption",
-          "time": 4,
+          "time": 8.5,
           "caption": {
             "text_en": "Our catalogers do their best to add as many details to the records as they can.",
             "text_es": "Nuestros catalogadores hacen todo lo posible por añadir tantos detalles a los registros como pueden.",
@@ -1647,12 +1647,12 @@
         },
         {
           "type":"bubbles",
-          "time":4.9,
+          "time":10.4,
           "index":3
         },
          {
           "type": "caption",
-          "time": 5,
+          "time": 10.5,
           "caption": {
             "text_en": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
             "text_es": "Pero hay más de catorce millones de fotografías en la colección, y hay muy poca información en el catálogo sobre muchas de esas imágenes.",
@@ -1663,7 +1663,7 @@
         },
         {
           "type": "caption",
-          "time": 6,
+          "time": 14,
           "caption": {
             "text_en": "What if computers could help Helena's team to fill some of the gaps in the catalog data? this could make photos like Jack’s more findable for anyone looking for images of Puerto Rico in the 1940s.",
             "text_es": "¿Y si las computadoras pudieran ayudar al equipo de Helena a completar algunos datos faltantes del catálogo? Esto podría hacer que fotos como las de Jack fueran más fáciles de encontrar para cualquiera que busque imágenes de Puerto Rico en la década del cuarenta.",
@@ -1966,7 +1966,7 @@
           }
         },
         {
-          "time": 3.7,
+          "time": 5.7,
           "type": "imageDrift",
           "amount": "-=17%",
           "delay": 0,
@@ -2073,7 +2073,7 @@
         },
         {
           "type": "caption",
-          "time": 2.5,
+          "time": 6.5,
           "caption": {
             "text_en": "A 9 year old girl who wants to know more about how her grandparents grew up",
             "text_es": "una niña de nueve años que quiere  saber más sobre cómo crecieron sus abuelos",
@@ -2084,7 +2084,7 @@
         },
         {
           "type": "caption",
-          "time": 3.5,
+          "time": 8,
           "caption": {
             "text_en": "An old man who is trying to remember the faces of his friends",
             "text_es": "un anciano que intenta recordar las caras de sus amigos",
@@ -2095,7 +2095,7 @@
         },
         {
           "type": "caption",
-          "time": 4.5,
+          "time": 9.5,
           "caption": {
             "text_en": "A researcher who’s studying latin american labor movements",
             "text_es": "Un investigador que estudia los movimientos obreros latinoamericanos",
@@ -2106,7 +2106,7 @@
         },
         {
           "type": "caption",
-          "time": 5.5,
+          "time": 11,
           "caption": {
             "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
             "text_es": "Un dibujante de cómics que  necesita una modelo de una concurrida fiesta de Reyes Magos en casa de un granjero",
@@ -2117,7 +2117,7 @@
         },
         {
           "type": "caption",
-          "time": 7.5,
+          "time": 14,
           "caption": {
             "text_en": "It would also raise a lot of questions.",
             "text_es": "también suscitaría muchas preguntas.",
@@ -2127,12 +2127,12 @@
         },
         {
           "type":"bubbles",
-          "time":8.4,
+          "time":15.9,
           "index":0
         },
         {
           "type": "caption",
-          "time": 8.5,
+          "time": 16,
           "caption": {
             "text_en": "Why is all of this kind of work being done by big, for-profit companies?",
             "text_es": "¿Por qué todo este tipo de trabajo lo realizan grandes empresas con ánimo de lucro?",
@@ -2143,12 +2143,12 @@
         },
         {
           "type":"bubbles",
-          "time":9.4,
+          "time":17.9,
           "index":1
         },
         {
           "type": "caption",
-          "time": 9.5,
+          "time": 18,
           "caption": {
             "text_en": "And why does the data always seem to get used by people who aren’t Puerto Rican?",
             "text_es": "¿y por qué los datos siempre parecen ser usados por personas que no son puertorriqueñas?",
@@ -2159,12 +2159,12 @@
         },
         {
           "type":"bubbles",
-          "time":10.4,
+          "time":19.9,
           "index":2
         },
         {
           "type": "caption",
-          "time": 10.5,
+          "time": 20,
           "caption": {
             "text_en": "It all just feels like another flavor of colonialism.",
             "text_es": "todo esto parece ser colonialismo con otro sabor.",
@@ -2175,12 +2175,12 @@
         },
         {
           "type":"bubbles",
-          "time":11.9,
+          "time":22.9,
           "index":3
         },
         {
           "type": "caption",
-          "time": 12,
+          "time": 23,
           "caption": {
             "text_en": "If images of my ancestors are being used to train facial recognition, what does that mean for me?",
             "text_es": "si se utilizan imágenes de mis antepasados para entrenar el reconocimiento facial, ¿qué significa eso para mí?",
@@ -2191,12 +2191,12 @@
         },
         {
           "type":"bubbles",
-          "time":13.9,
+          "time":24.9,
           "index":4
         },
         {
           "type": "caption",
-          "time": 14,
+          "time": 25,
           "caption": {
             "text_en": "What does it mean for my kids?",
             "text_es": "¿Qué  significa para  mis hijos?",
@@ -2207,7 +2207,7 @@
         },
         {
           "type": "caption",
-          "time": 15,
+          "time": 28,
           "caption": {
             "text_en": "Thinking about A.I. in the context of communities, care, and responsibility is hard, but necessary.",
             "text_es": "Es difícil mas necesario pensar en la inteligencia artificial en el contexto de las comunidades, el cuidado y la responsabilidad.",
@@ -2218,7 +2218,7 @@
         },
         {
           "type": "caption",
-          "time": 16,
+          "time": 31,
           "caption": {
             "text_en": "We might ask our friend Jack Delano for some advice...",
             "text_es": "podríamos pedirle consejo a nuestro amigo Jack Delano…",
@@ -2264,44 +2264,44 @@
         },
         {
           "type":"bubbles",
-          "time":2.4,
+          "time":4.4,
           "index":1
         },
         {
           "type": "caption",
-          "time": 2.5,
+          "time": 4.5,
           "caption": {
             "text_en": "Machine labeling? facial recognition? None of that would have even occurred to us.",
             "text_es": "¿etiquetado automático? ¿reconocimiento facial? Nada de eso se nos habría ocurrido.",
-            "pos": { "x": 515, "y": 166 },
+            "pos": { "x": 505, "y": 166 },
             "extra": "noBack trainSmall",
             "width": 223
           }
         },
         {
           "type":"bubbles",
-          "time":3.4,
+          "time":6.9,
           "index":2
         },
         {
           "type": "caption",
-          "time": 3.5,
+          "time": 7,
           "caption": {
             "text_en": "But we always did have one principle that guided the work that we did. All of it, from Pennsylvania to Puerto Rico.",
             "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
-            "pos": { "x": 734, "y": 70 },
+            "pos": { "x": 730, "y": 80 },
             "extra": "noBack trainSmall",
             "width": 219
           }
         },
         {
           "type":"bubbles",
-          "time":4.4,
+          "time":9.9,
           "index":3
         },
         {
           "type": "caption",
-          "time": 4.5,
+          "time": 10,
           "caption": {
             "text_en": "And that was to always treat our subjects with respect.",
             "text_es": "Y era tratar siempre a nuestros temas con respeto.",
@@ -2364,7 +2364,7 @@
           "caption": {
             "text_en": "To listen.",
             "text_es": "para escuchar.",
-            "pos": { "x": 638, "y": 139 },
+            "pos": { "x": 688, "y": 139 },
             "width": 99
           }
         },
@@ -2374,7 +2374,7 @@
           "caption": {
             "text_en": "To learn.",
             "text_es": "para aprender.",
-            "pos": { "x": 449, "y": 370 },
+            "pos": { "x": 439, "y": 370 },
             "width": 99
           }
         },
