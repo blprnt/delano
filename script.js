@@ -132,11 +132,7 @@ function doScale(_cw) {
   
   if (windowWidth > windowHeight) {
   let hf = ((windowWidth * 1) / 1920) * illiFactor;
-    //let wf = (windowWidth / 1920) * illiFactor;
-    let sf = hf;//max(hf, wf);
-    //console.log(hf + ":" + wf);
-    console.log(sf);
-    console.log(_cw.elt);
+    let sf = hf;
     if (windowWidth / windowHeight < 1.77) _cw.elt.style.transform = "scale(" + sf +  ")";
   }
 

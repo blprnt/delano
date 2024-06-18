@@ -332,8 +332,6 @@ video {
   z-index:0;
 }
 
-
-
 .content {
   position:relative;
   margin:auto;
@@ -344,9 +342,16 @@ video {
   padding-bottom:100vh;
 }
 
-@media (max-width: 480px) {
+.content p {
+  font-size: 22px;
+}
+
+@media (max-device-width: 480px) {
   .content {
     width:90vw !important;
+  }
+  .content p {
+   font-size: 30px;
   }
 }
 
