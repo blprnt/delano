@@ -346,13 +346,7 @@ video {
 
 @media (max-width: 480px) {
   .content {
-    position:relative;
-    margin:auto;
-    width:90vw;
-    min-width:390px;
-    height:100%;
-    overflow-x:visible;
-    padding-bottom:100vh;
+    width:90vw !important;
   }
 }
 
