@@ -221,7 +221,7 @@ video {
     display:block;
     overflow: hidden;
 
-    width: min(133vh, 80vw);
+    width: min(133vh, 100vw);
     height:100vh;
     z-index:0;
 
