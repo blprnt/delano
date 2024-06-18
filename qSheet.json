@@ -206,7 +206,7 @@
           "time": 0.5,
           "type": "caption",
           "caption": {
-            "text_en": "In the two years before jack arrived in puerto rico has photographed people from all walks of life... ",
+            "text_en": "In the two years before jack arrived in puerto rico he has photographed people from all walks of life... ",
             "text_es": "Durante los dos años previos a su llegada a puerto rico, Jack ha fotografiado a personas de toda condición... ",
             "pos": { "x": 26, "y": 15 },
             "width": 295
@@ -550,10 +550,16 @@
           "url2": "video/walking.mp4",
           "slug":"walkers",
           "offset": {
-            "x":2920,
-            "y":0
+            "x":960,
+            "y":-8
+          },
+          "dims":{
+            "w":1920,
+            "h":1540,
+            "scale":0.68
           }
-        },
+          
+    },
     {
       "time": 0.2,
       "type": "imageDrift"
@@ -1680,6 +1686,10 @@
           "offset": {
             "x":0,
             "y":0
+          },
+          "dims": {
+            "w": 1920,
+            "h": 1080
           }
         },
         

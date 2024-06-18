@@ -154,7 +154,7 @@ function isElementInViewport (el) {
     );
 }
 
-function loadVideoTrans(_url1, _url2, _offset, _elt, _slug) {
+function loadVideoTrans(_url1, _url2, _offset, _dims, _elt, _slug) {
   
   let vh = createDiv(`<video id="` + _slug + `" muted playsinline>
   <source 
@@ -168,7 +168,15 @@ function loadVideoTrans(_url1, _url2, _offset, _elt, _slug) {
   gsap.to(vh.elt, {opacity:1})
   
   vh.parent(_elt.contentWrap);
+
+if (_dims.scale) 
+
+  vh.elt.style.left = _offset.x + "px";
+  vh.elt.style.top = _offset.y + "px";
+  vh.elt.style.width = _dims.w + "px";
+  vh.elt.style.height = _dims.h + "px";
   
+  if (_dims.scale) vh.elt.style.transform = "scale(" + _dims.scale + ")"
   _elt.mainVideo = document.querySelector("#" + _slug);
 }
 
@@ -252,7 +260,8 @@ function processQ(_q, _elt, _isFirst) {
       loadVideo(_q.url, _elt, _isFirst);
       break;
     case "videoLoadTrans":
-      loadVideoTrans(_q.url, _q.url2, _q.offset, _elt, _q.slug);
+      console.log(_q);
+      loadVideoTrans(_q.url, _q.url2, _q.offset, _q.dims, _elt, _q.slug);
       break;
     case "videoPlay":
       _elt.mainVideo.play();
