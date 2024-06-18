@@ -144,6 +144,11 @@ function doScale(_cw) {
 
 window.onresize = doScaleAll;
 
+screen.orientation.addEventListener("change", (event) => {
+  doScaleAll();
+});
+
+
 function isElementInViewport (el) {
 
     var rect = el.getBoundingClientRect();
