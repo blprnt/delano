@@ -367,7 +367,9 @@ video {
   .content {
     position:relative;
     margin:auto;
-    width:80vw;
+    width:100vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     min-width:390px;
     height:100%;
     overflow-x:visible;
