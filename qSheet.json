@@ -1482,12 +1482,12 @@
         },
         {
           "type":"bubbles",
-          "time":1.9,
+          "time":2.9,
           "index":1
         },
         {
           "type": "caption",
-          "time": 2,
+          "time": 3.0,
           "caption": {
             "text_en": "Roy Stryker would have prints made of the ones he liked most and send them back.",
             "text_es": "Roy stryker mandaba hacer copias de las que más le gustaban y las enviaba de regreso.",
@@ -1498,12 +1498,12 @@
         },
         {
           "type":"bubbles",
-          "time":2.9,
+          "time":6.9,
           "index":2
         },
         {
           "type": "caption",
-          "time": 3,
+          "time": 7,
           "caption": {
             "text_en": "We spent our evenings filling in caption books with details about each frame we shot.",
             "text_es": "Nos pasábamos las tardes rellenando álbumes de fotos con detalles sobre cada fotograma que tomábamos.",
@@ -1514,12 +1514,12 @@
         },
         {
           "type":"bubbles",
-          "time":3.9,
+          "time":8.9,
           "index":3
         },
         {
           "type": "caption",
-          "time": 4,
+          "time": 9,
           "caption": {
             "text_en": "We wrote long letters back to roy, too. But it seems like many of those have gotten lost.",
             "text_es": "Nosotros también escribimos largas cartas a Roy. pero parece que muchas de ellas se han perdido.",
@@ -1530,7 +1530,7 @@
         },
         {
           "type": "caption",
-          "time": 6,
+          "time": 12,
           "caption": {
             "text_en": "If you spent just five minutes describing each photo Jack Delano took in Puerto Rico, it’d take you 65 days.",
             "text_es": "Si dedicaras apenas cinco minutos a describir cada foto que Jack Delano tomó en Puerto Rico, te llevaría 65 días.",
@@ -1540,7 +1540,7 @@
         },
         {
           "type": "caption",
-          "time": 8,
+          "time": 15,
           "caption": {
             "text_en": "if you spent just one minute with every photograph in the Library’s photo collection, you’d be there for more than twenty-six years.",
             "text_es": "Si pasaras tan solo un minuto con cada fotografía de la colección fotográfica de la biblioteca, estarías allí durante más de 26 años.",
