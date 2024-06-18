@@ -394,7 +394,7 @@ video {
    font-size: 30px;
   }
   .content h3 {
-   font-size: 22px;
+   font-size: 12px;
   }
 }
 
@@ -413,9 +413,10 @@ h2 {
 }
 
 h3 {
-  font-size:16px;
+  font-size:14px;
   color: #C2A9A2;
-  padding-bottom:15vh;
+  padding-top:15vh;
+  font-family: "Plot Holes BB";
 }
 
 h3 a {
