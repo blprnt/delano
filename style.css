@@ -350,9 +350,12 @@ video {
 
 }
 
+
+
 .content p {
   font-size: 22px;
 }
+
 
 .title {
   display:block;
@@ -405,16 +408,18 @@ h2 {
   margin-left: 00px;
   font-size:24px;
   width:100%;
-  padding-bottom:30px;
+  padding-bottom:0px;
   color:#4A8394;
 }
 
 h3 {
   font-size:16px;
+  color: #C2A9A2;
+  padding-bottom:15vh;
 }
 
 h3 a {
-  color: black;
+  color: #C2A9A2;
 }
 
 .mock {
