@@ -29,6 +29,7 @@ to this section's matching END comment to see page-specific styles.
 * {
   box-sizing: border-box;
 }
+
 [hidden] {
   display: none !important;
 }
@@ -346,25 +347,6 @@ video {
   font-size: 22px;
 }
 
-@media (max-device-width: 480px) {
-  .content {
-    width:90vw !important;
-  }
-  .content p {
-   font-size: 30px;
-  }
-}
-
-.peopleHolder {
-  width: 100%;
-  height:auto;
-}
-
-#walkers {
-  left:920px;
-  height:100%;
-}
-
 .title {
   display:block;
   text-align:left;
@@ -380,6 +362,44 @@ video {
   background-size:240px 309px;
   background-position:45px 0px;
 }
+
+@media (max-device-width: 480px) {
+  .content {
+    position:relative;
+    margin:auto;
+    width:80vw;
+    min-width:390px;
+    height:100%;
+    overflow-x:visible;
+    padding-bottom:100vh;
+  }
+  .title {
+    transform: scale(1.2);
+    transform-origin: left top;
+    padding-bottom: 80px;
+  }
+  .content p {
+   font-size: 30px;
+  }
+  .content h2 {
+   font-size: 30px;
+  }
+  .content h3 {
+   font-size: 22px;
+  }
+}
+
+.peopleHolder {
+  width: 100%;
+  height:auto;
+}
+
+#walkers {
+  left:920px;
+  height:100%;
+}
+
+
 
 h2 {
   margin-top:-65px;
