@@ -44,7 +44,7 @@
           "time": 8.0,
           "type": "caption",
           "caption": {
-            "text_en": "tomorrow there will be parades and festivals, but tonight there is food and drink and music.\n inside this tiny farmers home the playing has been going for hours. the air smells of ripe fruit, warm bodies and tobacco. ",
+            "text_en": "Tomorrow there will be parades and festivals, but tonight there is food and drink and music.\n Inside this tiny farmers home the playing has been going for hours. The air smells of ripe fruit, warm bodies and tobacco. ",
             "text_es": "Mañana habrá desfiles y festivales, pero esta noche hay comida, bebida y música. En el interior de esta pequeña casa de campesinos la música suena desde hace horas. El aire huele a fruta madura, cuerpos calientes y tabaco. ",
             "pos": { "x": 486, "y": 57 },
             "width": 418
@@ -88,7 +88,7 @@
           "time": 3.0,
           "type": "caption",
           "caption": {
-            "text_en": "Here’s jack again that same night, at a very different party, with a very different group of puerto ricans.",
+            "text_en": "Here’s jack again that same night, at a very different party, with a very different group of Puerto Ricans.",
             "text_es": "Aquí está Jack nuevamente, esa misma noche, en una fiesta muy diferente, con un grupo muy diferente de puertorriqueños.",
             "pos": { "x": 39, "y": 47 },
             "width": 345
@@ -108,7 +108,7 @@
           "time": 6.5,
           "type": "caption",
           "caption": {
-            "text_en": "The parents are smoking american cigarettes.",
+            "text_en": "The parents are smoking American cigarettes.",
             "text_es": "Los padres fuman cigarrillos americanos.",
             "pos": { "x": 278, "y": 185 },
             "width": 221
@@ -118,7 +118,7 @@
           "time": 10.0,
           "type": "caption",
           "caption": {
-            "text_en": "Jack didn’t expect to be in puerto rico. but he’s determined to make the best out of it by doing what he knows:",
+            "text_en": "Jack didn’t expect to be in Puerto Pico. But he’s determined to make the best out of it by doing what he knows:",
             "text_es": "Jack no esperaba estar en Puerto Rico, pero está decidido a aprovecharlo al máximo, haciendo lo que sabe:",
             "pos": { "x": 516, "y": 533 },
             "width": 359
@@ -178,7 +178,7 @@
           "time": 13.0,
           "type": "caption",
           "caption": {
-            "text_en": "telling the stories of peoples’ lives through his lens.",
+            "text_en": "Telling the stories of peoples’ lives through his lens.",
             "text_es": "contar la vida de la gente a través de su cámara.",
             "pos": { "x": 505, "y": 695 },
             "width": 443
@@ -206,7 +206,7 @@
           "time": 0.5,
           "type": "caption",
           "caption": {
-            "text_en": "In the two years before jack arrived in puerto rico he has photographed people from all walks of life... ",
+            "text_en": "In the two years before jack arrived in Puerto Rico he has photographed people from all walks of life... ",
             "text_es": "Durante los dos años previos a su llegada a puerto rico, Jack ha fotografiado a personas de toda condición... ",
             "pos": { "x": 26, "y": 15 },
             "width": 295
@@ -216,7 +216,7 @@
           "time": 3.0,
           "type": "caption",
           "caption": {
-            "text_en": "Bootleg coal miners in pennsylvania...",
+            "text_en": "Bootleg coal miners in Pennsylvania...",
             "text_es": "Los mineros del carbón en Pensilvania...",
             "pos": { "x": 75, "y": 641 },
             "width": 210
@@ -246,7 +246,7 @@
           "time": 5,
           "type": "caption",
           "caption": {
-            "text_en": "children working on tobacco plantations in connecticut...",
+            "text_en": "Children working on tobacco plantations in Connecticut...",
             "text_es": "niños trabajando en plantaciones de tabaco en Connecticut...",
             "pos": { "x": 652, "y": 27 },
             "width": 192
@@ -276,7 +276,7 @@
           "time": 7,
           "type": "caption",
           "caption": {
-            "text_en": "ship builders on break in Maine.",
+            "text_en": "Ship builders on break in Maine.",
             "text_es": "constructores de barcos durante su descanso en Maine.",
             "pos": { "x": 748, "y": 451 },
             "width": 148
@@ -337,7 +337,7 @@
           "time": 4.5,
           "type": "caption",
           "caption": {
-            "text_en": "over the winter of 1941, jack took a cross-country journey, photographing rail yards and workers.",
+            "text_en": "Over the winter of 1941, Jack took a cross-country journey, photographing rail yards and workers.",
             "text_es": "Durante el invierno de 1941, Jack emprendió un viaje a través del país, fotografiando estaciones de ferrocarril y trabajadores. ",
             "pos": { "x": 247, "y": 569 },
             "transform": "rotate(-8deg)",
@@ -403,7 +403,7 @@
           "time": 12.0,
           "type": "caption",
           "caption": {
-            "text_en": "THIS WAS THE START OF A YEARs-long project THAT WOULD RESULT IN SOME OF THE most iconic and  important images OF THE ERA.",
+            "text_en": "This was the start of a years-long project that would result in some of the most iconic and important images of the era.",
             "text_es": "Este fue el comienzo de un proyecto, el cual duró varios años, que daría como resultado algunas de las imágenes más icónicas e importantes de la época.",
             "pos": { "x": 770, "y": 442 },
             "extra":"noBackArrow trainSmall",
@@ -438,7 +438,7 @@
           "type": "caption",
           "time": 1,
           "caption": {
-            "text_en": "IN DECEMBER, 1941, Jack had been heading to the U.S. Virgin islands on assignment...",
+            "text_en": "In December, 1941, Jack had been heading to the U.S. Virgin Islands on assignment...",
             "text_es": "En diciembre de 1941, una misión llevó a Jack a las Islas Vírgenes de EE.UU. …   ",
             "pos": { "x": 3, "y": 3 },
             "width": 304
@@ -448,7 +448,7 @@
           "type": "caption",
           "time": 4,
           "caption": {
-            "text_en": "at the exact moment pre-war america ceased to exist.",
+            "text_en": "at the exact moment pre-war America ceased to exist.",
             "text_es": "en el momento exacto en que la América de preguerra dejaba de existir.",
             "pos": { "x": 211, "y": 411 },
             "width": 234
@@ -458,7 +458,7 @@
           "type": "caption",
           "time": 6,
           "caption": {
-            "text_en": "a few days became a week.",
+            "text_en": "A few days became a week.",
             "text_es": "Un par de días se convirtieron en una semana.",
             "pos": { "x": 7, "y": 682 },
             "width": 284
@@ -468,7 +468,7 @@
           "type": "caption",
           "time": 8,
           "caption": {
-            "text_en": "JACK had no way to leave puerto rico. his wife IRENE was IN NYC.",
+            "text_en": "Jack had no way to leave Puerto Rico. His wife Irene was in NYC.",
             "text_es": "Jack no tenía forma de salir de Puerto Rico. Su mujer, Irene, estaba en Nueva York.",
             "pos": { "x": 527, "y": 76 },
             "width": 200
@@ -479,7 +479,7 @@
           "type": "caption",
           "time": 10,
           "caption": {
-            "text_en": "irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
+            "text_en": "Irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
             "text_es": "Irene, que no era paciente por naturaleza, entró de contrabando en Puerto Rico a bordo de un transatlántico.",
             "pos": { "x": 525, "y": 423 },
             "width": 236,
@@ -490,7 +490,7 @@
           "type": "caption",
           "time": 11.5,
           "caption": {
-            "text_en": "from then on they were a team.",
+            "text_en": "From then on they were a team.",
             "text_es": "A partir de entonces fueron un equipo.",
             "pos": { "x": 502, "y": 501 },
             "width": 145,
@@ -501,7 +501,7 @@
           "type": "caption",
           "time": 13,
           "caption": {
-            "text_en": "over the next THREE MONTHS the delanos will visit every part of the small caribbean island nation",
+            "text_en": "Over the next three months the Delanos will visit every part of the small caribbean island nation",
             "text_es": "En los próximos tres meses, los Delanos visitarán todos los rincones del pequeño país insular caribeño.",
             "pos": { "x": 536, "y": 571 },
             "width": 263,
@@ -512,7 +512,7 @@
           "type": "caption",
           "time": 15,
           "caption": {
-            "text_en": "jack will shoot more than 2,000 photographs.",
+            "text_en": "Jack will shoot more than 2,000 photographs.",
             "text_es": "Jack tomará más de 2000 fotografías." ,
             "pos": { "x": 705, "y": 651 },
             "width": 225,
@@ -1423,7 +1423,7 @@
       "type": "caption",
       "time": 23,
       "caption": {
-        "text_en": "stories",
+        "text_en": "stories.",
         "text_es": "historias",
         "pos": {
           "x": 1777.21,
@@ -1463,7 +1463,7 @@
           "type": "caption",
           "time": 1,
           "caption": {
-            "text_en": "we sent all of our negatives by mail to WASHINGTON to be developed.",
+            "text_en": "We sent all of our negatives by mail to Washington to be developed.",
             "text_es": "Enviamos todos nuestros negativos por correo a Washington para que los revelaran.",
             "pos": { "x": 135, "y": 0 },
             "extra": "noBack trainSmall",
@@ -1479,7 +1479,7 @@
           "type": "caption",
           "time": 2,
           "caption": {
-            "text_en": "roy stryker would have prints made of the ones he liked most and send them back.",
+            "text_en": "Roy Stryker would have prints made of the ones he liked most and send them back.",
             "text_es": "Roy stryker mandaba hacer copias de las que más le gustaban y las enviaba de regreso.",
             "pos": { "x": 200, "y": 154 },
             "extra": "noBack trainSmall",
@@ -1495,7 +1495,7 @@
           "type": "caption",
           "time": 3,
           "caption": {
-            "text_en": "we spent our evenings filling in caption books with details about each frame we shot.",
+            "text_en": "We spent our evenings filling in caption books with details about each frame we shot.",
             "text_es": "Nos pasábamos las tardes rellenando álbumes de fotos con detalles sobre cada fotograma que tomábamos.",
             "pos": { "x": 100, "y": 265 },
             "extra": "noBack trainSmall",
@@ -1511,7 +1511,7 @@
           "type": "caption",
           "time": 4,
           "caption": {
-            "text_en": "we wrote long letters back to roy, too. but it seems like many of those have gotten lost.",
+            "text_en": "We wrote long letters back to roy, too. But it seems like many of those have gotten lost.",
             "text_es": "Nosotros también escribimos largas cartas a Roy. pero parece que muchas de ellas se han perdido.",
             "pos": { "x": 210, "y": 460 },
             "extra": "noBack trainSmall",
@@ -1522,7 +1522,7 @@
           "type": "caption",
           "time": 6,
           "caption": {
-            "text_en": "if you spent just five minutes describing each photo Jack delano took in puerto rico, it’d take you 65 days.",
+            "text_en": "If you spent just five minutes describing each photo Jack Delano took in Puerto Rico, it’d take you 65 days.",
             "text_es": "Si dedicaras apenas cinco minutos a describir cada foto que Jack Delano tomó en Puerto Rico, te llevaría 65 días.",
             "pos": { "x": 513, "y": 10 },
             "width": 418
@@ -1532,7 +1532,7 @@
           "type": "caption",
           "time": 8,
           "caption": {
-            "text_en": "if you spent JUST ONE minute with every photograph in the library’s photo collection, you’d be there for more than twenty-SIX years.",
+            "text_en": "if you spent just one minute with every photograph in the Library’s photo collection, you’d be there for more than twenty-six years.",
             "text_es": "Si pasaras tan solo un minuto con cada fotografía de la colección fotográfica de la biblioteca, estarías allí durante más de 26 años.",
             "pos": { "x": 575, "y": 646 },
             "width": 411
@@ -1563,7 +1563,7 @@
           "type": "caption",
           "time": 1,
           "caption": {
-            "text_en": "this is helena zinkham, chief of the library of congress prints and photographs division.",
+            "text_en": "This is Helena Zinkham, chief of the Library of Congress Prints and Photographs Division.",
             "text_es": "Esta es Helena Zinkham, jefa de la división de publicaciones y fotografías de la biblioteca del congreso.",
             "pos": { "x": 19, "y": 22 },
             "width": 278
@@ -1588,7 +1588,7 @@
           "type": "caption",
           "time": 2,
           "caption": {
-            "text_en": "when somebody goes searching for a photograph at the library of congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.",
+            "text_en": "When somebody goes searching for a photograph at the Library of Congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.",
             "text_es": "Cuando alguien va a buscar una fotografía a la biblioteca del congreso, sus posibilidades de encontrarla realmente dependen de cuánta información haya adjunta a esa fotografía.",
             "pos": { "x": 475, "y": 50 },
             "extra": "noBack trainSmall",
@@ -1614,7 +1614,7 @@
           "type": "caption",
           "time": 3,
           "caption": {
-            "text_en": "every little piece of data makes an object more findable.",
+            "text_en": "Every little piece of data makes an object more findable.",
             "text_es": "Cada pequeño dato hace que un objeto sea más localizable.",
             "pos": { "x": 790, "y": 110 },
             "extra": "noBack trainSmall ",
@@ -1630,7 +1630,7 @@
           "type": "caption",
           "time": 4,
           "caption": {
-            "text_en": "our catalogers do their best to add as many details to the records as they can.",
+            "text_en": "Our catalogers do their best to add as many details to the records as they can.",
             "text_es": "Nuestros catalogadores hacen todo lo posible por añadir tantos detalles a los registros como pueden.",
             "pos": { "x": 745, "y": 435 },
             "extra": "noBack trainSmall",
@@ -1657,7 +1657,7 @@
           "type": "caption",
           "time": 6,
           "caption": {
-            "text_en": "What if computers could help HELENA’S TEAM to fill some of the gaps in the catalog data? this could make photos like jack’s more findable for anyone looking for images of puerto rico in the 1940s.",
+            "text_en": "What if computers could help Helena's team to fill some of the gaps in the catalog data? this could make photos like Jack’s more findable for anyone looking for images of Puerto Rico in the 1940s.",
             "text_es": "¿Y si las computadoras pudieran ayudar al equipo de Helena a completar algunos datos faltantes del catálogo? Esto podría hacer que fotos como las de Jack fueran más fáciles de encontrar para cualquiera que busque imágenes de Puerto Rico en la década del cuarenta.",
             "pos": { "x": 546, "y": 630 },
             "width": 414
@@ -1723,7 +1723,7 @@
           "type": "caption",
           "time": 2.5,
           "caption": {
-            "text_en": "We’LL USE A MACHINE LEARNING MODEL CALLED THE VIsion TransformeR (VIT).",
+            "text_en": "We’LL use a machine learning model called the Vision Transformer (VIT).",
             "text_es": "Utilizaremos un modelo de aprendizaje automático llamado Transformador de Visión (VIT en inglés).",
             "pos": { "x": 26, "y": 171 },
             "width": 338,
@@ -1757,7 +1757,7 @@
           "type": "caption",
           "time": 6.5,
           "caption": {
-            "text_en": "1. it tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
+            "text_en": "1. It tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
             "text_es": "intenta detectar elementos conocidos en la imagen  (cosas como personas, autos o flores), y  aprende el tamaño y la posición de esas cosas.",
             "pos": { "x": 119, "y": 432 },
             "transform": "rotate(-2deg)",
@@ -1793,7 +1793,7 @@
           "type": "caption",
           "time": 10.9,
           "caption": {
-            "text_en": "sometimes the image descriptions we get from jack’s images of puerto rico are accurate... if a little bit unimaginative.",
+            "text_en": "Sometimes the image descriptions we get from Jack’s images of Puerto Rico are accurate... if a little bit unimaginative.",
             "text_es": "a veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
             "pos": { "x": 506, "y": 668 },
             "transform": "rotate(4deg)",
@@ -1827,7 +1827,7 @@
           "type": "caption",
           "time": 14,
           "caption": {
-            "text_en": "very often though, THE MODELS struggle with objects that aren’T found a lot in their training sets (LIKE SUGAR CANE)",
+            "text_en": "Very often though, the models struggle with objects that aren’t found a lot in their training sets (like sugar cane)",
             "text_es": "Sin embargo, a menudo los modelos tienen dificultades con objetos que no aparecen mucho en su material de entrenamiento (como la caña de azúcar).",
             "pos": { "x": 653, "y": 408 },
             "transform": "rotate(3deg)",
@@ -1860,7 +1860,7 @@
           "type": "caption",
           "time": 18,
           "caption": {
-            "text_en": "... AND PLACES THAT aren’t in their world view, like low-income settlements.",
+            "text_en": "... and places that aren’t in their world view, like low-income settlements.",
             "text_es": "... y lugares que no están en su visión del mundo, como los  asentamientos irregulares.",
             "pos": { "x": 605, "y": 197 },
             "transform": "rotate(-2deg)",
@@ -1893,7 +1893,7 @@
           "type": "caption",
           "time": 22,
           "caption": {
-            "text_en": "THESE MACHINE-GENERATED CAPTIONS COME NOWHERE NEAR THE library’s exacting STANDARDS.",
+            "text_en": "These machine-generated captions come nowhere near the Library’s exacting standards.",
             "text_es": "estas leyendas generadas por máquinas están lejísimos de las normas de exactitud de la biblioteca.",
             "pos": { "x": 690, "y": 46 },
             "transform": "rotate(2deg)",
@@ -1905,7 +1905,7 @@
           "type": "caption",
           "time": 24,
           "caption": {
-            "text_en": "they’re OFTEN worse than having no caption at all.",
+            "text_en": "They’re often worse than having no caption at all.",
             "text_es": "a menudo son peores que no tener ninguna leyenda.",
             "pos": { "x": 570, "y": 12 },
             "width": 398,
@@ -1929,7 +1929,7 @@
           "type": "caption",
           "time": 1.5,
           "caption": {
-            "text_en": "these kinds of machine learning models are OFTEN trained on a 2012 dataset called ImageNet.",
+            "text_en": "These kinds of machine learning models are often trained on a 2012 dataset called ImageNet.",
             "text_es": "El entrenamiento de este tipo de modelos de aprendizaje automático suelen basarse en un conjunto de datos de 2012 llamado ImageNet.",
             "pos": { "x": 5, "y":5 },
             "width": 223,
@@ -1940,8 +1940,8 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "imagenet contains 14,197,122 images, scraped from the internet.",
-            "text_es": "imagenet contiene 14.197.122 imágenes extraídas de Internet.",
+            "text_en": "Imagenet contains 14,197,122 images, scraped from the internet.",
+            "text_es": "Imagenet contiene 14.197.122 imágenes extraídas de Internet.",
             "pos": { "x": 63, "y": 80 },
             "width": 285,
             "extra":"trainSmall"
@@ -1956,7 +1956,7 @@
           "type": "caption",
           "time": 6.5,
           "caption": {
-            "text_en": "these images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
+            "text_en": "These images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
             "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
             "pos": { "x": 674, "y": 4 },
             "width": 271,
@@ -1967,7 +1967,7 @@
           "type": "caption",
           "time": 8.5,
           "caption": {
-            "text_en": "workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
+            "text_en": "Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
             "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada wordnet.",
             "pos": { "x": 655, "y": 100 },
             "width": 297,
@@ -1978,8 +1978,8 @@
           "type": "caption",
           "time": 10.5,
           "caption": {
-            "text_en": "the classes themeselves came from grad students who, in the 1990s, hand-tagged text content from the wall street journal.",
-            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del wall street journal.",
+            "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from the Wall Street Journal.",
+            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del Wall Street Journal.",
             "pos": { "x": 32, "y": 533 },
             "width": 271,
             "extra":"trainSmall"
@@ -1989,7 +1989,7 @@
           "type": "caption",
           "time": 13.5,
           "caption": {
-            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from new york city, written for middle-aged stock traders.",
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from New York City, written for middle-aged stock traders.",
             "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de internet (incluyendo memes y el resto), leído a través de la lente de un periódico de nueva york, escrito para operadores de bolsa de mediana edad.",
             "pos": { "x": 45, "y": 607 },
             "width": 329,
@@ -2000,7 +2000,7 @@
           "type": "caption",
           "time": 17,
           "caption": {
-            "text_en": "it is a model that knows a lot about cats...",
+            "text_en": "It is a model that knows a lot about cats...",
             "text_es": "Es un modelo que sabe mucho sobre gatos…",
             "pos": { "x": 532, "y": 607 },
             "width": 297
@@ -2010,7 +2010,7 @@
           "type": "caption",
           "time": 18,
           "caption": {
-            "text_en": "and very little about puerto rico in the 1940s.",
+            "text_en": "and very little about Puerto Rico in the 1940s.",
             "text_es": "y muy poco sobre  puerto rico en la década del 40.",
             "pos": { "x": 709, "y": 667 },
             "width": 255
@@ -2040,7 +2040,7 @@
           "type": "caption",
           "time": 1.5,
           "caption": {
-            "text_en": "instead of a model trained on RANDOM IMAGES FROM THE INTERNET, we might imagine a model trained on the thousands of images jack delano took in puerto rico, and thousands more images from the library of congress collections. a tool like this could help a lot of people...",
+            "text_en": "Instead of a model trained on random images from the internet, we might imagine a model trained on the thousands of images Jack Delano took in Puerto Rico, and thousands more images from the Library of Congress collections. a tool like this could help a lot of people...",
             "text_es": "en lugar de un modelo entrenado con imágenes aleatorias de internet, podríamos imaginar un modelo entrenado con las miles de fotos que jack delano tomó en puerto rico, y miles de imágenes más de las colecciones de la biblioteca del congreso. una herramienta como esta podría ayudar a mucha gente...",
             "pos": { "x": 3, "y": 3 },
             "width": 478
@@ -2050,7 +2050,7 @@
           "type": "caption",
           "time": 2.5,
           "caption": {
-            "text_en": "a 9 year old girl who wants to know more about how her grandparents grew up",
+            "text_en": "A 9 year old girl who wants to know more about how her grandparents grew up",
             "text_es": "una niña de nueve años que quiere  saber más sobre cómo crecieron sus abuelos",
             "pos": { "x": 3, "y": 339 },
             "width": 226,
@@ -2061,7 +2061,7 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "an old man who is trying to remember the faces of his friends",
+            "text_en": "An old man who is trying to remember the faces of his friends",
             "text_es": "un anciano que intenta recordar las caras de sus amigos",
             "pos": { "x": 16, "y": 614 },
             "width": 126,
@@ -2094,7 +2094,7 @@
           "type": "caption",
           "time": 7.5,
           "caption": {
-            "text_en": "it would also raise a lot of questions.",
+            "text_en": "It would also raise a lot of questions.",
             "text_es": "también suscitaría muchas preguntas.",
             "pos": { "x": 584, "y": -8 },
             "width": 388
@@ -2109,7 +2109,7 @@
           "type": "caption",
           "time": 8.5,
           "caption": {
-            "text_en": "WHY is all of this KIND OF work being done by big, for-profit companies?",
+            "text_en": "Why is all of this kind of work being done by big, for-profit companies?",
             "text_es": "¿Por qué todo este tipo de trabajo lo realizan grandes empresas con ánimo de lucro?",
             "pos": { "x": 525, "y": 35 },
             "extra": "noBack smaller",
@@ -2125,7 +2125,7 @@
           "type": "caption",
           "time": 9.5,
           "caption": {
-            "text_en": "and why does the data always seem to get used by people who aren’t puerto rican?",
+            "text_en": "And why does the data always seem to get used by people who aren’t Puerto Rican?",
             "text_es": "¿y por qué los datos siempre parecen ser usados por personas que no son puertorriqueñas?",
             "pos": { "x": 750, "y": 44 },
             "extra": "noBack smaller",
@@ -2141,7 +2141,7 @@
           "type": "caption",
           "time": 10.5,
           "caption": {
-            "text_en": "IT all just feels like another flavor of colonialism.",
+            "text_en": "It all just feels like another flavor of colonialism.",
             "text_es": "todo esto parece ser colonialismo con otro sabor.",
             "pos": { "x": 820, "y": 215 },
             "extra": "noBack smaller",
@@ -2157,7 +2157,7 @@
           "type": "caption",
           "time": 12,
           "caption": {
-            "text_en": "if images of MY ANCESTORS are being used to train facial recognition, what does that mean for ME?",
+            "text_en": "If images of my ancestors are being used to train facial recognition, what does that mean for me?",
             "text_es": "si se utilizan imágenes de mis antepasados para entrenar el reconocimiento facial, ¿qué significa eso para mí?",
             "pos": { "x": 629, "y": 365 },
             "extra": "noBack smaller",
@@ -2173,7 +2173,7 @@
           "type": "caption",
           "time": 14,
           "caption": {
-            "text_en": "what does it mean for my kids?",
+            "text_en": "What does it mean for my kids?",
             "text_es": "¿Qué  significa para  mis hijos?",
             "pos": { "x": 836, "y": 415 },
             "extra": "noBack smaller",
@@ -2184,7 +2184,7 @@
           "type": "caption",
           "time": 15,
           "caption": {
-            "text_en": "thinking about a.I. in the context of communities, care, and responisibility is hard, but necessary.",
+            "text_en": "Thinking about A.I. in the context of communities, care, and responsibility is hard, but necessary.",
             "text_es": "Es difícil mas necesario pensar en la inteligencia artificial en el contexto de las comunidades, el cuidado y la responsabilidad.",
             "pos": { "x": 521, "y": 602 },
             "width": 387,
@@ -2195,8 +2195,8 @@
           "type": "caption",
           "time": 16,
           "caption": {
-            "text_en": "we might ask our friend jack delano for some advice...",
-            "text_es": "podríamos pedirle consejo a nuestro amigo jack delano…",
+            "text_en": "We might ask our friend Jack Delano for some advice...",
+            "text_es": "podríamos pedirle consejo a nuestro amigo Jack Delano…",
             "pos": { "x": 655, "y": 659 },
             "width": 277,
             "extra": "trainSmall"
@@ -2230,7 +2230,7 @@
           "type": "caption",
           "time": 1.5,
           "caption": {
-            "text_en": "there’s no way we could have known about the ways our photographs might be used eighty years in the future.",
+            "text_en": "There’s no way we could have known about the ways our photographs might be used eighty years in the future.",
             "text_es": "jamás podríamos haber imaginado cómo se utilizarían nuestras fotografías ochenta años más tarde.",
             "pos": { "x": 122, "y": 80 },
             "extra": "noBack smaller",
@@ -2246,7 +2246,7 @@
           "type": "caption",
           "time": 2.5,
           "caption": {
-            "text_en": "machine labeling? facial recognition? None of that would have even occurred to us.",
+            "text_en": "Machine labeling? facial recognition? None of that would have even occurred to us.",
             "text_es": "¿etiquetado automático? ¿reconocimiento facial? Nada de eso se nos habría ocurrido.",
             "pos": { "x": 515, "y": 166 },
             "extra": "noBack trainSmall",
@@ -2262,7 +2262,7 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "But we always did have one principle that guided the work that we did. All of it, from pennsylvania to puerto RIco.",
+            "text_en": "But we always did have one principle that guided the work that we did. All of it, from Pennsylvania to Puerto Rico.",
             "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
             "pos": { "x": 734, "y": 70 },
             "extra": "noBack trainSmall",
@@ -2307,7 +2307,7 @@
           "time": 3.0,
           "type": "caption",
           "caption": {
-            "text_en": "respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
+            "text_en": "Respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
             "text_es": "respeto significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
             "pos": { "x": 10, "y": 10 },
             "width": 327
@@ -2317,7 +2317,7 @@
           "time": 6.0,
           "type": "caption",
           "caption": {
-            "text_en": "it means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
+            "text_en": "It means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
             "text_es": "significa imaginar formas en que estas tecnologías podrían ayudar a las personas y a las comunidades, sin perder de vista los riesgos, los daños y las consecuencias inesperadas.",
             "pos": { "x": 14, "y": 117 },
             "width": 245
@@ -2327,7 +2327,7 @@
           "time": 10.0,
           "type": "caption",
           "caption": {
-            "text_en": "it means coming together to talk.",
+            "text_en": "It means coming together to talk.",
             "text_es": "significa juntarse para hablar.",
             "pos": { "x": 301, "y": 295 },
             "width": 170
@@ -2337,7 +2337,7 @@
           "time": 12.0,
           "type": "caption",
           "caption": {
-            "text_en": "to listen.",
+            "text_en": "To listen.",
             "text_es": "para escuchar.",
             "pos": { "x": 638, "y": 139 },
             "width": 99
@@ -2347,7 +2347,7 @@
           "time": 14.0,
           "type": "caption",
           "caption": {
-            "text_en": "to learn.",
+            "text_en": "To learn.",
             "text_es": "para aprender.",
             "pos": { "x": 449, "y": 370 },
             "width": 99
@@ -2357,7 +2357,7 @@
           "time": 15.0,
           "type": "caption",
           "caption": {
-            "text_en": "to collaborate.",
+            "text_en": "To collaborate.",
             "text_es": "para colaborar.",
             "pos": { "x": 817, "y": 234 },
             "width": 153
@@ -2367,7 +2367,7 @@
           "time": 17.0,
           "type": "caption",
           "caption": {
-            "text_en": "to <strong>dream</strong>.",
+            "text_en": "To <strong>dream</strong>.",
             "text_es": "para <strong>soñar</strong>.",
             "pos": { "x": 786, "y": 635 },
             "width": 140
