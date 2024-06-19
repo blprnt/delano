@@ -14,7 +14,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/farmhouse.mp4"
+          "url": "video/farmhouse.mp4",
+          "description": "A group of men are sitting in a small wooden farmhouse. A tree in the corner is decorated with a box holding three wooden figures. One of the men is playing a guitar and the rest of the men are listening intently. A photographer stands in the foreground."
         },
         {
           "time": 0.9,
@@ -78,7 +79,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/ballroom.mp4"
+          "url": "video/ballroom.mp4",
+          "description": "A man in the foreground is photographing a crowd of people in a ballroom. People are wearing formal dress. "
         },
         {
           "time": 0.3,
@@ -196,7 +198,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/tobacco.mp4"
+          "url": "video/tobacco.mp4",
+          "description":"A montage of small scenes. A coal miner emerges, dirty, from a mine, leading a mule. A girl hits a tobacco branch with  stick. A group of ship workers play pool."
         },
         {
           "time": 0.4,
@@ -327,7 +330,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/railyard.mp4"
+          "url": "video/railyard.mp4",
+          "description": "It is a cold winter night, snow is falling. A man with a camera is on a bridge over a rail yard where several trains are parked. A figure, perhaps a yard worker, walks across the tracks."
         },
         {
           "time": 0.1,
@@ -430,7 +434,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/travel.mp4"
+          "url": "video/travel.mp4",
+          "description": "On the left, a series of comic book panels show a ship on the ocean, a scene from Pearl Harbour, a calendar page with en entry crossed out: it reads 'return to New York'. On the right, a photographer standing in front of scenes of a streetscape,  protest, and a family in a modest wooden shack."
         },
         {
           "time": 0.1,
@@ -568,7 +573,8 @@
         "w":1920,
         "h":1540,
         "scale":0.68
-      }
+      },
+      "description":"Thousands of photographs stretch across a backdrop of a map of Puerto Rico. A man and a woman step down across the captions."
       
     },
     {
@@ -1462,7 +1468,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/negatives.mp4"
+          "url": "video/negatives.mp4",
+          "description": "On the left, a man and a woman hold photographs in their hand. They appear contemplative. On the right, two people seated at desks. The first person has a number of carts with boxes around their desk, and is looking at a photograph. The second person has mountains of boxes at their desk, and is very old."
         },
         {
           "time": 0.1,
@@ -1568,7 +1575,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/helena.mp4"
+          "url": "video/helena.mp4",
+          "description":"A woman in a purple jacket stands in the stacks of a library. She is looking at a photograph and holding an archival box. The same woman is shown in the foreground, speaking."
         },
         {
           "time": 0.1,
@@ -1937,7 +1945,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/cats.mp4"
+          "url": "video/cats.mp4",
+          "description":"A group of people work in various different settings: Sitting on the floor, working together at a long desk, and seated at tables in a cafe. At the bottom right there is a pile of thirty cats, playing and cuddling each other."
         },
         {
           "time":1,
@@ -2064,7 +2073,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/school.mp4"
+          "url": "video/school.mp4",
+          "description":"On the left, there is a grid of four portraits: A young girl, an older woman, an elderly man and a younger man holding a pencil. On the right, there is a group of high school students standing in front of a bank of lockers. Below them in a separate frame is a mother with two young children."
         },
         {
           "type": "caption",
@@ -2252,7 +2262,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/twojacks.mp4"
+          "url": "video/twojacks.mp4",
+          "description": "There are two versions of the same man: a younger one standing on the left looking at a strip of photographic negatives, and an older one seated at a desk."
         },
         {
           "time": 0.1,
@@ -2334,7 +2345,8 @@
         {
           "time": 0,
           "type": "videoLoad",
-          "url": "video/community.mp4"
+          "url": "video/community.mp4",
+          "description": "A group of people are in a room, perhaps in a school or a community center. There are photographs posted on the walls, and on table in the center. There are a number of people around the room and at the table, talking and working together. There are elderly people and kids of a variety of ethnicity, and there is a dog wagging its tail with its paws up on the table."
         },
         {
           "time": 0.1,

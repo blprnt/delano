@@ -205,18 +205,19 @@ function addBubbles(_i, _elt) {
   _elt.bubbleWrap.child(bi);
 }
 
-function loadVideo(_url, _elt, _isFirst) {
+function loadVideo(_url, _elt, _isFirst, _desc) {
 
   let vh = createDiv();
   vh.class(_isFirst ? "videoWrapper frameBack":"videoWrapper");
   vh.parent(_elt.contentWrap);
   _elt.mediaWrap = vh;
 
-  let v = createDiv(`<video id="currentvideo" muted playsinline>
+  let v = createDiv(`<video id="currentvideo" aria-label="` + _desc + `" muted playsinline>
   <source 
     src="` + _url + `" 
     type="video/mp4; codecs="hvc1"">
   </video>`);
+
 
   //v.elt.querySelector('#currentvideo').play();
   v.parent(vh);
@@ -275,7 +276,7 @@ function processQ(_q, _elt, _isFirst) {
       addBubbles(_q.index, _elt);
       break;
     case "videoLoad":
-      loadVideo(_q.url, _elt, _isFirst);
+      loadVideo(_q.url, _elt, _isFirst, _q.description ? _q.description:"A video is playing.");
       break;
     case "videoLoadTrans":
       console.log(_q);
