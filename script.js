@@ -132,11 +132,14 @@ function doScaleAll() {
 }
 
 function doScale(_cw) {
+
+  let wh = (window.innerHeight || document.documentElement.clientHeight);
+  let ww = (window.innerWidth || document.documentElement.clientWidth);
   
-  if (windowWidth > windowHeight) {
-  let hf = ((windowWidth * 1) / 1920) * illiFactor;
+  if (ww > wh) {
+  let hf = ((ww * 1) / 1920) * illiFactor;
     let sf = hf;
-    if (windowWidth / windowHeight < 1.77) _cw.elt.style.transform = "scale(" + sf +  ")";
+    if (ww / wh < 1.77) _cw.elt.style.transform = "scale(" + sf +  ")";
   }
 
 }
@@ -154,7 +157,7 @@ function isElementInViewport (el) {
     let hf = ((windowWidth * 1) / 1920) * illiFactor;
     var h = (rect.bottom - rect.top) * hf;
     var middle = rect.top + (h / 2);
-    
+
     return (
         (middle >= 0 && middle <= (window.innerHeight || document.documentElement.clientHeight))
     );
