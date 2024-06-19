@@ -251,8 +251,8 @@ video {
     height:100vh;
     z-index:0;
 
-    margin-left: calc((-80vw + 100%) / 2);
-    margin-right: calc((-80vw + 100%) / 2);
+    margin-left: auto;//calc((-80vw + 100%) / 2);
+    margin-right: auto;//calc((-80vw + 100%) / 2);
     
     margin-bottom: 10px;
 

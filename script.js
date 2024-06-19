@@ -124,24 +124,35 @@ function doTimer() {
 
 //Scaling stuff
 function doScaleAll() {
-  let cwraps = document.querySelectorAll(".contentWrap");
+  let cwraps = document.querySelectorAll(".frame");
 
   cwraps.forEach(cw => {
-    doScale(cw.p5);
+    doScale(cw);
   });
 }
 
 function doScale(_cw) {
+  console.log(_cw);
+  let fw = _cw.getBoundingClientRect().width;
+  let sc = fw/1920 * illiFactor * 1.25;
+
+  let cw = _cw.querySelector(".contentWrap");
+  console.log(cw)
+  cw.style.transform = "scale(" + sc +  ")";
+
+  /*
 
   let wh = (window.innerHeight || document.documentElement.clientHeight);
+
   let ww = (window.innerWidth || document.documentElement.clientWidth);
   
-  if (ww > wh) {
-  let hf = ((ww * 1) / 1920) * illiFactor;
-    let sf = hf;
-    if (ww / wh < 1.77) _cw.elt.style.transform = "scale(" + sf +  ")";
-  }
-
+  let hf = (wh / 1080) * illiFactor;
+  let wf = (ww / 1920) * illiFactor;
+    let sf = (ww < wh) ? wf:hf;
+    console.log(sf);
+    _cw.elt.style.transform = "scale(" + sf +  ")";
+    */
+  
 }
 
 window.onresize = doScaleAll;
@@ -344,7 +355,7 @@ function processPage(_q, _frame) {
 
   qPage = _q;
 
-  doScale(contentWrap);
+  //doScale(contentWrap);
 
   return(pe);
 }
