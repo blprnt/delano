@@ -144,7 +144,6 @@ function doScale(_cw) {
 window.onresize = doScaleAll;
 
 screen.orientation.addEventListener("change", (event) => {
-  console.log("orientation event");
   doScaleAll();
 });
 
@@ -152,8 +151,12 @@ screen.orientation.addEventListener("change", (event) => {
 function isElementInViewport (el) {
 
     var rect = el.getBoundingClientRect();
+    let hf = ((windowWidth * 1) / 1920) * illiFactor;
+    var h = (rect.bottom - rect.top) * hf;
+    var middle = rect.top + (h / 2);
+    
     return (
-        (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))|| rect.bottom >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        (middle >= 0 && middle <= (window.innerHeight || document.documentElement.clientHeight))
     );
 }
 
@@ -480,6 +483,7 @@ function hideComic() {
 
 //Scrolling stuff
 function init() {
+  doScaleAll();
   console.log("init");
   scroller = scrollama();
   // 1. setup the scroller with the bare-bones options

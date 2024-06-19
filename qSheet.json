@@ -524,7 +524,11 @@
         {
       "type": "imageLoad",
         "time": 15.1,
-        "url": "images/9-10/Artboard%201.png"
+        "url": "images/9-10/Artboard%201.png",
+        "pos": {
+          "x":100,
+          "y":0
+        }
         }
 
       ]

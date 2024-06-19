@@ -274,8 +274,8 @@ video {
   left:0px;
   top:0px;
 
-  height: 1920px;
-  width: 1080px;
+  width: 1920px;
+  height: 1080px;
   
   overflow:visible;
   z-index:1;
