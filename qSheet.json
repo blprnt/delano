@@ -18,11 +18,11 @@
           "description": "A group of men are sitting in a small wooden farmhouse. A tree in the corner is decorated with a box holding three wooden figures. One of the men is playing a guitar and the rest of the men are listening intently. A photographer stands in the foreground."
         },
         {
-          "time": 0.9,
+          "time": 0.4,
           "type": "videoPlay"
         },
         {
-          "time": 1.0,
+          "time": 0.5,
           "type": "caption",
           "caption": {
             "text_en": "It’s January 6th in Guanica, Puerto Rico.",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "time": 3.0,
+          "time": 2.5,
           "type": "caption",
           "caption": {
             "text_en": "Three King’s Eve.",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "time": 8.0,
+          "time": 4.0,
           "type": "caption",
           "caption": {
             "text_en": "Tomorrow there will be parades and festivals, but tonight there is food and drink and music.\n Inside this tiny farmers home the playing has been going for hours. The air smells of ripe fruit, warm bodies and tobacco. ",
@@ -53,11 +53,11 @@
         },
         {
           "type":"bubbles",
-          "time":13.9,
+          "time":10.9,
           "index":0
         },
         {
-          "time": 14.0,
+          "time": 11.0,
           "type": "caption",
           "caption": {
             "text_en": "This is <strong>Jack Delano</strong>",
