@@ -148,6 +148,7 @@ window.onresize = doScaleAll;
 
 screen.orientation.addEventListener("change", (event) => {
   doScaleAll();
+  alert("change orientation");
 });
 
 
