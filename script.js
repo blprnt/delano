@@ -387,7 +387,8 @@ function addCaption(_params, _elt) {
 
   e.elt.style.left = (_params.pos.x) + "px";
   e.elt.style.top = (_params.pos.y) + "px";
-  e.elt.style.width = _params.width + "px";
+  e.elt.style.width = ((_params["text_" + lang] != "muchísimas") ? _params.width : 106)+ "px";
+
 
   if (_params.transform) {
     e.elt.style.transform = _params.transform;
