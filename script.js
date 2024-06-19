@@ -132,12 +132,10 @@ function doScaleAll() {
 }
 
 function doScale(_cw) {
-  console.log(_cw);
   let fw = _cw.getBoundingClientRect().width;
   let sc = fw/1920 * illiFactor * 1.25;
 
   let cw = _cw.querySelector(".contentWrap");
-  console.log(cw)
   cw.style.transform = "scale(" + sc +  ")";
 
   /*
