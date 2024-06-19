@@ -1781,7 +1781,7 @@
           "time": 6.5,
           "caption": {
             "text_en": "1. It tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
-            "text_es": "intenta detectar elementos conocidos en la imagen  (cosas como personas, autos o flores), y  aprende el tamaño y la posición de esas cosas.",
+            "text_es": "1. Intenta detectar elementos conocidos en la imagen  (cosas como personas, autos o flores), y  aprende el tamaño y la posición de esas cosas.",
             "pos": { "x": 119, "y": 432 },
             "transform": "rotate(-2deg)",
             "width": 356,
@@ -1793,7 +1793,7 @@
           "time": 8.5,
           "caption": {
             "text_en": "2. It uses what it has learned from the labelled images it was trained on to generate a new caption.",
-            "text_es": "Utiliza lo que ha aprendido de las imágenes etiquetadas,  con las que ha sido entrenado para generar una nueva leyenda",
+            "text_es": "2. Utiliza lo que ha aprendido de las imágenes etiquetadas,  con las que ha sido entrenado para generar una nueva leyenda",
             "pos": { "x": 65, "y": 503 },
             "transform": "rotate(6deg)",
             "width": 239,
@@ -1817,7 +1817,7 @@
           "time": 10.9,
           "caption": {
             "text_en": "Sometimes the image descriptions we get from Jack’s images of Puerto Rico are accurate... if a little bit unimaginative.",
-            "text_es": "a veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
+            "text_es": "A veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
             "pos": { "x": 506, "y": 668 },
             "transform": "rotate(4deg)",
             "width": 426,
@@ -2081,7 +2081,7 @@
           "time": 1.5,
           "caption": {
             "text_en": "Instead of a model trained on random images from the internet, we might imagine a model trained on the thousands of images Jack Delano took in Puerto Rico, and thousands more images from the Library of Congress collections. a tool like this could help a lot of people...",
-            "text_es": "en lugar de un modelo entrenado con imágenes aleatorias de internet, podríamos imaginar un modelo entrenado con las miles de fotos que jack delano tomó en puerto rico, y miles de imágenes más de las colecciones de la biblioteca del congreso. una herramienta como esta podría ayudar a mucha gente...",
+            "text_es": "En lugar de un modelo entrenado con imágenes aleatorias de internet, podríamos imaginar un modelo entrenado con las miles de fotos que jack delano tomó en puerto rico, y miles de imágenes más de las colecciones de la biblioteca del congreso. una herramienta como esta podría ayudar a mucha gente...",
             "pos": { "x": 3, "y": 3 },
             "width": 478
           }
@@ -2219,7 +2219,7 @@
           "time": 28,
           "caption": {
             "text_en": "What does it mean for my kids?",
-            "text_es": "¿Qué  significa para  mis hijos?",
+            "text_es": "¿Qué significa para mis hijos?",
             "pos": { "x": 836, "y": 415 },
             "extra": "noBack smaller",
             "width": 116
