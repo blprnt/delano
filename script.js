@@ -34,6 +34,26 @@ let xml;
 
 let illiFactor = 1440.0 / 981.0;
 
+//Get lang parameter
+window.onload = function(){
+
+  let langs = "en,es"
+
+  try {
+    let blang = navigator.language.split("-")[0];
+    if (langs.indexOf(blang) != -1) lang = blang;
+  } catch(e) {
+
+  }
+
+  let queryString = window.location.search;
+  let urlParams = new URLSearchParams(queryString);
+  let qlang = urlParams.get('lang');
+  if (qlang) lang = qlang;
+
+  document.body.setAttribute("lang", lang);
+};
+
 function preload() {
   qSheet = loadJSON("qSheet.json");
 }
