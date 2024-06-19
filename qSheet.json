@@ -338,7 +338,7 @@
           "type": "videoPlay"
         },
         {
-          "time": 4.5,
+          "time": 2.5,
           "type": "caption",
           "caption": {
             "text_en": "Over the winter of 1941, Jack took a cross-country journey, photographing rail yards and workers.",
@@ -349,7 +349,7 @@
           }
         },
         {
-          "time":6.5,
+          "time":4.5,
           "type":"imageLoad",
           "url":"images/7-8/Asset%201.png",
           "pos": {
@@ -359,7 +359,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":7.7,
+          "time":5.7,
           "type":"imageLoad",
           "url":"images/7-8/Asset%202.png",
           "pos": {
@@ -369,7 +369,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":8.9,
+          "time":6.9,
           "type":"imageLoad",
           "url":"images/7-8/Asset%203.png",
           "pos": {
@@ -379,7 +379,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":10.1,
+          "time":8.1,
           "type":"imageLoad",
           "url":"images/7-8/Asset%204.png",
           "pos": {
@@ -389,7 +389,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":11.3,
+          "time":9.3,
           "type":"imageLoad",
           "url":"images/7-8/Asset%205.png",
           "pos": {
@@ -400,11 +400,11 @@
         },
         {
           "type":"bubbles",
-          "time":11.9,
+          "time":9.9,
           "index":0
         },
         {
-          "time": 12.0,
+          "time": 10.0,
           "type": "caption",
           "caption": {
             "text_en": "This was the start of a years-long project that would result in some of the most iconic and important images of the era.",
