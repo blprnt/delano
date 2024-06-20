@@ -87,7 +87,7 @@
           "type": "videoPlay"
         },
         {
-          "time": 3.0,
+          "time": 1.0,
           "type": "caption",
           "caption": {
             "text_en": "Here’s jack again that same night, at a very different party, with a very different group of Puerto Ricans.",
@@ -97,7 +97,7 @@
           }
         },
         {
-          "time": 5.0,
+          "time": 4.0,
           "type": "caption",
           "caption": {
             "text_en": "The suits are tailored, the shoes are shined.",
@@ -107,17 +107,17 @@
           }
         },
         {
-          "time": 6.5,
+          "time": 5.5,
           "type": "caption",
           "caption": {
             "text_en": "The parents are smoking American cigarettes.",
             "text_es": "Los padres fuman cigarrillos americanos.",
-            "pos": { "x": 278, "y": 185 },
-            "width": 221
+            "pos": { "x": 278, "y": 155 },
+            "width": 321
           }
         },
         {
-          "time": 10.0,
+          "time": 8.0,
           "type": "caption",
           "caption": {
             "text_en": "Jack didn’t expect to be in Puerto Pico. But he’s determined to make the best out of it by doing what he knows:",
@@ -127,7 +127,7 @@
           }
         },
         {
-          "time":10.5,
+          "time":8.5,
           "type":"imageLoad",
           "url":"images/3-4/Asset%201.png",
           "pos": {
@@ -137,7 +137,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":11,
+          "time":9,
           "type":"imageLoad",
           "url":"images/3-4/Asset%202.png",
           "pos": {
@@ -147,7 +147,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":11.5,
+          "time":9.5,
           "type":"imageLoad",
           "url":"images/3-4/Asset%203.png",
           "pos": {
@@ -157,7 +157,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":12,
+          "time":10,
           "type":"imageLoad",
           "url":"images/3-4/Asset%204.png",
           "pos": {
@@ -167,7 +167,7 @@
           "animate":"fade,turn"
         },
         {
-          "time":12.5,
+          "time":10.5,
           "type":"imageLoad",
           "url":"images/3-4/Asset%205.png",
           "pos": {
@@ -177,7 +177,7 @@
           "animate":"fade,turn"
         },
         {
-          "time": 13.0,
+          "time": 11.0,
           "type": "caption",
           "caption": {
             "text_en": "Telling the stories of peoples’ lives through his lens.",
@@ -519,11 +519,10 @@
           "type": "caption",
           "time": 15,
           "caption": {
-            "text_en": "Jack will shoot more than 2,000 photographs.",
-            "text_es": "Jack tomará más de 2000 fotografías." ,
+            "text_en": "Jack will shoot more than <strong>2,000</strong> photographs.",
+            "text_es": "Jack tomará más de <strong>2000<strong> fotografías." ,
             "pos": { "x": 705, "y": 651 },
-            "width": 225,
-            "extra":"smaller"
+            "width": 255
           }
         },
         {
@@ -631,8 +630,8 @@
       "type": "caption",
       "time": 4,
       "caption": {
-        "text_en": "The story of a people.",
-        "text_es": "La historia de un pueblo.",
+        "text_en": "The story of a <strong>people</strong>.",
+        "text_es": "La historia de un <strong>pueblo</strong>.",
         "pos": {
           "x": 233.53,
           "y": 460.84
@@ -740,13 +739,13 @@
       "type": "caption",
       "time": 10.5,
       "caption": {
-        "text_en": "There are",
-        "text_es": "hay",
+        "text_en": "<strong>There are</strong>",
+        "text_es": "<strong>hay</strong>",
         "pos": {
           "x": 709.51,
           "y": 654.06
         },
-        "width": 120.38
+        "width": 130.38
       }
     },
 
@@ -755,8 +754,8 @@
       "type": "caption",
       "time": 10.9,
       "caption": {
-        "text_en": "so",
-        "text_es": "muchísimas",
+        "text_en": "<strong>so</strong>",
+        "text_es": "<strong>muchísimas</strong>",
         "pos": {
           "x": 833.33,
           "y": 642.03
@@ -769,8 +768,8 @@
       "type": "caption",
       "time": 11.3,
       "caption": {
-        "text_en": "many",
-        "text_es": "muchísimas",
+        "text_en": "<strong>many</strong>",
+        "text_es": "<strong>muchísimas</strong>",
         "pos": {
           "x": 886.56,
           "y": 603.89
@@ -1417,8 +1416,8 @@
       "type": "caption",
       "time": 21,
       "caption": {
-        "text_en": "so",
-        "text_es": "muchísimas",
+        "text_en": "<strong>so</strong>",
+        "text_es": "<strong>muchísimas</strong>",
         "pos": {
           "x": 1625.59,
           "y": 591.21
@@ -1430,8 +1429,8 @@
       "type": "caption",
       "time": 22,
       "caption": {
-        "text_en": "many",
-        "text_es": "muchísimas",
+        "text_en": "<strong>many</strong>",
+        "text_es": "<strong>muchísimas</strong>",
         "pos": {
           "x": 1683.53,
           "y": 621.67
@@ -1443,13 +1442,13 @@
       "type": "caption",
       "time": 23,
       "caption": {
-        "text_en": "stories.",
-        "text_es": "historias",
+        "text_en": "<strong>stories.</strong>",
+        "text_es": "<strong>historias</strong>",
         "pos": {
           "x": 1777.21,
           "y": 661.5
         },
-        "width": 91.78
+        "width": 101.78
       }
     }
   ]
@@ -1586,8 +1585,8 @@
           "type": "caption",
           "time": 1,
           "caption": {
-            "text_en": "This is Helena Zinkham, chief of the Library of Congress Prints and Photographs Division.",
-            "text_es": "Esta es Helena Zinkham, jefa de la división de publicaciones y fotografías de la biblioteca del congreso.",
+            "text_en": "This is <strong>Helena Zinkham</strong>, chief of the Library of Congress Prints and Photographs Division.",
+            "text_es": "Esta es <strong>Helena Zinkham</strong>, jefa de la división de publicaciones y fotografías de la biblioteca del congreso.",
             "pos": { "x": 19, "y": 22 },
             "width": 278
           }
@@ -1669,9 +1668,9 @@
           "type": "caption",
           "time": 10.5,
           "caption": {
-            "text_en": "But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.",
-            "text_es": "Pero hay más de catorce millones de fotografías en la colección, y hay muy poca información en el catálogo sobre muchas de esas imágenes.",
-            "pos": { "x": 495, "y": 495 },
+            "text_en": "But there are more than <strong>fourteen million photographs</strong> in the collection and for a lot of those images there is very little information in the catalog.",
+            "text_es": "Pero hay más de <strong>catorce millones</strong> de fotografías en la colección, y hay muy poca información en el catálogo sobre muchas de esas imágenes.",
+            "pos": { "x": 490, "y": 495 },
             "extra": "noBack trainSmall",
             "width": 261
           }
@@ -1746,8 +1745,8 @@
           "type": "caption",
           "time": 2.5,
           "caption": {
-            "text_en": "We’LL use a machine learning model called the Vision Transformer (VIT).",
-            "text_es": "Utilizaremos un modelo de aprendizaje automático llamado Transformador de Visión (VIT en inglés).",
+            "text_en": "We’LL use a machine learning model called <strong>The Vision Transformer</strong> (VIT).",  
+            "text_es": "Utilizaremos un modelo de aprendizaje automático llamado <strong>Transformador de Visión</strong> (VIT en inglés).",
             "pos": { "x": 26, "y": 171 },
             "width": 338,
             "extra":"trainSmall"
@@ -1758,8 +1757,8 @@
           "type": "caption",
           "time": 4.5,
           "caption": {
-            "text_en": "The vision transformer does two things.",
-            "text_es": "El transformador de visión hace dos cosas.",
+            "text_en": "The vision transformer does <strong>two things</strong>.",
+            "text_es": "El transformador de visión hace <strong>dos cosas</strong>.",
             "pos": { "x": 47, "y": 237 },
             "transform": "rotate(3deg)",
             "width": 325,
@@ -1962,8 +1961,8 @@
           "type": "caption",
           "time": 1.5,
           "caption": {
-            "text_en": "These kinds of machine learning models are often trained on a 2012 dataset called ImageNet.",
-            "text_es": "El entrenamiento de este tipo de modelos de aprendizaje automático suelen basarse en un conjunto de datos de 2012 llamado ImageNet.",
+            "text_en": "These kinds of machine learning models are often trained on a 2012 dataset called <strong>ImageNet</strong>.",
+            "text_es": "El entrenamiento de este tipo de modelos de aprendizaje automático suelen basarse en un conjunto de datos de 2012 llamado <strong>ImageNet</strong>.",
             "pos": { "x": 5, "y":5 },
             "width": 223,
             "extra":"trainSmall"
@@ -1974,8 +1973,8 @@
           "type": "caption",
           "time": 3.5,
           "caption": {
-            "text_en": "Imagenet contains 14,197,122 images, scraped from the internet.",
-            "text_es": "Imagenet contiene 14.197.122 imágenes extraídas de Internet.",
+            "text_en": "Imagenet contains <strong>14,197,122</strong> images, scraped from <strong>the internet</strong>.",
+            "text_es": "Imagenet contiene <strong>14.197.122<.strong> imágenes extraídas <strong>de Internet</strong>.",
             "pos": { "x": 63, "y": 80 },
             "width": 285,
             "extra":"trainSmall"
@@ -2008,8 +2007,8 @@
           "type": "caption",
           "time": 11,
           "caption": {
-            "text_en": "Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.",
-            "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada wordnet.",
+            "text_en": "Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called <strong>wordnet</strong>.",
+            "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada <strong>wordnet</strong>.",
             "pos": { "x": 655, "y": 100 },
             "width": 297,
             "extra":"trainSmall"
@@ -2019,8 +2018,8 @@
           "type": "caption",
           "time": 14.5,
           "caption": {
-            "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from the Wall Street Journal.",
-            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del Wall Street Journal.",
+            "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from <strong>the Wall Street Journal.</strong>",
+            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del </strong>Wall Street Journal<strong>.",
             "pos": { "x": 32, "y": 533 },
             "width": 271,
             "extra":"trainSmall"
@@ -2030,8 +2029,8 @@
           "type": "caption",
           "time": 16.5,
           "caption": {
-            "text_en": "A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from New York City, written for middle-aged stock traders.",
-            "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de internet (incluyendo memes y el resto), leído a través de la lente de un periódico de nueva york, escrito para operadores de bolsa de mediana edad.",
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the <strong>internet/<strong> (memes and all), read through the lens of a newspaper from <strong>New York City</strong>, written for middle-aged stock traders.",
+            "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de <strong>internet</strong> (incluyendo memes y el resto), leído a través de la lente de un periódico de <strong>nueva york</strong>, escrito para operadores de bolsa de mediana edad.",
             "pos": { "x": 45, "y": 607 },
             "width": 329,
             "extra":"trainSmall"
@@ -2041,8 +2040,8 @@
           "type": "caption",
           "time": 19,
           "caption": {
-            "text_en": "It is a model that knows a lot about cats...",
-            "text_es": "Es un modelo que sabe mucho sobre gatos…",
+            "text_en": "<strong>It is a model that knows a lot about cats...</strong>",
+            "text_es": "<strong>Es un modelo que sabe mucho sobre gatos…</strong>",
             "pos": { "x": 532, "y": 607 },
             "width": 297
           }
@@ -2051,8 +2050,8 @@
           "type": "caption",
           "time": 21,
           "caption": {
-            "text_en": "and very little about Puerto Rico in the 1940s.",
-            "text_es": "y muy poco sobre  puerto rico en la década del 40.",
+            "text_en": "<strong>and very little about Puerto Rico in the 1940s.</strong>",
+            "text_es": "<strong>y muy poco sobre  puerto rico en la década del 40.</strong>",
             "pos": { "x": 709, "y": 667 },
             "width": 255
           }
@@ -2229,11 +2228,11 @@
           "type": "caption",
           "time": 31,
           "caption": {
-            "text_en": "Thinking about A.I. in the context of communities, care, and responsibility is hard, but necessary.",
-            "text_es": "Es difícil mas necesario pensar en la inteligencia artificial en el contexto de las comunidades, el cuidado y la responsabilidad.",
+            "text_en": "Thinking about <strong>A.I.</strong> in the context of <strong>communities</strong>, <strong>care</strong>, and <strong<strong>responsibility</strong> is hard, but <strong>necessary</strong>.",
+            "text_es": "Es difícil mas </strong>necesario<strong> pensar en la <strong>inteligencia artificial</strong> en el contexto de las <strong>comunidades</strong>, el </strong>cuidado<strong> y la <strong>responsabilidad</strong>.",
             "pos": { "x": 521, "y": 602 },
             "width": 387,
-            "extra": "trainSmall"
+            "extra": ""
           }
         },
         {
@@ -2242,9 +2241,9 @@
           "caption": {
             "text_en": "We might ask our friend Jack Delano for some advice...",
             "text_es": "podríamos pedirle consejo a nuestro amigo Jack Delano…",
-            "pos": { "x": 655, "y": 659 },
+            "pos": { "x": 655, "y": 679 },
             "width": 277,
-            "extra": "trainSmall"
+            "extra": ""
           }
         }
       ]
@@ -2326,8 +2325,8 @@
           "type": "caption",
           "time": 11,
           "caption": {
-            "text_en": "And that was to always treat our subjects with respect.",
-            "text_es": "Y era tratar siempre a nuestros temas con respeto.",
+            "text_en": "And that was to always treat our subjects with <strong>respect</strong>.",
+            "text_es": "Y era tratar siempre a nuestros temas con <strong>respeto</strong>.",
             "pos": { "x": 540, "y": 40 },
             "extra": "noBack trainSmall",
             "width": 177
@@ -2356,8 +2355,8 @@
           "time": 3.0,
           "type": "caption",
           "caption": {
-            "text_en": "Respect means making sure the people who are most deeply connected to the data are in the room when decisions are made",
-            "text_es": "respeto significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
+            "text_en": "<strong>Respect</strong> means making sure the people who are most deeply connected to the data are in the room when decisions are made",
+            "text_es": "<strong>respeto</strong> significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
             "pos": { "x": 10, "y": 10 },
             "width": 327
           }
@@ -2366,8 +2365,8 @@
           "time": 6.0,
           "type": "caption",
           "caption": {
-            "text_en": "It means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.",
-            "text_es": "significa imaginar formas en que estas tecnologías podrían ayudar a las personas y a las comunidades, sin perder de vista los riesgos, los daños y las consecuencias inesperadas.",
+            "text_en": "It means imagining ways these technologies might <strong>help</strong> people and communities, while also being mindful of <strong>risks</strong> and <strong>harms</strong> and unexpected <strong>consequences</strong>.",
+            "text_es": "significa imaginar formas en que estas tecnologías podrían ayudar a las personas y a las comunidades, sin perder de vista los <strong>riesgos</strong>, los </strong>daños<strong> y las </strong>consecuencias<strong> inesperadas.",
             "pos": { "x": 14, "y": 117 },
             "width": 245
           }
@@ -2376,8 +2375,8 @@
           "time": 10.0,
           "type": "caption",
           "caption": {
-            "text_en": "It means coming together to talk.",
-            "text_es": "significa juntarse para hablar.",
+            "text_en": "It means coming together to <strong>talk</strong>.",
+            "text_es": "significa juntarse para <strong>hablar</strong>.",
             "pos": { "x": 301, "y": 295 },
             "width": 170
           }
@@ -2386,8 +2385,8 @@
           "time": 12.0,
           "type": "caption",
           "caption": {
-            "text_en": "To listen.",
-            "text_es": "para escuchar.",
+            "text_en": "To <strong>listen</strong>.",
+            "text_es": "para <strong>escuchar</strong>.",
             "pos": { "x": 688, "y": 139 },
             "width": 99
           }
@@ -2396,8 +2395,8 @@
           "time": 14.0,
           "type": "caption",
           "caption": {
-            "text_en": "To learn.",
-            "text_es": "para aprender.",
+            "text_en": "To <strong>learn</strong>.",
+            "text_es": "para <strong>aprender</strong>.",
             "pos": { "x": 439, "y": 370 },
             "width": 99
           }
@@ -2406,7 +2405,7 @@
           "time": 15.0,
           "type": "caption",
           "caption": {
-            "text_en": "To collaborate.",
+            "text_en": "To <strong>collaborate</strong>.",
             "text_es": "para colaborar.",
             "pos": { "x": 817, "y": 234 },
             "width": 153
@@ -2416,10 +2415,11 @@
           "time": 17.0,
           "type": "caption",
           "caption": {
-            "text_en": "To <strong>dream</strong>.",
-            "text_es": "para <strong>soñar</strong>.",
+            "text_en": "<strong>To dream</strong>.",
+            "text_es": "<strong>para soñar</strong>.",
             "pos": { "x": 786, "y": 635 },
-            "width": 140
+            "width": 155,
+            "extra":"bigger"
           }
         }
       ]

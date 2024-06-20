@@ -187,6 +187,10 @@ video {
 .smaller {
   font-size: 10.5px;
 }
+
+.bigger {
+  font-size: 18px;
+}
 .trainSmall {
   font-size: 11px;
 }
