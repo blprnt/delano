@@ -62,7 +62,7 @@
           "caption": {
             "text_en": "This is <strong>Jack Delano</strong>",
             "text_es": "Este es <strong>Jack Delano</strong>",
-            "pos": { "x": 792, "y":206 },
+            "pos": { "x": 792, "y":204 },
             "extra":"noBack",
             "width": 148
           }
