@@ -536,7 +536,8 @@
         "pos": {
           "x":100,
           "y":0
-        }
+        },
+        "animate":"fade"
         }
 
       ]
@@ -588,7 +589,7 @@
       "atime": 10
     },
     {
-      "time": 0.3,
+      "time": 0.2,
       "type": "capDrift"
     },
     {

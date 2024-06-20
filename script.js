@@ -225,9 +225,9 @@ function loadVideoTrans(_url1, _url2, _offset, _dims, _elt, _slug) {
     type="video/webm">
   </video>`);
   vh.class("videoWrapperTrans");
-  gsap.to(vh.elt, {opacity:1})
-  
+
   vh.parent(_elt.contentWrap);
+  gsap.to(vh.elt, {opacity:1})
 
 if (_dims.scale) 
 
@@ -238,6 +238,7 @@ if (_dims.scale)
   
   if (_dims.scale) vh.elt.style.transform = "scale(" + _dims.scale + ")"
   _elt.mainVideo = document.querySelector("#" + _slug);
+  _elt.mainVideo.style.opacity = 0;
 }
 
 
@@ -293,7 +294,7 @@ function loadImageQ(_q, _elt, _isFirst) {
 
 function imageDrift(_q, _elt) {
   let bi = _elt.elt.querySelector(".imageWrapper");
-  gsap.to(bi, { left: _q.amount, ease: "none", duration: _q.atime, delay: _q.delay });
+  gsap.to(bi, { left: _q.amount, ease: "power1.in", duration: _q.atime, delay: _q.delay });
 }
 
 function capDrift(_q, _elt) {
@@ -301,9 +302,9 @@ function capDrift(_q, _elt) {
   let bw = _elt.elt.querySelector(".bubblewrap");
   let vi = _elt.elt.querySelector(".videoWrapperTrans");
   gsap.to(vi, { opacity:1, delay: 16.1, duration:1 });
-  gsap.to(vi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
-  gsap.to(bi, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
-  gsap.to(bw, { left: "-=50%", ease: "none", duration: 10, delay: 10 });
+  gsap.to(vi, { left: "-=50%", ease: "power1.in", duration: 10, delay: 10 });
+  gsap.to(bi, { left: "-=50%", ease: "power1.in", duration: 10, delay: 10 });
+  gsap.to(bw, { left: "-=50%", ease: "power1.in", duration: 10, delay: 10 });
 }
 
 function processQ(_q, _elt, _isFirst) {
@@ -323,6 +324,9 @@ function processQ(_q, _elt, _isFirst) {
       break;
     case "videoPlay":
       _elt.mainVideo.play();
+      console.log(_elt.mainVideo);
+      gsap.to(_elt.mainVideo, {opacity:1})
+
       break;
     case "imageLoad":
       loadImageQ(_q, _elt, _isFirst);
