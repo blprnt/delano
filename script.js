@@ -12,7 +12,6 @@ let v;
 let qSheet;
 let qPage;
 
-let wrapper;
 let currentPageElement;
 let currentVideo;
 let currentPage = -1;
@@ -34,6 +33,8 @@ let xml;
 
 let illiFactor = 1440.0 / 981.0;
 
+let static = false;
+
 //Get lang parameter
 window.onload = function(){
 
@@ -52,44 +53,83 @@ window.onload = function(){
   if (qlang) lang = qlang;
 
   document.body.setAttribute("lang", lang);
+
+  let qstatic = urlParams.get('static');
+  if (qstatic) {
+    static = (qstatic == "true");
+  }
 };
 
+//Preload the queue sheet for the animations
 function preload() {
   qSheet = loadJSON("qSheet.json");
 }
 
+
 function setup() {
-  console.log("setup");
-  wrapper = select(".comic");
 
-  //Run through the q sheet and make elements for each, and set up timers
-  qSheet.queues.forEach((q) => {
+    if (typeof(ResizeObserver) == "undefined" || static) {
+      console.log("NO RESIZE OBSERVER.");
+      //Show the page captions
+      handleStepEnter({index:1});
+      handleStepEnter({index:2});
+      handleStepEnter({index:3});
+      handleStepEnter({index:4});
+      handleStepEnter({index:5});
+      handleStepEnter({index:6});
+      handleStepEnter({index:23});
 
-    let d = document.querySelector("#frame" + q.pageNum);
-    d.q = q;
-    q.time = 0;
-
-    //preload bubbles
-    if (q.bubbleSet) {
-      q.bubbleSet.forEach(b => {
-        preloadImage(b.url);
+      //show the frameset
+      document.querySelector("#frameset").style.opacity = 1;
+    } else {
+      //Remove no-js tags
+      document.querySelector("#frameset").classList.remove("no-js");
+      document.querySelectorAll(".frame").forEach(f => {
+        f.classList.remove("no-js");
       });
+      document.querySelectorAll(".captionOut").forEach(f => {
+        f.classList.remove("no-js");
+      });
+
+      //Remove static only frames
+      document.querySelectorAll(".staticOnly").forEach(f => {
+        f.remove();
+      });
+
+      //Run through the q sheet and make elements for each, and set up timers
+      qSheet.queues.forEach((q) => {
+
+        let d = document.querySelector("#frame" + q.pageNum);
+
+        if (d.getAttribute("lang") == lang) {
+          console.log(d)
+          d.q = q;
+          q.time = 0;
+            //preload bubbles
+            if (q.bubbleSet) {
+              q.bubbleSet.forEach(b => {
+                preloadImage(b.url);
+              });
+            }
+          
+            //Place a page element for each q page
+            let p = processPage(q, d);
+            processQ(q.queues[0], p, true);
+            q.queues.shift();
+            p.currentQ++;
+        }
+      });
+
+      //Initialize the scroll library
+      init();
     }
-    
-    let p = processPage(q, d);
-    processQ(q.queues[0], p, true);
-    q.queues.shift();
-    p.currentQ++;
-    
 
 
-  });
 
   //Set the timer value - this gets set again so may be redundant but I'm leaving it for now
   lastTime = new Date();
 
-  //Initialize the scroll library
-  init();
+  
 }
 
 function draw() {
@@ -152,25 +192,14 @@ function doScaleAll() {
 }
 
 function doScale(_cw) {
-  let fw = _cw.getBoundingClientRect().width;
-  let sc = fw/1920 * illiFactor * 1.25;
+  if (_cw.getAttribute("lang") == lang) {
+    let fw = _cw.getBoundingClientRect().width;
+    let sc = fw/1920 * illiFactor * 1.25;
 
-  let cw = _cw.querySelector(".contentWrap");
-  cw.style.transform = "scale(" + sc +  ")";
+    let cw = _cw.querySelector(".contentWrap");
+    cw.style.transform = "scale(" + sc +  ")";
+  }
 
-  /*
-
-  let wh = (window.innerHeight || document.documentElement.clientHeight);
-
-  let ww = (window.innerWidth || document.documentElement.clientWidth);
-  
-  let hf = (wh / 1080) * illiFactor;
-  let wf = (ww / 1920) * illiFactor;
-    let sf = (ww < wh) ? wf:hf;
-    console.log(sf);
-    _cw.elt.style.transform = "scale(" + sf +  ")";
-    */
-  
 }
 
 window.onresize = doScaleAll;
@@ -453,10 +482,8 @@ function handleStepEnter(response) {
         i++;
       });
     }
-  }
 
-  if (response.index == 6) {
-        gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 4 });
+    gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 4 });
   }
 
   if (response.index == 22) {
@@ -471,17 +498,19 @@ function handleStepEnter(response) {
     });
   }
 
-  if (response.element.classList.contains("frame")) {
-    if (document.querySelector("#frameset").style.opacity == 0) {
-      gsap.to(document.querySelector("#frameset"), { opacity: 1, delay: 0 });
-    }
-    console.log("ENTER FRAME");
-    timing = true;
-    response.element.timing = true;
-    lastTime = new Date();
-  } else {
-    if (document.querySelector("#frameset").style.opacity == 1) {
-      gsap.to(document.querySelector("#frameset"), { opacity: 0, delay: 0 });
+  if (response.element) {
+    if (response.element.classList.contains("frame")) {
+      if (document.querySelector("#frameset").style.opacity == 0) {
+        gsap.to(document.querySelector("#frameset"), { opacity: 1, delay: 0 });
+      }
+      console.log("ENTER FRAME");
+      timing = true;
+      response.element.timing = true;
+      lastTime = new Date();
+    } else {
+      if (document.querySelector("#frameset").style.opacity == 1) {
+        gsap.to(document.querySelector("#frameset"), { opacity: 0, delay: 0 });
+      }
     }
   }
 }

@@ -156,6 +156,10 @@ video {
   z-index: 5;
 }
 
+.no-js {
+  opacity:1 !important;
+}
+
 .noBack {
   background-color: transparent !important;
   border: none !important;
@@ -325,7 +329,6 @@ video {
 
   display: grid;
   place-items: left;
-  
 }
 
 .wrapper {
@@ -453,6 +456,11 @@ h3 a {
   opacity: 0;
 }
 
+#frameset.no-js {
+  opacity: 1 !important;
+  padding-top:40vh;
+}
+
 .intro {
   font-size:22px;
 }
@@ -460,3 +468,169 @@ h3 a {
 .last {
   margin-bottom: 100px;
 }
+
+
+#frame1.no-js[lang="en"]{
+  background-image: url("images/en/Delano1-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame1.no-js[lang="es"]{
+  background-image: url("images/es/Delano1-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame2.no-js[lang="en"]{
+  background-image: url("images/en/Delano3-4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#frame2.no-js[lang="es"]{
+  background-image: url("images/es/Delano3-4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame3.no-js[lang="en"]{
+  background-image: url("images/en/Delano5-6.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame3.no-js[lang="es"]{
+  background-image: url("images/es/Delano5-6.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame4.no-js[lang="en"]{
+  background-image: url("images/en/Delano7-8.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#frame4.no-js[lang="es"]{
+  background-image: url("images/es/Delano7-8.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame5.no-js[lang="en"]{
+  background-image: url("images/en/Delano11-12.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#frame5.no-js[lang="es"]{
+  background-image: url("images/es/Delano11-12.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame5b.no-js[lang="en"]{
+  background-image: url("images/en/Delano13-14.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#frame5b.no-js[lang="es"]{
+  background-image: url("images/es/Delano13-14.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame6.no-js[lang="en"]{
+  background-image: url("images/en/Delano15-16.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#frame6.no-js[lang="es"]{
+  background-image: url("images/es/Delano15-16.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame7.no-js[lang="en"]{
+  background-image: url("images/en/Delano17-18.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame7.no-js[lang="es"]{
+  background-image: url("images/es/Delano17-18.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame8.no-js[lang="en"]{
+  background-image: url("images/en/Delano19-20.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame8.no-js[lang="es"]{
+  background-image: url("images/es/Delano19-20.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame9.no-js[lang="en"]{
+  background-image: url("images/en/Delano21-22.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame9.no-js[lang="es"]{
+  background-image: url("images/es/Delano21-22.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame10.no-js[lang="en"]{
+  background-image: url("images/en/Delano23-24.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame10.no-js[lang="es"]{
+  background-image: url("images/es/Delano23-24.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame11.no-js[lang="en"]{
+  background-image: url("images/en/Delano25-26.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame11.no-js[lang="es"]{
+  background-image: url("images/es/Delano25-26.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame12.no-js[lang="en"]{
+  background-image: url("images/en/Delano27-28.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame12.no-js[lang="es"]{
+  background-image: url("images/es/Delano27-28.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame13.no-js[lang="en"]{
+  background-image: url("images/en/Delano29-30.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#frame13.no-js[lang="es"]{
+  background-image: url("images/es/Delano29-30.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
