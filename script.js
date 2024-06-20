@@ -451,7 +451,7 @@ function handleStepEnter(response) {
     piled3 = true;
     let i = 0;
     document.querySelectorAll(".pile3").forEach((c) => {
-      gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.25, top: "+=50px" });
+      gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.25, top: "+=50px" , ease:"power1.out"});
       i++;
     });
   }
@@ -459,7 +459,7 @@ function handleStepEnter(response) {
     piled1 = true;
     let i = 0;
     document.querySelectorAll(".pile").forEach((c) => {
-      gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.5, top: "+=50px" });
+      gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.5, top: "+=50px", ease:"power1.out" });
       i++;
     });
   }
@@ -469,12 +469,12 @@ function handleStepEnter(response) {
       let i = 0;
       let times = [0, 0.5, 1, 2];
       document.querySelectorAll(".pile2").forEach((c) => {
-        gsap.to(c, { opacity: 1, delay: times[i] });
+        gsap.to(c, { opacity: 1, delay: times[i] , ease:"power1.out" });
         i++;
       });
     }
 
-    gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 4 });
+    gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 4 , ease:"power1.out" });
   }
 
   if (response.index == 22) {
@@ -492,14 +492,14 @@ function handleStepEnter(response) {
   if (response.element) {
     if (response.element.classList.contains("frame")) {
       if (document.querySelector("#frameset").style.opacity == 0) {
-        gsap.to(document.querySelector("#frameset"), { opacity: 1, delay: 0 });
+        gsap.to(document.querySelector("#frameset"), { opacity: 1, delay: 0 , ease:"power1.out" });
       }
       timing = true;
       response.element.timing = true;
       lastTime = new Date();
     } else {
       if (document.querySelector("#frameset").style.opacity == 1) {
-        gsap.to(document.querySelector("#frameset"), { opacity: 0, delay: 0 });
+        gsap.to(document.querySelector("#frameset"), { opacity: 0, delay: 0 , ease:"power1.out" });
       }
     }
   }
@@ -522,11 +522,11 @@ function hideComic() {
 
       let i = 0;
       document.querySelectorAll(".pile2").forEach((c) => {
-        gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.1});
+        gsap.to(c, { opacity: 1, delay: 0.5 + i * 0.1,  ease:"power1.out" });
         i++;
       });
 
-      gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0 });
+      gsap.to(document.querySelector("#triggerCaption"), { opacity: 1, delay: 0, ease:"power1.out"  });
     }
 }
 
