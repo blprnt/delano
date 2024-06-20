@@ -69,7 +69,6 @@ function preload() {
 function setup() {
 
     if (typeof(ResizeObserver) == "undefined" || static) {
-      console.log("NO RESIZE OBSERVER.");
       //Show the page captions
       handleStepEnter({index:1});
       handleStepEnter({index:2});
@@ -89,7 +88,7 @@ function setup() {
       });
       document.querySelectorAll(".captionOut").forEach(f => {
         f.classList.remove("no-js");
-      });
+      }); 
 
       //Remove static only frames
       document.querySelectorAll(".staticOnly").forEach(f => {
@@ -102,7 +101,6 @@ function setup() {
         let d = document.querySelector("#frame" + q.pageNum);
 
         if (d.getAttribute("lang") == lang) {
-          console.log(d)
           d.q = q;
           q.time = 0;
             //preload bubbles
@@ -204,11 +202,6 @@ function doScale(_cw) {
 
 window.onresize = doScaleAll;
 
-screen.orientation.addEventListener("change", (event) => {
-  //doScaleAll();
-});
-
-
 function isElementInViewport (el) {
 
     var rect = el.getBoundingClientRect();
@@ -267,8 +260,6 @@ function loadVideo(_url, _elt, _isFirst, _desc) {
     type="video/mp4; codecs="hvc1"">
   </video>`);
 
-
-  //v.elt.querySelector('#currentvideo').play();
   v.parent(vh);
 
   vh.style("opacity", 0);
@@ -328,7 +319,6 @@ function processQ(_q, _elt, _isFirst) {
       loadVideo(_q.url, _elt, _isFirst, _q.description ? _q.description:"A video is playing.");
       break;
     case "videoLoadTrans":
-      console.log(_q);
       loadVideoTrans(_q.url, _q.url2, _q.offset, _q.dims, _elt, _q.slug);
       break;
     case "videoPlay":
@@ -350,7 +340,6 @@ function setLanguage(_code) {
   let captions = selectAll(".caption");
   captions.forEach((c) => {
     try {
-     console.log(c);
       c.html(c.elt.params["text_" + _code]);
     } catch (e) {
 
@@ -428,8 +417,6 @@ function addCaption(_params, _elt) {
 
 // scrollama event handlers
 function handleStepEnter(response) {
-  //console.log(response);
-  //console.log("ENTER" + response.index);
 
   if (response.index < 9) {
     hideComic();
@@ -503,7 +490,6 @@ function handleStepEnter(response) {
       if (document.querySelector("#frameset").style.opacity == 0) {
         gsap.to(document.querySelector("#frameset"), { opacity: 1, delay: 0 });
       }
-      console.log("ENTER FRAME");
       timing = true;
       response.element.timing = true;
       lastTime = new Date();
@@ -516,14 +502,10 @@ function handleStepEnter(response) {
 }
 
 function handleStepExit(response) {
-  console.log("EXIT:" + response.index);
   if (response.element.classList.contains("frame")) {
     response.element.timing = false;
   }
 
-  if (response.index == 8) {
-        //gsap.to(document.querySelector("#triggerCaption"), { opacity: 0, top:"-=100", delay: 0 });
-  }
 }
 
 function hideComic() {
@@ -547,7 +529,6 @@ function hideComic() {
 //Scrolling stuff
 function init() {
   doScaleAll();
-  console.log("init");
   scroller = scrollama();
   // 1. setup the scroller with the bare-bones options
   // 		this will also initialize trigger observations
@@ -562,162 +543,3 @@ function init() {
     .onStepExit(handleStepExit);
 }
 
-function parseSpread(_x) {
-  let firsts = [
-    {
-      en: "These photographs tell the story of a time",
-      sp: "These photographs tell the story of a time",
-      time: 1,
-    },
-    {
-      en: "The story of a place",
-      sp: "The story of a place",
-      time: 2,
-    },
-    {
-      en: "The story of a nation.",
-      sp: "The story of a nation.",
-      time: 3,
-    },
-    {
-      en: "The story of a people.",
-      sp: "The story of a people.",
-      time: 4,
-    },
-    {
-      en: "In this one there is a whole life left to be lived",
-      sp: "In this one there is a whole life left to be lived",
-      time: 5,
-    },
-    {
-      en: "In this one there is an answer",
-      sp: "In this one there is an answer",
-      time: 6.5,
-    },
-    {
-      en: "In this photograph there is a dream",
-      sp: "In this photograph there is a dream",
-      time: 7.5,
-    },
-    {
-      en: "There are",
-      sp: "There are",
-      time: 8.5,
-    },
-    {
-      en: "In this one there's a tragedy",
-      sp: "In this one there's a tragedy",
-      time: 9.5,
-    },
-    {
-      en: "In this image there is a question",
-      sp: "In this image there is a question",
-      time: 10.5,
-    },
-    {
-      en: "so",
-      sp: "so",
-      time: 11,
-    },
-    {
-      en: "many",
-      sp: "many",
-      time: 11.5,
-    },
-  ];
-  
-  let captions = _x.getChildren("rect");
-
-  //Sort the captions on X
-  captions.sort(function (_a, _b) {
-    return _a.getNum("x") - _b.getNum("x");
-  });
-
-  let j = {};
-  j.pageNum = 6;
-  j.backDims = {
-    width: 1920,
-    height: 1080,
-  };
-  j.queues = [];
-  let i = 0;
-  captions.forEach((c) => {
-    let cj = {};
-    if (c.getString("class") == "st0") {
-      cj.type = "caption";
-      if (i < firsts.length) {
-        cj.time = firsts[i].time;
-        cj.caption = {
-          text_ven: firsts[i].en,
-          text_sp: firsts[i].sp,
-          pos: {
-            x: c.getNum("x"),
-            y: c.getNum("y"),
-          },
-          width: c.getNum("width"),
-        };
-      } else if (i > 56) {
-        let ends = [
-          {
-            en: "so",
-            sp: "so",
-            time: 11,
-          },
-          {
-            en: "many",
-            sp: "many",
-            time: 12.5,
-          },
-          {
-            en: "stories",
-            sp: "stories",
-            time:14,
-          },
-        ];
-        cj.time = ends[i - 57].time;
-        cj.caption = {
-          text_en: ends[i - 57].en,
-          text_sp: ends[i - 57].sp,
-          pos: {
-            x: c.getNum("x"),
-            y: c.getNum("y"),
-          },
-          width: c.getNum("width"),
-        };
-      } else {
-        cj.time = parseFloat(11.5 + (i - firsts.length) * 0.2);
-        cj.caption = {
-          text_en: i % 2 == 0 ? "so" : "many",
-          text_sp: i % 2 == 0 ? "so" : "many",
-          pos: {
-            x: c.getNum("x"),
-            y: c.getNum("y"),
-          },
-          width: i % 2 == 0 ? 36 : 54,
-          extra: "small",
-        };
-      }
-      i++;
-      j.queues.push(cj);
-    }
-  });
-
-  j.queues.unshift({
-    time: 0.2,
-    type: "capDrift",
-  });
-
-  j.queues.unshift({
-    time: 0.2,
-    type: "imageDrift",
-  });
-
-  j.queues.unshift({
-    type: "imageLoad",
-    time: 0.1,
-    url: "https://cdn.glitch.global/0b4cb25c-9c9e-4557-837e-1a280c87accf/11-14back.png?v=1718024184489",
-    width: 3840,
-    height: 1080,
-  });
-
-}
