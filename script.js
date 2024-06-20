@@ -392,7 +392,7 @@ function processPage(_q, _frame) {
   capWrap.parent(contentWrap);
   pe.capWrap = capWrap;
 
-  gsap.to(pe.elt, { opacity: 1 });
+  gsap.to(pe.elt, { opacity: 1, ease:"power1.out" });
 
   qPage = _q;
 
@@ -416,7 +416,7 @@ function addCaption(_params, _elt) {
     e.elt.style.transform = _params.transform;
   }
 
-  gsap.to(e.elt, { opacity: 1 });
+  gsap.to(e.elt, { opacity: 1, ease:"power1.out" });
 }
 
 // scrollama event handlers
