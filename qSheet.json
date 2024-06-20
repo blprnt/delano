@@ -152,7 +152,7 @@
           "url":"images/3-4/Asset%203.png",
           "pos": {
             "x":596,
-            "y":622
+            "y":602
           },
           "animate":"fade,turn"
         },
@@ -162,7 +162,7 @@
           "url":"images/3-4/Asset%204.png",
           "pos": {
             "x":711,
-            "y":575
+            "y":595
           },
           "animate":"fade,turn"
         },
@@ -231,7 +231,7 @@
           "url":"images/5-6/Asset%201.png",
           "pos": {
             "x":100,
-            "y":565
+            "y":490
           },
           "animate":"fade,turn"
         },
@@ -351,20 +351,21 @@
         {
           "time":4.5,
           "type":"imageLoad",
-          "url":"images/7-8/Asset%201.png",
+          "url":"images/7-8/Asset%206.png",
           "pos": {
-            "x":318,
-            "y":624
+            "x":399,
+            "y":452
           },
           "animate":"fade,turn"
         },
+      
         {
           "time":5.7,
           "type":"imageLoad",
           "url":"images/7-8/Asset%202.png",
           "pos": {
             "x":265,
-            "y":512
+            "y":482
           },
           "animate":"fade,turn"
         },
@@ -374,7 +375,7 @@
           "url":"images/7-8/Asset%203.png",
           "pos": {
             "x":454,
-            "y":604
+            "y":644
           },
           "animate":"fade,turn"
         },
@@ -383,21 +384,23 @@
           "type":"imageLoad",
           "url":"images/7-8/Asset%204.png",
           "pos": {
-            "x":599,
-            "y":526
-          },
-          "animate":"fade,turn"
-        },
-        {
-          "time":9.3,
-          "type":"imageLoad",
-          "url":"images/7-8/Asset%205.png",
-          "pos": {
             "x":499,
             "y":551
           },
           "animate":"fade,turn"
         },
+        {
+          "time":9.0,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%205.png",
+          "pos": {
+            "x":318,
+            "y":674
+          },
+          "animate":"fade,turn"
+        }, 
+        
+        
         {
           "type":"bubbles",
           "time":9.9,
@@ -414,17 +417,18 @@
             "transform": "rotate(4.65deg)",
             "width": 200
           }
-        },
+        }  ,
         {
-          "time":12.5,
+          "time":11.5,
           "type":"imageLoad",
-          "url":"images/7-8/Asset%206.png",
+          "url":"images/7-8/Asset%201.png",
           "pos": {
-            "x":399,
-            "y":492
+            "x":599,
+            "y":526
           },
           "animate":"fade,turn"
-        }
+        }  
+
       ]
     },
     {
@@ -455,7 +459,7 @@
           "type": "caption",
           "time": 4,
           "caption": {
-            "text_en": "at the exact moment pre-war America ceased to exist.",
+            "text_en": "at the exact moment <br>pre-war America ceased to exist.",
             "text_es": "en el momento exacto en que la América de preguerra dejaba de existir.",
             "pos": { "x": 211, "y": 411 },
             "width": 234
@@ -608,9 +612,9 @@
         "text_es": "La historia de un lugar.",
         "pos": {
           "x": 96.83,
-          "y": 256.32
+          "y": 306.32
         },
-        "width": 168.16
+        "width": 208.16
       }
     },
     {
@@ -621,9 +625,9 @@
         "text_es": "La historia de una nación.",
         "pos": {
           "x": 186.46,
-          "y": 303.81
+          "y": 384.81
         },
-        "width": 175
+        "width": 205
       }
     },
     {
