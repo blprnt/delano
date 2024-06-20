@@ -53,11 +53,11 @@
         },
         {
           "type":"bubbles",
-          "time":10.9,
+          "time":7.9,
           "index":0
         },
         {
-          "time": 11.0,
+          "time": 8.0,
           "type": "caption",
           "caption": {
             "text_en": "This is <strong>Jack Delano</strong>",
