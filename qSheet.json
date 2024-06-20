@@ -1981,16 +1981,17 @@
           }
         },
         {
+          "time": 4.0,
+          "type": "videoPlay"
+        },
+        {
           "time": 5.7,
           "type": "imageDrift",
           "amount": "-=17%",
           "delay": 0,
           "atime": 5
          },
-        {
-          "time": 5.4,
-          "type": "videoPlay"
-        },
+        
 
         {
           "type": "caption",
@@ -1998,7 +1999,7 @@
           "caption": {
             "text_en": "These images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
             "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
-            "pos": { "x": 674, "y": 4 },
+            "pos": { "x": 624, "y": 4 },
             "width": 271,
             "extra":"trainSmall"
           }
@@ -2009,8 +2010,8 @@
           "caption": {
             "text_en": "Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called <strong>wordnet</strong>.",
             "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada <strong>wordnet</strong>.",
-            "pos": { "x": 655, "y": 100 },
-            "width": 297,
+            "pos": { "x": 185, "y": 340 },
+            "width": 320,
             "extra":"trainSmall"
           }
         },
@@ -2018,7 +2019,7 @@
           "type": "caption",
           "time": 14.5,
           "caption": {
-            "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from <strong>the Wall Street Journal.</strong>",
+            "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from <br><strong>the Wall Street Journal.</strong>",
             "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del </strong>Wall Street Journal<strong>.",
             "pos": { "x": 32, "y": 533 },
             "width": 271,
@@ -2031,7 +2032,7 @@
           "caption": {
             "text_en": "A model trained on imagenet then, knows only what it has learned from the <strong>internet/<strong> (memes and all), read through the lens of a newspaper from <strong>New York City</strong>, written for middle-aged stock traders.",
             "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de <strong>internet</strong> (incluyendo memes y el resto), leído a través de la lente de un periódico de <strong>nueva york</strong>, escrito para operadores de bolsa de mediana edad.",
-            "pos": { "x": 45, "y": 607 },
+            "pos": { "x": 145, "y": 637 },
             "width": 329,
             "extra":"trainSmall"
           }
@@ -2048,7 +2049,7 @@
         },
         {
           "type": "caption",
-          "time": 21,
+          "time": 22,
           "caption": {
             "text_en": "<strong>and very little about Puerto Rico in the 1940s.</strong>",
             "text_es": "<strong>y muy poco sobre  puerto rico en la década del 40.</strong>",

@@ -140,6 +140,7 @@ video {
   color:black;
   opacity:0;
   z-index: 5;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .caption  {
@@ -154,6 +155,7 @@ video {
   color:black;
   opacity:0;
   z-index: 5;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .no-js {
@@ -164,6 +166,7 @@ video {
   background-color: transparent !important;
   border: none !important;
   text-align: center;
+  box-shadow: none;
 }
 
 .noBackArrow {
@@ -182,6 +185,7 @@ video {
   border: none !important;
   padding: 6px !important;
   z-index: 4 !important;
+  box-shadow: none;
 }
 
 .smaller {
