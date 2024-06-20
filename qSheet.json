@@ -2358,7 +2358,7 @@
             "text_en": "<strong>Respect</strong> means making sure the people who are most deeply connected to the data are in the room when decisions are made",
             "text_es": "<strong>respeto</strong> significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
             "pos": { "x": 10, "y": 10 },
-            "width": 327
+            "width": 300
           }
         },
         {
@@ -2368,7 +2368,7 @@
             "text_en": "It means imagining ways these technologies might <strong>help</strong> people and communities, while also being mindful of <strong>risks</strong> and <strong>harms</strong> and unexpected <strong>consequences</strong>.",
             "text_es": "significa imaginar formas en que estas tecnologías podrían ayudar a las personas y a las comunidades, sin perder de vista los <strong>riesgos</strong>, los </strong>daños<strong> y las </strong>consecuencias<strong> inesperadas.",
             "pos": { "x": 14, "y": 117 },
-            "width": 245
+            "width": 275
           }
         },
         {
@@ -2378,7 +2378,7 @@
             "text_en": "It means coming together to <strong>talk</strong>.",
             "text_es": "significa juntarse para <strong>hablar</strong>.",
             "pos": { "x": 301, "y": 295 },
-            "width": 170
+            "width": 180
           }
         },
         {
@@ -2388,7 +2388,7 @@
             "text_en": "To <strong>listen</strong>.",
             "text_es": "para <strong>escuchar</strong>.",
             "pos": { "x": 688, "y": 139 },
-            "width": 99
+            "width": 119
           }
         },
         {
@@ -2397,8 +2397,8 @@
           "caption": {
             "text_en": "To <strong>learn</strong>.",
             "text_es": "para <strong>aprender</strong>.",
-            "pos": { "x": 439, "y": 370 },
-            "width": 99
+            "pos": { "x": 439, "y": 380 },
+            "width": 119
           }
         },
         {
@@ -2407,8 +2407,8 @@
           "caption": {
             "text_en": "To <strong>collaborate</strong>.",
             "text_es": "para colaborar.",
-            "pos": { "x": 817, "y": 234 },
-            "width": 153
+            "pos": { "x": 827, "y": 214 },
+            "width": 173
           }
         },
         {
